@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "dota",
+  "version": "1.0.0",
+  "name": "Dota+",
+  "authors": [
+    "MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Not specified",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.f2d.dota.DotaMod"
+    ],
+    "client": [
+      "com.f2d.dota.DotaModClient"
+    ]
+  },
+  "mixins": [
+    "dota.mixins.json"
+  ],
+  "accessWidener": "META-INF/dota.classtweaker",
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

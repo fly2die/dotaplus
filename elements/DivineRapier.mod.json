@@ -1,0 +1,36 @@
+{
+  "_fv": 91,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "divine_rapier",
+    "customModelName": "divine_rapier:default",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "divine_rapier",
+    "name": "Divine Rapier",
+    "rarity": "EPIC",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "COMBAT"
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 1.2000000000000002,
+    "enchantability": 2,
+    "damageVsEntity": 22.0,
+    "usageCount": 600,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

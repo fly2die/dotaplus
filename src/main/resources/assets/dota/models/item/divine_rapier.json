@@ -1,0 +1,7 @@
+{
+  "parent": "dota:custom/divine_rapier",
+  "textures": {
+    "0": "dota:block/divine_rapier",
+    "particle": "dota:item/divine_rapier"
+  }
+}

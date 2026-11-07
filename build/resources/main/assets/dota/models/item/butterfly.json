@@ -1,0 +1,7 @@
+{
+  "parent": "dota:custom/butterfly",
+  "textures": {
+    "0": "dota:block/butterfly",
+    "particle": "dota:item/butterfly"
+  }
+}

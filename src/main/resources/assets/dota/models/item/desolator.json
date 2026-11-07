@@ -1,0 +1,7 @@
+{
+  "parent": "dota:custom/desolator",
+  "textures": {
+    "0": "dota:block/desolator",
+    "particle": "dota:item/desolator"
+  }
+}
