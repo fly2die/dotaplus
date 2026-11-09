@@ -10,12 +10,12 @@ import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 public class DotaModTabs {
 	public static void load() {
 		CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.COMBAT).register(tabData -> {
+			tabData.accept(DotaModItems.ABYSSAL_BLADE);
 			tabData.accept(DotaModItems.BATTLE_FURY);
 			tabData.accept(DotaModItems.BUTTERFLY);
 			tabData.accept(DotaModItems.DESOLATOR);
 			tabData.accept(DotaModItems.DIVINE_RAPIER);
-		});
-		CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(tabData -> {
+			tabData.accept(DotaModItems.ECHO_SABRE);
 			tabData.accept(DotaModItems.SATANIC);
 		});
 	}

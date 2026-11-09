@@ -1,0 +1,7 @@
+{
+  "parent": "dota:custom/echo_sabre",
+  "textures": {
+    "0": "dota:block/echo_sabre",
+    "particle": "dota:item/echo_sabre"
+  }
+}

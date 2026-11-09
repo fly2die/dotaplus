@@ -11,11 +11,7 @@ import net.minecraft.core.registries.Registries;
 
 import java.util.function.Function;
 
-import com.f2d.dota.item.SatanicItem;
-import com.f2d.dota.item.DivineRapierItem;
-import com.f2d.dota.item.DesolatorItem;
-import com.f2d.dota.item.ButterflyItem;
-import com.f2d.dota.item.BattleFuryItem;
+import com.f2d.dota.item.*;
 import com.f2d.dota.DotaMod;
 
 public class DotaModItems {
@@ -24,6 +20,8 @@ public class DotaModItems {
 	public static Item DESOLATOR;
 	public static Item DIVINE_RAPIER;
 	public static Item SATANIC;
+	public static Item ABYSSAL_BLADE;
+	public static Item ECHO_SABRE;
 
 	public static void load() {
 		BATTLE_FURY = register("battle_fury", BattleFuryItem::new);
@@ -31,6 +29,8 @@ public class DotaModItems {
 		DESOLATOR = register("desolator", DesolatorItem::new);
 		DIVINE_RAPIER = register("divine_rapier", DivineRapierItem::new);
 		SATANIC = register("satanic", SatanicItem::new);
+		ABYSSAL_BLADE = register("abyssal_blade", AbyssalBladeItem::new);
+		ECHO_SABRE = register("echo_sabre", EchoSabreItem::new);
 	}
 
 	// Start of user code block custom items

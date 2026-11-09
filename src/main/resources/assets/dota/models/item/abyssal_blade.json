@@ -1,0 +1,7 @@
+{
+  "parent": "dota:custom/abyssal_blade",
+  "textures": {
+    "0": "dota:block/abyssal_blade",
+    "particle": "dota:item/abyssal_blade"
+  }
+}

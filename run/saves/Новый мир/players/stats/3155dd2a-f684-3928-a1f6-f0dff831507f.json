@@ -1,0 +1,23 @@
+{
+  "stats": {
+    "minecraft:dropped": {
+      "dota:satanic": 1
+    },
+    "minecraft:picked_up": {
+      "dota:satanic": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 2921,
+      "minecraft:time_since_rest": 716,
+      "minecraft:walk_one_cm": 536,
+      "minecraft:total_world_time": 729,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 9636,
+      "minecraft:play_time": 716,
+      "minecraft:jump": 25,
+      "minecraft:time_since_death": 716,
+      "minecraft:drop": 1
+    }
+  },
+  "DataVersion": 5023
+}
