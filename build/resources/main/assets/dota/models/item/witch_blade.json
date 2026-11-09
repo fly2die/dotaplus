@@ -1,0 +1,7 @@
+{
+  "parent": "dota:custom/witch_blade",
+  "textures": {
+    "0": "dota:block/witch_blade",
+    "particle": "dota:item/witch_blade"
+  }
+}

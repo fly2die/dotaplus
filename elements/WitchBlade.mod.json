@@ -1,0 +1,36 @@
+{
+  "_fv": 91,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "witch_blade",
+    "customModelName": "witch_blade:default",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "witch_blade",
+    "name": "Witch Blade",
+    "rarity": "RARE",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "COMBAT"
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 2.2,
+    "enchantability": 15,
+    "damageVsEntity": 4.0,
+    "usageCount": 900,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

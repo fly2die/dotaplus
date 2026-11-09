@@ -1,7 +1,9 @@
 {
   "replace": false,
   "values": [
+    "dota:falcone_blade",
     "dota:divine_rapier",
+    "dota:witch_blade",
     "dota:satanic",
     "dota:echo_sabre",
     "dota:abyssal_blade",

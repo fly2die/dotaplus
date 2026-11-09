@@ -1,0 +1,7 @@
+{
+  "parent": "dota:custom/falcon_blade",
+  "textures": {
+    "0": "dota:block/falcon_blade",
+    "particle": "dota:item/falcon_blade"
+  }
+}

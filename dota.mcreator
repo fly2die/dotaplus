@@ -104,12 +104,44 @@
           "src/main/resources/assets/dota/models/item/echo_sabre.json"
         ]
       }
+    },
+    {
+      "name": "FalconeBlade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "falcone_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/models/item/falcone_blade.json",
+          "src/main/resources/assets/dota/items/falcone_blade.json",
+          "src/main/java/com/f2d/dota/item/FalconeBladeItem.java",
+          "src/main/resources/assets/dota/models/item/falcone_blade_gui.json"
+        ]
+      }
+    },
+    {
+      "name": "WitchBlade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "witch_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/items/witch_blade.json",
+          "src/main/java/com/f2d/dota/item/WitchBladeItem.java",
+          "src/main/resources/assets/dota/models/item/witch_blade_gui.json",
+          "src/main/resources/assets/dota/models/item/witch_blade.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "ITEMS:minecraft:swords": [
+      "~WitchBlade@CUSTOM:WitchBlade",
+      "~FalconeBlade@CUSTOM:FalconeBlade",
       "~EchoSabre@CUSTOM:EchoSabre",
       "~Satanic@CUSTOM:Satanic",
       "~AbyssalBlade@CUSTOM:AbyssalBlade",
@@ -131,6 +163,8 @@
       "Desolator",
       "DivineRapier",
       "EchoSabre",
+      "FalconeBlade",
+      "WitchBlade",
       "Satanic"
     ]
   },
@@ -142,7 +176,9 @@
       "item.dota.divine_rapier": "Divine Rapier",
       "item.dota.satanic": "Satanic",
       "item.dota.abyssal_blade": "Abyssal Blade",
-      "item.dota.echo_sabre": "Echo Sabre"
+      "item.dota.echo_sabre": "Echo Sabre",
+      "item.dota.falcone_blade": "Falcone Blade",
+      "item.dota.witch_blade": "Witch Blade"
     }
   },
   "metadata": {

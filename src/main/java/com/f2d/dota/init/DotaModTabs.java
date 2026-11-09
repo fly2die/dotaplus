@@ -16,6 +16,8 @@ public class DotaModTabs {
 			tabData.accept(DotaModItems.DESOLATOR);
 			tabData.accept(DotaModItems.DIVINE_RAPIER);
 			tabData.accept(DotaModItems.ECHO_SABRE);
+			tabData.accept(DotaModItems.FALCONE_BLADE);
+			tabData.accept(DotaModItems.WITCH_BLADE);
 			tabData.accept(DotaModItems.SATANIC);
 		});
 	}
