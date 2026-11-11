@@ -89,12 +89,77 @@
           "src/main/resources/assets/dota/models/item/abyssal_blade_gui.json"
         ]
       }
+    },
+    {
+      "name": "EchoSabre",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "echo_sabre",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/items/echo_sabre.json",
+          "src/main/resources/assets/dota/models/item/echo_sabre_gui.json",
+          "src/main/java/com/f2d/dota/item/EchoSabreItem.java",
+          "src/main/resources/assets/dota/models/item/echo_sabre.json"
+        ]
+      }
+    },
+    {
+      "name": "FalconeBlade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "falcone_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/models/item/falcone_blade.json",
+          "src/main/resources/assets/dota/items/falcone_blade.json",
+          "src/main/java/com/f2d/dota/item/FalconeBladeItem.java",
+          "src/main/resources/assets/dota/models/item/falcone_blade_gui.json"
+        ]
+      }
+    },
+    {
+      "name": "WitchBlade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "witch_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/items/witch_blade.json",
+          "src/main/java/com/f2d/dota/item/WitchBladeItem.java",
+          "src/main/resources/assets/dota/models/item/witch_blade_gui.json",
+          "src/main/resources/assets/dota/models/item/witch_blade.json"
+        ]
+      }
+    },
+    {
+      "name": "Crystalys",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystalys",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/models/item/crystalys.json",
+          "src/main/java/com/f2d/dota/item/CrystalysItem.java",
+          "src/main/resources/assets/dota/models/item/crystalys_gui.json",
+          "src/main/resources/assets/dota/items/crystalys.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "ITEMS:minecraft:swords": [
+      "~Crystalys@CUSTOM:Crystalys",
+      "~WitchBlade@CUSTOM:WitchBlade",
+      "~FalconeBlade@CUSTOM:FalconeBlade",
+      "~EchoSabre@CUSTOM:EchoSabre",
+      "~Satanic@CUSTOM:Satanic",
       "~AbyssalBlade@CUSTOM:AbyssalBlade",
       "~DivineRapier@CUSTOM:DivineRapier",
       "~Butterfly@CUSTOM:Butterfly"
@@ -104,9 +169,6 @@
     ],
     "ITEMS:minecraft:hoes": [
       "~Desolator@CUSTOM:Desolator"
-    ],
-    "ITEMS:minecraft:pickaxes": [
-      "~Satanic@CUSTOM:Satanic"
     ]
   },
   "tab_element_order": {
@@ -114,8 +176,13 @@
       "AbyssalBlade",
       "BattleFury",
       "Butterfly",
+      "Crystalys",
       "Desolator",
-      "DivineRapier"
+      "DivineRapier",
+      "EchoSabre",
+      "FalconeBlade",
+      "WitchBlade",
+      "Satanic"
     ]
   },
   "language_map": {
@@ -125,7 +192,11 @@
       "item.dota.desolator": "Desolator",
       "item.dota.divine_rapier": "Divine Rapier",
       "item.dota.satanic": "Satanic",
-      "item.dota.abyssal_blade": "Abyssal Blade"
+      "item.dota.abyssal_blade": "Abyssal Blade",
+      "item.dota.echo_sabre": "Echo Sabre",
+      "item.dota.falcone_blade": "Falcone Blade",
+      "item.dota.witch_blade": "Witch Blade",
+      "item.dota.crystalys": "Crystalys"
     }
   },
   "metadata": {

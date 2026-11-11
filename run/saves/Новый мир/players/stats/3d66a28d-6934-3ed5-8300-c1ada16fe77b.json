@@ -1,0 +1,36 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "dota:crystalys": 1,
+      "minecraft:gunpowder": 2,
+      "minecraft:arrow": 2
+    },
+    "minecraft:killed": {
+      "minecraft:zombie": 1,
+      "minecraft:skeleton": 1,
+      "minecraft:creeper": 1
+    },
+    "minecraft:dropped": {
+      "dota:crystalys": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 2079,
+      "minecraft:walk_one_cm": 2061,
+      "minecraft:leave_game": 1,
+      "minecraft:mob_kills": 3,
+      "minecraft:play_time": 2079,
+      "minecraft:damage_dealt": 600,
+      "minecraft:jump": 103,
+      "minecraft:time_since_death": 2079,
+      "minecraft:drop": 1,
+      "minecraft:sprint_one_cm": 4508,
+      "minecraft:total_world_time": 2087,
+      "minecraft:fly_one_cm": 27665,
+      "minecraft:climb_one_cm": 12
+    },
+    "minecraft:used": {
+      "dota:crystalys": 13
+    }
+  },
+  "DataVersion": 5023
+}

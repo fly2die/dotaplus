@@ -13,12 +13,14 @@ public class DotaModTabs {
 			tabData.accept(DotaModItems.ABYSSAL_BLADE);
 			tabData.accept(DotaModItems.BATTLE_FURY);
 			tabData.accept(DotaModItems.BUTTERFLY);
+			tabData.accept(DotaModItems.CRYSTALYS);
 			tabData.accept(DotaModItems.DESOLATOR);
 			tabData.accept(DotaModItems.DIVINE_RAPIER);
 			tabData.accept(DotaModItems.ECHO_SABRE);
 			tabData.accept(DotaModItems.FALCONE_BLADE);
-			tabData.accept(DotaModItems.WITCH_BLADE);
+			tabData.accept(DotaModItems.MONKEY_KING_BAR);
 			tabData.accept(DotaModItems.SATANIC);
+			tabData.accept(DotaModItems.WITCH_BLADE);
 		});
 	}
 }

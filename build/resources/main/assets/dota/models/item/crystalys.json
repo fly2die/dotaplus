@@ -1,0 +1,7 @@
+{
+  "parent": "dota:custom/crystalys",
+  "textures": {
+    "0": "dota:block/crystalys",
+    "particle": "dota:item/crystalys"
+  }
+}

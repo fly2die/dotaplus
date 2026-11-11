@@ -1,0 +1,7 @@
+{
+  "parent": "dota:custom/monkey_king_bar",
+  "textures": {
+    "0": "dota:block/monkey_king_bar",
+    "particle": "dota:item/monkey_king_bar"
+  }
+}

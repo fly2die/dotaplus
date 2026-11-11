@@ -24,6 +24,8 @@ public class DotaModItems {
 	public static Item ECHO_SABRE;
 	public static Item FALCONE_BLADE;
 	public static Item WITCH_BLADE;
+	public static Item CRYSTALYS;
+	public static Item MONKEY_KING_BAR;
 
 	public static void load() {
 		BATTLE_FURY = register("battle_fury", BattleFuryItem::new);
@@ -35,6 +37,8 @@ public class DotaModItems {
 		ECHO_SABRE = register("echo_sabre", EchoSabreItem::new);
 		FALCONE_BLADE = register("falcone_blade", FalconeBladeItem::new);
 		WITCH_BLADE = register("witch_blade", WitchBladeItem::new);
+		CRYSTALYS = register("crystalys", CrystalysItem::new);
+		MONKEY_KING_BAR = register("monkey_king_bar", MonkeyKingBarItem::new);
 	}
 
 	// Start of user code block custom items
