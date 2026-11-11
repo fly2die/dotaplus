@@ -1,0 +1,7 @@
+{
+  "parent": "dota:custom/diffusal_blade",
+  "textures": {
+    "0": "dota:block/diffusal_blade",
+    "particle": "dota:item/diffusal_blade"
+  }
+}

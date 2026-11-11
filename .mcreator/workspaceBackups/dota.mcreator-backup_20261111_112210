@@ -119,12 +119,60 @@
           "src/main/resources/assets/dota/models/item/falcone_blade_gui.json"
         ]
       }
+    },
+    {
+      "name": "WitchBlade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "witch_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/items/witch_blade.json",
+          "src/main/java/com/f2d/dota/item/WitchBladeItem.java",
+          "src/main/resources/assets/dota/models/item/witch_blade_gui.json",
+          "src/main/resources/assets/dota/models/item/witch_blade.json"
+        ]
+      }
+    },
+    {
+      "name": "Crystalys",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystalys",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/models/item/crystalys.json",
+          "src/main/java/com/f2d/dota/item/CrystalysItem.java",
+          "src/main/resources/assets/dota/models/item/crystalys_gui.json",
+          "src/main/resources/assets/dota/items/crystalys.json"
+        ]
+      }
+    },
+    {
+      "name": "MonkeyKingBar",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monkey_king_bar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/models/item/monkey_king_bar.json",
+          "src/main/resources/assets/dota/models/item/monkey_king_bar_gui.json",
+          "src/main/java/com/f2d/dota/item/MonkeyKingBarItem.java",
+          "src/main/resources/assets/dota/items/monkey_king_bar.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "ITEMS:minecraft:swords": [
+      "~MonkeyKingBar@CUSTOM:MonkeyKingBar",
+      "~Crystalys@CUSTOM:Crystalys",
+      "~WitchBlade@CUSTOM:WitchBlade",
       "~FalconeBlade@CUSTOM:FalconeBlade",
       "~EchoSabre@CUSTOM:EchoSabre",
       "~Satanic@CUSTOM:Satanic",
@@ -144,11 +192,14 @@
       "AbyssalBlade",
       "BattleFury",
       "Butterfly",
+      "Crystalys",
       "Desolator",
       "DivineRapier",
       "EchoSabre",
       "FalconeBlade",
-      "Satanic"
+      "MonkeyKingBar",
+      "Satanic",
+      "WitchBlade"
     ]
   },
   "language_map": {
@@ -160,7 +211,10 @@
       "item.dota.satanic": "Satanic",
       "item.dota.abyssal_blade": "Abyssal Blade",
       "item.dota.echo_sabre": "Echo Sabre",
-      "item.dota.falcone_blade": "Falcone Blade"
+      "item.dota.falcone_blade": "Falcone Blade",
+      "item.dota.witch_blade": "Witch Blade",
+      "item.dota.crystalys": "Crystalys",
+      "item.dota.monkey_king_bar": "Monkey King Bar"
     }
   },
   "metadata": {

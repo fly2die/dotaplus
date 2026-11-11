@@ -104,12 +104,108 @@
           "src/main/resources/assets/dota/models/item/echo_sabre.json"
         ]
       }
+    },
+    {
+      "name": "FalconeBlade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "falcone_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/models/item/falcone_blade.json",
+          "src/main/resources/assets/dota/items/falcone_blade.json",
+          "src/main/java/com/f2d/dota/item/FalconeBladeItem.java",
+          "src/main/resources/assets/dota/models/item/falcone_blade_gui.json"
+        ]
+      }
+    },
+    {
+      "name": "WitchBlade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "witch_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/items/witch_blade.json",
+          "src/main/java/com/f2d/dota/item/WitchBladeItem.java",
+          "src/main/resources/assets/dota/models/item/witch_blade_gui.json",
+          "src/main/resources/assets/dota/models/item/witch_blade.json"
+        ]
+      }
+    },
+    {
+      "name": "Crystalys",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystalys",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/models/item/crystalys.json",
+          "src/main/java/com/f2d/dota/item/CrystalysItem.java",
+          "src/main/resources/assets/dota/models/item/crystalys_gui.json",
+          "src/main/resources/assets/dota/items/crystalys.json"
+        ]
+      }
+    },
+    {
+      "name": "MonkeyKingBar",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monkey_king_bar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/models/item/monkey_king_bar.json",
+          "src/main/resources/assets/dota/models/item/monkey_king_bar_gui.json",
+          "src/main/java/com/f2d/dota/item/MonkeyKingBarItem.java",
+          "src/main/resources/assets/dota/items/monkey_king_bar.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverEdge",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_edge",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/items/silver_edge.json",
+          "src/main/resources/assets/dota/models/item/silver_edge.json",
+          "src/main/resources/assets/dota/models/item/silver_edge_gui.json",
+          "src/main/java/com/f2d/dota/item/SilverEdgeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DiffusalBlade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diffusal_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/models/item/diffusal_blade.json",
+          "src/main/resources/assets/dota/items/diffusal_blade.json",
+          "src/main/resources/assets/dota/models/item/diffusal_blade_gui.json",
+          "src/main/java/com/f2d/dota/item/DiffusalBladeItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "ITEMS:minecraft:swords": [
+      "~DiffusalBlade@CUSTOM:DiffusalBlade",
+      "~SilverEdge@CUSTOM:SilverEdge",
+      "~MonkeyKingBar@CUSTOM:MonkeyKingBar",
+      "~Crystalys@CUSTOM:Crystalys",
+      "~WitchBlade@CUSTOM:WitchBlade",
+      "~FalconeBlade@CUSTOM:FalconeBlade",
       "~EchoSabre@CUSTOM:EchoSabre",
       "~Satanic@CUSTOM:Satanic",
       "~AbyssalBlade@CUSTOM:AbyssalBlade",
@@ -128,10 +224,16 @@
       "AbyssalBlade",
       "BattleFury",
       "Butterfly",
+      "Crystalys",
       "Desolator",
+      "DiffusalBlade",
       "DivineRapier",
       "EchoSabre",
-      "Satanic"
+      "FalconeBlade",
+      "MonkeyKingBar",
+      "Satanic",
+      "SilverEdge",
+      "WitchBlade"
     ]
   },
   "language_map": {
@@ -142,7 +244,13 @@
       "item.dota.divine_rapier": "Divine Rapier",
       "item.dota.satanic": "Satanic",
       "item.dota.abyssal_blade": "Abyssal Blade",
-      "item.dota.echo_sabre": "Echo Sabre"
+      "item.dota.echo_sabre": "Echo Sabre",
+      "item.dota.falcone_blade": "Falcone Blade",
+      "item.dota.witch_blade": "Witch Blade",
+      "item.dota.crystalys": "Crystalys",
+      "item.dota.monkey_king_bar": "Monkey King Bar",
+      "item.dota.silver_edge": "Silver Edge",
+      "item.dota.diffusal_blade": "Diffusal Blade"
     }
   },
   "metadata": {

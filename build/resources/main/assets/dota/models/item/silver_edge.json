@@ -1,0 +1,7 @@
+{
+  "parent": "dota:custom/silver_edge",
+  "textures": {
+    "0": "dota:block/silver_edge",
+    "particle": "dota:item/silver_edge"
+  }
+}

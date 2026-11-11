@@ -1,0 +1,7 @@
+{
+  "parent": "dota:custom/heavens_halberd",
+  "textures": {
+    "0": "dota:block/heavens_halberd",
+    "particle": "dota:item/heavens_halberd"
+  }
+}

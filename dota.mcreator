@@ -164,12 +164,60 @@
           "src/main/resources/assets/dota/items/monkey_king_bar.json"
         ]
       }
+    },
+    {
+      "name": "SilverEdge",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_edge",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/items/silver_edge.json",
+          "src/main/resources/assets/dota/models/item/silver_edge.json",
+          "src/main/resources/assets/dota/models/item/silver_edge_gui.json",
+          "src/main/java/com/f2d/dota/item/SilverEdgeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DiffusalBlade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diffusal_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/models/item/diffusal_blade.json",
+          "src/main/resources/assets/dota/items/diffusal_blade.json",
+          "src/main/resources/assets/dota/models/item/diffusal_blade_gui.json",
+          "src/main/java/com/f2d/dota/item/DiffusalBladeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HeavensHalberd",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavens_halberd",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/items/heavens_halberd.json",
+          "src/main/java/com/f2d/dota/item/HeavensHalberdItem.java",
+          "src/main/resources/assets/dota/models/item/heavens_halberd_gui.json",
+          "src/main/resources/assets/dota/models/item/heavens_halberd.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "ITEMS:minecraft:swords": [
+      "~HeavensHalberd@CUSTOM:HeavensHalberd",
+      "~DiffusalBlade@CUSTOM:DiffusalBlade",
+      "~SilverEdge@CUSTOM:SilverEdge",
       "~MonkeyKingBar@CUSTOM:MonkeyKingBar",
       "~Crystalys@CUSTOM:Crystalys",
       "~WitchBlade@CUSTOM:WitchBlade",
@@ -194,11 +242,14 @@
       "Butterfly",
       "Crystalys",
       "Desolator",
+      "DiffusalBlade",
       "DivineRapier",
       "EchoSabre",
       "FalconeBlade",
+      "HeavensHalberd",
       "MonkeyKingBar",
       "Satanic",
+      "SilverEdge",
       "WitchBlade"
     ]
   },
@@ -214,7 +265,10 @@
       "item.dota.falcone_blade": "Falcone Blade",
       "item.dota.witch_blade": "Witch Blade",
       "item.dota.crystalys": "Crystalys",
-      "item.dota.monkey_king_bar": "Monkey King Bar"
+      "item.dota.monkey_king_bar": "Monkey King Bar",
+      "item.dota.silver_edge": "Silver Edge",
+      "item.dota.diffusal_blade": "Diffusal Blade",
+      "item.dota.heavens_halberd": "Heavens Halberd"
     }
   },
   "metadata": {
