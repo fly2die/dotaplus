@@ -1,0 +1,34 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:gunpowder": 1
+    },
+    "minecraft:killed": {
+      "minecraft:creeper": 1
+    },
+    "minecraft:used": {
+      "minecraft:glow_lichen": 40,
+      "dota:divine_rapier": 1,
+      "minecraft:lantern": 13,
+      "minecraft:spruce_stairs": 4,
+      "minecraft:mossy_cobblestone": 13,
+      "minecraft:cobblestone": 21
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 3949,
+      "minecraft:walk_one_cm": 6084,
+      "minecraft:leave_game": 1,
+      "minecraft:mob_kills": 1,
+      "minecraft:play_time": 3949,
+      "minecraft:damage_dealt": 200,
+      "minecraft:jump": 75,
+      "minecraft:time_since_death": 3949,
+      "minecraft:sprint_one_cm": 3942,
+      "minecraft:total_world_time": 5433,
+      "minecraft:fly_one_cm": 93763,
+      "minecraft:sneak_time": 90,
+      "minecraft:climb_one_cm": 0
+    }
+  },
+  "DataVersion": 5023
+}

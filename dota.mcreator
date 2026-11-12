@@ -209,12 +209,28 @@
           "src/main/resources/assets/dota/models/item/heavens_halberd.json"
         ]
       }
+    },
+    {
+      "name": "ShadowBlade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/items/shadow_blade.json",
+          "src/main/resources/assets/dota/models/item/shadow_blade_gui.json",
+          "src/main/resources/assets/dota/models/item/shadow_blade.json",
+          "src/main/java/com/f2d/dota/item/ShadowBladeItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "ITEMS:minecraft:swords": [
+      "~ShadowBlade@CUSTOM:ShadowBlade",
       "~HeavensHalberd@CUSTOM:HeavensHalberd",
       "~DiffusalBlade@CUSTOM:DiffusalBlade",
       "~SilverEdge@CUSTOM:SilverEdge",
@@ -249,6 +265,7 @@
       "HeavensHalberd",
       "MonkeyKingBar",
       "Satanic",
+      "ShadowBlade",
       "SilverEdge",
       "WitchBlade"
     ]
@@ -268,7 +285,8 @@
       "item.dota.monkey_king_bar": "Monkey King Bar",
       "item.dota.silver_edge": "Silver Edge",
       "item.dota.diffusal_blade": "Diffusal Blade",
-      "item.dota.heavens_halberd": "Heavens Halberd"
+      "item.dota.heavens_halberd": "Heavens Halberd",
+      "item.dota.shadow_blade": "Shadow Blade"
     }
   },
   "metadata": {

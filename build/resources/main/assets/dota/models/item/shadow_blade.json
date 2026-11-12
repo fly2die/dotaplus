@@ -1,0 +1,7 @@
+{
+  "parent": "dota:custom/shadow_blade",
+  "textures": {
+    "0": "dota:block/shadow_blade",
+    "particle": "dota:item/shadow_blade"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "_fv": 91,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "shadow_blade",
+    "customModelName": "shadow_blade:default",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "shadow_blade",
+    "name": "Shadow Blade",
+    "rarity": "RARE",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "COMBAT"
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 1.2000000000000002,
+    "enchantability": 12,
+    "damageVsEntity": 4.8,
+    "usageCount": 700,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

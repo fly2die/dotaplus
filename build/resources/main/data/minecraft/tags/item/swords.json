@@ -1,16 +1,18 @@
 {
   "replace": false,
   "values": [
-    "dota:falcone_blade",
-    "dota:diffusal_blade",
+    "dota:heavens_halberd",
     "dota:divine_rapier",
     "dota:silver_edge",
-    "dota:witch_blade",
     "dota:monkey_king_bar",
-    "dota:crystalys",
     "dota:satanic",
-    "dota:echo_sabre",
     "dota:abyssal_blade",
-    "dota:butterfly"
+    "dota:butterfly",
+    "dota:falcone_blade",
+    "dota:diffusal_blade",
+    "dota:witch_blade",
+    "dota:crystalys",
+    "dota:echo_sabre",
+    "dota:shadow_blade"
   ]
 }
