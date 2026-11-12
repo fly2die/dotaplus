@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "dota:battle_fury"
+    "dota:battle_fury",
+    "dota:parasma"
   ]
 }

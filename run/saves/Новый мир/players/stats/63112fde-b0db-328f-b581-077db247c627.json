@@ -1,0 +1,26 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 724,
+      "minecraft:walk_one_cm": 851,
+      "minecraft:total_world_time": 738,
+      "minecraft:leave_game": 1,
+      "minecraft:mob_kills": 5,
+      "minecraft:play_time": 724,
+      "minecraft:damage_dealt": 996,
+      "minecraft:time_since_death": 724
+    },
+    "minecraft:picked_up": {
+      "minecraft:potato": 1,
+      "minecraft:rotten_flesh": 4
+    },
+    "minecraft:killed": {
+      "minecraft:zombie": 5
+    },
+    "minecraft:used": {
+      "dota:crystalys": 27,
+      "minecraft:zombie_spawn_egg": 5
+    }
+  },
+  "DataVersion": 5023
+}

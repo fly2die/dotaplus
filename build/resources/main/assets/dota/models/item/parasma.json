@@ -1,0 +1,7 @@
+{
+  "parent": "dota:custom/parasma",
+  "textures": {
+    "0": "dota:block/parasma",
+    "particle": "dota:item/parasma"
+  }
+}

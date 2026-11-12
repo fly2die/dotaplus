@@ -15,13 +15,13 @@
       "fixedValue": []
     },
     "creativeTabs": [
-      "COMBAT"
+      "CUSTOM:CreativeTabDota"
     ],
     "efficiency": 4.0,
     "attackSpeed": 1.2000000000000002,
     "enchantability": 2,
     "damageVsEntity": 22.0,
-    "usageCount": 600,
+    "usageCount": 0,
     "glowCondition": {
       "fixedValue": false
     },
@@ -31,6 +31,7 @@
     "blocksAffected": [],
     "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onEntityHitWith": "DivineRapierPr"
   }
 }

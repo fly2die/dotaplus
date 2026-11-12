@@ -15,7 +15,7 @@
       "fixedValue": []
     },
     "creativeTabs": [
-      "COMBAT"
+      "CUSTOM:CreativeTabDota"
     ],
     "efficiency": 4.0,
     "attackSpeed": 2.4,
@@ -31,6 +31,7 @@
     "blocksAffected": [],
     "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onRightClickedInAir": "ButterflyPr"
   }
 }

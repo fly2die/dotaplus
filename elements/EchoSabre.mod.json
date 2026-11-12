@@ -15,10 +15,10 @@
       "fixedValue": []
     },
     "creativeTabs": [
-      "COMBAT"
+      "CUSTOM:CreativeTabDota"
     ],
     "efficiency": 4.0,
-    "attackSpeed": 1.6,
+    "attackSpeed": 1.2,
     "enchantability": 12,
     "damageVsEntity": 4.0,
     "usageCount": 1100,
@@ -31,6 +31,7 @@
     "blocksAffected": [],
     "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onEntityHitWith": "EchoSabrePr"
   }
 }

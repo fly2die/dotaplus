@@ -12,6 +12,6 @@ public class ShadowBladeItem extends Item {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 700, 4f, 0, 12, TagKey.create(Registries.ITEM, Identifier.parse("dota:shadow_blade_repair_items")));
 
 	public ShadowBladeItem(Item.Properties properties) {
-		super(properties.sword(TOOL_MATERIAL, 3.8f, -2.8f).rarity(Rarity.RARE));
+		super(properties.sword(TOOL_MATERIAL, 4f, -2.8f).rarity(Rarity.RARE));
 	}
 }

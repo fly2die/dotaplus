@@ -1,0 +1,16 @@
+/scoreboard objectives add damageDealt minecraft.custom:minecraft.damage_dealt_absorbed
+/scoreboard objectives setdisplay sidebar damageDealt
+/scoreboard objectives add damageDealt minecraft.custom:minecraft.damage_dealt "Нанесено урона"
+/scoreboard objectives setdisplay sidebar damageDealt
+/scoreboard objectives remove
+/scoreboard objectives remove damageDealt
+/scoreboard objectives add damageDealt minecraft.custom:minecraft.damage_dealt "Нанесено урона"
+/scoreboard objectives setdisplay sidebar damageDealt
+/scoreboard objectives remove damageDealt
+/scoreboard objectives add damageDealt minecraft.custom:minecraft.damage_dealt_absorbed "Нанесено урона"
+/scoreboard objectives setdisplay sidebar damageDealt
+/scoreboard objectives remove damageDealt
+/scoreboard objectives add damageDealt minecraft.custom:minecraft.damage_dealt "Нанесено урона"
+/scoreboard objectives setdisplay sidebar damageDealt
+/spawnpoint
+/kill

@@ -13,5 +13,13 @@
   "item.dota.silver_edge": "Silver Edge",
   "item.dota.diffusal_blade": "Diffusal Blade",
   "item.dota.heavens_halberd": "Heavens Halberd",
-  "item.dota.shadow_blade": "Shadow Blade"
+  "item.dota.shadow_blade": "Shadow Blade",
+  "item_group.dota.creative_tab_dota": "Dota+",
+  "item.dota.parasma": "Parasma",
+  "subtitles.item.abyssal_blade": "",
+  "subtitles.item.basher": "",
+  "subtitles.item.battle_fury": "",
+  "subtitles.item.butterfly": "",
+  "subtitles.item.desolator": "",
+  "subtitles.item.diffusal_blade": ""
 }

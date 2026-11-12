@@ -15,13 +15,13 @@
       "fixedValue": []
     },
     "creativeTabs": [
-      "COMBAT"
+      "CUSTOM:CreativeTabDota"
     ],
     "efficiency": 4.0,
     "attackSpeed": 1.4000000000000001,
     "enchantability": 15,
     "damageVsEntity": 5.0,
-    "usageCount": 1100,
+    "usageCount": 1000,
     "glowCondition": {
       "fixedValue": false
     },
@@ -31,6 +31,7 @@
     "blocksAffected": [],
     "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onEntityHitWith": "CrystalysPr"
   }
 }

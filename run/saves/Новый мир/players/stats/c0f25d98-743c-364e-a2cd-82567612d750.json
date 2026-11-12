@@ -1,0 +1,25 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:gunpowder": 3
+    },
+    "minecraft:used": {
+      "dota:abyssal_blade": 11,
+      "minecraft:creeper_spawn_egg": 3
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 540,
+      "minecraft:walk_one_cm": 2860,
+      "minecraft:total_world_time": 549,
+      "minecraft:leave_game": 1,
+      "minecraft:mob_kills": 2,
+      "minecraft:play_time": 540,
+      "minecraft:damage_dealt": 413,
+      "minecraft:time_since_death": 540
+    },
+    "minecraft:killed": {
+      "minecraft:creeper": 2
+    }
+  },
+  "DataVersion": 5023
+}

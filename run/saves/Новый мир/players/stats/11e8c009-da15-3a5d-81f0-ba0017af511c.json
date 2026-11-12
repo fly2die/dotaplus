@@ -1,0 +1,22 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "dota:diffusal_blade": 3
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 1180,
+      "minecraft:time_since_rest": 370,
+      "minecraft:fall_one_cm": 225,
+      "minecraft:walk_one_cm": 3444,
+      "minecraft:total_world_time": 469,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 866,
+      "minecraft:damage_taken": 7,
+      "minecraft:play_time": 370,
+      "minecraft:damage_dealt": 117,
+      "minecraft:jump": 7,
+      "minecraft:time_since_death": 370
+    }
+  },
+  "DataVersion": 5023
+}

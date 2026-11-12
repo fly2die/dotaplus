@@ -15,12 +15,12 @@
       "fixedValue": []
     },
     "creativeTabs": [
-      "COMBAT"
+      "CUSTOM:CreativeTabDota"
     ],
     "efficiency": 4.0,
     "attackSpeed": 1.2000000000000002,
     "enchantability": 12,
-    "damageVsEntity": 4.8,
+    "damageVsEntity": 5.0,
     "usageCount": 700,
     "glowCondition": {
       "fixedValue": false

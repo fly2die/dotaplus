@@ -1,0 +1,31 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 360,
+      "minecraft:time_since_rest": 1010,
+      "minecraft:walk_one_cm": 6726,
+      "minecraft:total_world_time": 1016,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 1215,
+      "minecraft:mob_kills": 6,
+      "minecraft:walk_on_water_one_cm": 327,
+      "minecraft:play_time": 1010,
+      "minecraft:damage_dealt": 1190,
+      "minecraft:jump": 6,
+      "minecraft:time_since_death": 1010
+    },
+    "minecraft:picked_up": {
+      "minecraft:gunpowder": 4
+    },
+    "minecraft:killed": {
+      "minecraft:creeper": 6
+    },
+    "minecraft:used": {
+      "dota:abyssal_blade": 39,
+      "minecraft:spruce_fence": 7,
+      "minecraft:dirt": 8,
+      "minecraft:creeper_spawn_egg": 5
+    }
+  },
+  "DataVersion": 5023
+}

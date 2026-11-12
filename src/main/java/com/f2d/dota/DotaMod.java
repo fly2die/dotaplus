@@ -26,6 +26,8 @@ import it.unimi.dsi.fastutil.ints.IntObjectPair;
 import it.unimi.dsi.fastutil.ints.IntObjectImmutablePair;
 
 import com.f2d.dota.init.DotaModTabs;
+import com.f2d.dota.init.DotaModSounds;
+import com.f2d.dota.init.DotaModProcedures;
 import com.f2d.dota.init.DotaModItems;
 
 public class DotaMod implements ModInitializer {
@@ -37,8 +39,10 @@ public class DotaMod implements ModInitializer {
 		// Start of user code block mod constructor
 		// End of user code block mod constructor
 		LOGGER.info("Initializing DotaMod");
+		DotaModSounds.load();
 		DotaModTabs.load();
 		DotaModItems.load();
+		DotaModProcedures.load();
 		tick();
 		// Start of user code block mod init
 		// End of user code block mod init

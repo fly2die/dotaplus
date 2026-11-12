@@ -30,6 +30,7 @@ public class DotaModItems {
 	public static Item DIFFUSAL_BLADE;
 	public static Item HEAVENS_HALBERD;
 	public static Item SHADOW_BLADE;
+	public static Item PARASMA;
 
 	public static void load() {
 		BATTLE_FURY = register("battle_fury", BattleFuryItem::new);
@@ -47,6 +48,7 @@ public class DotaModItems {
 		DIFFUSAL_BLADE = register("diffusal_blade", DiffusalBladeItem::new);
 		HEAVENS_HALBERD = register("heavens_halberd", HeavensHalberdItem::new);
 		SHADOW_BLADE = register("shadow_blade", ShadowBladeItem::new);
+		PARASMA = register("parasma", ParasmaItem::new);
 	}
 
 	// Start of user code block custom items

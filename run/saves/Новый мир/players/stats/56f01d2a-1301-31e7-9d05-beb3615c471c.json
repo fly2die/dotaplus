@@ -1,0 +1,30 @@
+{
+  "stats": {
+    "minecraft:killed": {
+      "minecraft:zombie": 3
+    },
+    "minecraft:picked_up": {
+      "minecraft:potato": 1,
+      "minecraft:rotten_flesh": 1
+    },
+    "minecraft:used": {
+      "dota:abyssal_blade": 16,
+      "minecraft:zombie_spawn_egg": 4
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 1953,
+      "minecraft:time_since_rest": 667,
+      "minecraft:walk_one_cm": 4490,
+      "minecraft:total_world_time": 674,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 1992,
+      "minecraft:mob_kills": 3,
+      "minecraft:damage_taken": 7,
+      "minecraft:play_time": 667,
+      "minecraft:damage_dealt": 738,
+      "minecraft:jump": 10,
+      "minecraft:time_since_death": 667
+    }
+  },
+  "DataVersion": 5023
+}

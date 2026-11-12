@@ -2,7 +2,7 @@
   "_fv": 91,
   "_type": "tool",
   "definition": {
-    "toolType": "Hoe",
+    "toolType": "Sword",
     "renderType": 1,
     "blockingRenderType": 0,
     "texture": "desolator",
@@ -15,7 +15,7 @@
       "fixedValue": []
     },
     "creativeTabs": [
-      "COMBAT"
+      "CUSTOM:CreativeTabDota"
     ],
     "efficiency": 4.0,
     "attackSpeed": 1.2000000000000002,
@@ -31,6 +31,7 @@
     "blocksAffected": [],
     "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onEntityHitWith": "DesolatorPr"
   }
 }

@@ -1,0 +1,50 @@
+{
+  "item.abyssal_blade": {
+    "sounds": [
+      {
+        "name": "dota:item.abyssal_blade",
+        "stream": false
+      }
+    ]
+  },
+  "item.basher": {
+    "sounds": [
+      {
+        "name": "dota:item.basher",
+        "stream": false
+      }
+    ]
+  },
+  "item.battle_fury": {
+    "sounds": [
+      {
+        "name": "dota:item.bf",
+        "stream": false
+      }
+    ]
+  },
+  "item.butterfly": {
+    "sounds": [
+      {
+        "name": "dota:item.butterfly",
+        "stream": false
+      }
+    ]
+  },
+  "item.desolator": {
+    "sounds": [
+      {
+        "name": "dota:item.desolator",
+        "stream": false
+      }
+    ]
+  },
+  "item.diffusal_blade": {
+    "sounds": [
+      {
+        "name": "dota:item.diffusal_blade",
+        "stream": false
+      }
+    ]
+  }
+}

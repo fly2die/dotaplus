@@ -9,9 +9,9 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
 public class SatanicItem extends Item {
-	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 1100, 4f, 0, 10, TagKey.create(Registries.ITEM, Identifier.parse("dota:satanic_repair_items")));
+	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 1100, 4f, 0, 14, TagKey.create(Registries.ITEM, Identifier.parse("dota:satanic_repair_items")));
 
 	public SatanicItem(Item.Properties properties) {
-		super(properties.sword(TOOL_MATERIAL, 4.8f, -2.4f).rarity(Rarity.RARE));
+		super(properties.sword(TOOL_MATERIAL, 4f, -2.4f).rarity(Rarity.RARE));
 	}
 }
