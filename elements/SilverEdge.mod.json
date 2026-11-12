@@ -31,6 +31,8 @@
     "blocksAffected": [],
     "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onRightClickedInAir": "SilverEdgePr",
+    "onEntityHitWith": "SilverEdgePrCrit"
   }
 }

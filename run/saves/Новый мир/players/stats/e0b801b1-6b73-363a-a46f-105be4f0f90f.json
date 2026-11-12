@@ -1,0 +1,24 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 185,
+      "minecraft:time_since_rest": 250,
+      "minecraft:walk_one_cm": 543,
+      "minecraft:total_world_time": 259,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 603,
+      "minecraft:mob_kills": 1,
+      "minecraft:play_time": 250,
+      "minecraft:damage_dealt": 200,
+      "minecraft:jump": 4,
+      "minecraft:time_since_death": 250
+    },
+    "minecraft:killed": {
+      "minecraft:zombie": 1
+    },
+    "minecraft:used": {
+      "dota:monkey_king_bar": 4
+    }
+  },
+  "DataVersion": 5023
+}

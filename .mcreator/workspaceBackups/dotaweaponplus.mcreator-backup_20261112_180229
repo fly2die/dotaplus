@@ -1,0 +1,881 @@
+{
+  "mod_elements": [
+    {
+      "name": "BattleFury",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battle_fury",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dotaweaponplus/models/item/battle_fury.json",
+          "src/main/resources/assets/dotaweaponplus/items/battle_fury.json",
+          "src/main/java/com/f2d/dotaweaponplus/item/BattleFuryItem.java",
+          "src/main/resources/assets/dotaweaponplus/models/item/battle_fury_gui.json"
+        ]
+      }
+    },
+    {
+      "name": "Butterfly",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butterfly",
+      "metadata": {
+        "files": [
+          "src/main/java/com/f2d/dotaweaponplus/item/ButterflyItem.java",
+          "src/main/resources/assets/dotaweaponplus/models/item/butterfly_gui.json",
+          "src/main/resources/assets/dotaweaponplus/items/butterfly.json",
+          "src/main/resources/assets/dotaweaponplus/models/item/butterfly.json"
+        ]
+      }
+    },
+    {
+      "name": "Desolator",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desolator",
+      "metadata": {
+        "files": [
+          "src/main/java/com/f2d/dotaweaponplus/item/DesolatorItem.java",
+          "src/main/resources/assets/dotaweaponplus/models/item/desolator.json",
+          "src/main/resources/assets/dotaweaponplus/items/desolator.json",
+          "src/main/resources/assets/dotaweaponplus/models/item/desolator_gui.json"
+        ]
+      }
+    },
+    {
+      "name": "DivineRapier",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "divine_rapier",
+      "metadata": {
+        "files": [
+          "src/main/java/com/f2d/dotaweaponplus/item/DivineRapierItem.java",
+          "src/main/resources/assets/dotaweaponplus/models/item/divine_rapier_gui.json",
+          "src/main/resources/assets/dotaweaponplus/models/item/divine_rapier.json",
+          "src/main/resources/assets/dotaweaponplus/items/divine_rapier.json"
+        ]
+      }
+    },
+    {
+      "name": "Satanic",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "satanic",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dotaweaponplus/models/item/satanic.json",
+          "src/main/resources/assets/dotaweaponplus/models/item/satanic_gui.json",
+          "src/main/resources/assets/dotaweaponplus/items/satanic.json",
+          "src/main/java/com/f2d/dotaweaponplus/item/SatanicItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AbyssalBlade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyssal_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dotaweaponplus/models/item/abyssal_blade.json",
+          "src/main/java/com/f2d/dotaweaponplus/item/AbyssalBladeItem.java",
+          "src/main/resources/assets/dotaweaponplus/items/abyssal_blade.json",
+          "src/main/resources/assets/dotaweaponplus/models/item/abyssal_blade_gui.json"
+        ]
+      }
+    },
+    {
+      "name": "EchoSabre",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "echo_sabre",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dotaweaponplus/items/echo_sabre.json",
+          "src/main/resources/assets/dotaweaponplus/models/item/echo_sabre_gui.json",
+          "src/main/resources/assets/dotaweaponplus/models/item/echo_sabre.json",
+          "src/main/java/com/f2d/dotaweaponplus/item/EchoSabreItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FalconeBlade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "falcone_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dotaweaponplus/models/item/falcone_blade.json",
+          "src/main/resources/assets/dotaweaponplus/items/falcone_blade.json",
+          "src/main/resources/assets/dotaweaponplus/models/item/falcone_blade_gui.json",
+          "src/main/java/com/f2d/dotaweaponplus/item/FalconeBladeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "WitchBlade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "witch_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dotaweaponplus/models/item/witch_blade_gui.json",
+          "src/main/java/com/f2d/dotaweaponplus/item/WitchBladeItem.java",
+          "src/main/resources/assets/dotaweaponplus/items/witch_blade.json",
+          "src/main/resources/assets/dotaweaponplus/models/item/witch_blade.json"
+        ]
+      }
+    },
+    {
+      "name": "Crystalys",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystalys",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dotaweaponplus/items/crystalys.json",
+          "src/main/resources/assets/dotaweaponplus/models/item/crystalys.json",
+          "src/main/resources/assets/dotaweaponplus/models/item/crystalys_gui.json",
+          "src/main/java/com/f2d/dotaweaponplus/item/CrystalysItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MonkeyKingBar",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monkey_king_bar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dotaweaponplus/items/monkey_king_bar.json",
+          "src/main/java/com/f2d/dotaweaponplus/item/MonkeyKingBarItem.java",
+          "src/main/resources/assets/dotaweaponplus/models/item/monkey_king_bar_gui.json",
+          "src/main/resources/assets/dotaweaponplus/models/item/monkey_king_bar.json"
+        ]
+      }
+    },
+    {
+      "name": "SilverEdge",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_edge",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dotaweaponplus/items/silver_edge.json",
+          "src/main/java/com/f2d/dotaweaponplus/item/SilverEdgeItem.java",
+          "src/main/resources/assets/dotaweaponplus/models/item/silver_edge.json",
+          "src/main/resources/assets/dotaweaponplus/models/item/silver_edge_gui.json"
+        ]
+      }
+    },
+    {
+      "name": "DiffusalBlade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diffusal_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dotaweaponplus/models/item/diffusal_blade.json",
+          "src/main/resources/assets/dotaweaponplus/items/diffusal_blade.json",
+          "src/main/java/com/f2d/dotaweaponplus/item/DiffusalBladeItem.java",
+          "src/main/resources/assets/dotaweaponplus/models/item/diffusal_blade_gui.json"
+        ]
+      }
+    },
+    {
+      "name": "HeavensHalberd",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavens_halberd",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dotaweaponplus/models/item/heavens_halberd_gui.json",
+          "src/main/resources/assets/dotaweaponplus/models/item/heavens_halberd.json",
+          "src/main/java/com/f2d/dotaweaponplus/item/HeavensHalberdItem.java",
+          "src/main/resources/assets/dotaweaponplus/items/heavens_halberd.json"
+        ]
+      }
+    },
+    {
+      "name": "ShadowBlade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dotaweaponplus/models/item/shadow_blade.json",
+          "src/main/java/com/f2d/dotaweaponplus/item/ShadowBladeItem.java",
+          "src/main/resources/assets/dotaweaponplus/models/item/shadow_blade_gui.json",
+          "src/main/resources/assets/dotaweaponplus/items/shadow_blade.json"
+        ]
+      }
+    },
+    {
+      "name": "CreativeTabDota",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creative_tab_dota",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Parasma",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parasma",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dotaweaponplus/models/item/parasma.json",
+          "src/main/resources/assets/dotaweaponplus/models/item/parasma_gui.json",
+          "src/main/java/com/f2d/dotaweaponplus/item/ParasmaItem.java",
+          "src/main/resources/assets/dotaweaponplus/items/parasma.json"
+        ]
+      }
+    },
+    {
+      "name": "AbyssalBladePr",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyssal_blade_pr",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/f2d/dotaweaponplus/procedures/AbyssalBladePrProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ProccesPKMbyMod",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procces_pk_mby_mod",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/f2d/dotaweaponplus/procedures/ProccesPKMbyModProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "BattleFuryPr",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battle_fury_pr",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/f2d/dotaweaponplus/procedures/BattleFuryPrProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ButterflyPr",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butterfly_pr",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/f2d/dotaweaponplus/procedures/ButterflyPrProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "CrystalysPr",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystalys_pr",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/f2d/dotaweaponplus/procedures/CrystalysPrProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DesolatorPr",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desolator_pr",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/f2d/dotaweaponplus/procedures/DesolatorPrProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DivineRapierPr",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "divine_rapier_pr",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/f2d/dotaweaponplus/procedures/DivineRapierPrProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "EchoSabrePr",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "echo_sabre_pr",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/f2d/dotaweaponplus/procedures/EchoSabrePrProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "FalconeBladePr",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "falcone_blade_pr",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/com/f2d/dotaweaponplus/procedures/FalconeBladePrProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "MonkeyKingBarPr",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monkey_king_bar_pr",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/f2d/dotaweaponplus/procedures/MonkeyKingBarPrProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ParasmaPr",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parasma_pr",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/com/f2d/dotaweaponplus/procedures/ParasmaPrProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "SatanicPr",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "satanic_pr",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/f2d/dotaweaponplus/procedures/SatanicPrProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "WitchBladePr",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "witch_blade_pr",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/com/f2d/dotaweaponplus/procedures/WitchBladePrProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "item.abyssal_blade",
+      "files": [
+        "item.abyssal_blade"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "item.basher",
+      "files": [
+        "item.basher"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "item.battle_fury",
+      "files": [
+        "item.bf"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "item.butterfly",
+      "files": [
+        "item.butterfly"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "item.desolator",
+      "files": [
+        "item.desolator"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "item.diffusal_blade",
+      "files": [
+        "item.diffusal_blade"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "item.heaven_halberd",
+      "files": [
+        "item.heaven_halberd"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "item.mkb",
+      "files": [
+        "item.mkb"
+      ],
+      "category": "player",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:axes": [
+      "~Parasma@CUSTOM:Parasma",
+      "~BattleFury@CUSTOM:BattleFury"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~ShadowBlade@CUSTOM:ShadowBlade",
+      "~HeavensHalberd@CUSTOM:HeavensHalberd",
+      "~DiffusalBlade@CUSTOM:DiffusalBlade",
+      "~SilverEdge@CUSTOM:SilverEdge",
+      "~MonkeyKingBar@CUSTOM:MonkeyKingBar",
+      "~Crystalys@CUSTOM:Crystalys",
+      "~WitchBlade@CUSTOM:WitchBlade",
+      "~FalconeBlade@CUSTOM:FalconeBlade",
+      "~EchoSabre@CUSTOM:EchoSabre",
+      "~AbyssalBlade@CUSTOM:AbyssalBlade",
+      "~Satanic@CUSTOM:Satanic",
+      "~DivineRapier@CUSTOM:DivineRapier",
+      "~Desolator@CUSTOM:Desolator",
+      "~Butterfly@CUSTOM:Butterfly"
+    ]
+  },
+  "tab_element_order": {
+    "COMBAT": [],
+    "CUSTOM:CreativeTabDota": [
+      "AbyssalBlade",
+      "BattleFury",
+      "Butterfly",
+      "Crystalys",
+      "Desolator",
+      "DiffusalBlade",
+      "DivineRapier",
+      "EchoSabre",
+      "FalconeBlade",
+      "HeavensHalberd",
+      "MonkeyKingBar",
+      "Parasma",
+      "Satanic",
+      "ShadowBlade",
+      "SilverEdge",
+      "WitchBlade"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.dota.battle_fury": "Battle Fury",
+      "item.dota.butterfly": "Butterfly",
+      "item.dota.desolator": "Desolator",
+      "item.dota.divine_rapier": "Divine Rapier",
+      "item.dota.satanic": "Satanic",
+      "item.dota.abyssal_blade": "Abyssal Blade",
+      "item.dota.echo_sabre": "Echo Sabre",
+      "item.dota.falcone_blade": "Falcone Blade",
+      "item.dota.witch_blade": "Witch Blade",
+      "item.dota.crystalys": "Crystalys",
+      "item.dota.monkey_king_bar": "Monkey King Bar",
+      "item.dota.silver_edge": "Silver Edge",
+      "item.dota.diffusal_blade": "Diffusal Blade",
+      "item.dota.heavens_halberd": "Heavens Halberd",
+      "item.dota.shadow_blade": "Shadow Blade",
+      "item_group.dota.creative_tab_dota": "Dota+",
+      "item.dota.parasma": "Parasma",
+      "subtitles.item.abyssal_blade": "",
+      "subtitles.item.basher": "",
+      "subtitles.item.battle_fury": "",
+      "subtitles.item.butterfly": "",
+      "subtitles.item.desolator": "",
+      "subtitles.item.diffusal_blade": "",
+      "subtitles.item.heaven_halberd": "",
+      "subtitles.item.mkb": "",
+      "item.dotaweaponplus.battle_fury": "Battle Fury",
+      "item.dotaweaponplus.butterfly": "Butterfly",
+      "item.dotaweaponplus.desolator": "Desolator",
+      "item.dotaweaponplus.divine_rapier": "Divine Rapier",
+      "item.dotaweaponplus.satanic": "Satanic",
+      "item.dotaweaponplus.abyssal_blade": "Abyssal Blade",
+      "item.dotaweaponplus.echo_sabre": "Echo Sabre",
+      "item.dotaweaponplus.falcone_blade": "Falcone Blade",
+      "item.dotaweaponplus.witch_blade": "Witch Blade",
+      "item.dotaweaponplus.crystalys": "Crystalys",
+      "item.dotaweaponplus.monkey_king_bar": "Monkey King Bar",
+      "item.dotaweaponplus.silver_edge": "Silver Edge",
+      "item.dotaweaponplus.diffusal_blade": "Diffusal Blade",
+      "item.dotaweaponplus.heavens_halberd": "Heavens Halberd",
+      "item.dotaweaponplus.shadow_blade": "Shadow Blade",
+      "item_group.dotaweaponplus.creative_tab_dota": "Dota+",
+      "item.dotaweaponplus.parasma": "Parasma"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/com/f2d/dotaweaponplus/init/DotaweaponplusModProcedures.java",
+      "src/main/java/com/f2d/dotaweaponplus/mixin/RepairItemRecipeMixin.java",
+      "src/main/java/com/f2d/dotaweaponplus/init/DotaweaponplusModItems.java",
+      "src/main/java/com/f2d/dotaweaponplus/mixin/ServerPlayerMixin.java",
+      "src/main/java/com/f2d/dotaweaponplus/mixin/LivingEntityMixin.java",
+      "src/main/java/com/f2d/dotaweaponplus/mixin/ItemStackMixin.java",
+      "src/main/java/com/f2d/dotaweaponplus/DotaweaponplusMod.java",
+      "src/main/java/com/f2d/dotaweaponplus/event/PlayerEvents.java",
+      "src/main/java/com/f2d/dotaweaponplus/event/MiscEvents.java",
+      "src/main/java/com/f2d/dotaweaponplus/event/ItemEvents.java",
+      "src/main/resources/fabric.mod.json",
+      "src/main/resources/assets/dotaweaponplus/sounds.json",
+      "src/main/java/com/f2d/dotaweaponplus/mixin/PlayerMixin.java",
+      "src/main/resources/dotaweaponplus.mixins.json",
+      "src/main/java/com/f2d/dotaweaponplus/mixin/BlockItemMixin.java",
+      "src/main/java/com/f2d/dotaweaponplus/event/BlockEvents.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/com/f2d/dotaweaponplus/init/DotaweaponplusModSounds.java",
+      "src/main/java/com/f2d/dotaweaponplus/mixin/ExperienceOrbMixin.java",
+      "src/main/java/com/f2d/dotaweaponplus/mixin/BoneMealItemMixin.java",
+      "src/main/java/com/f2d/dotaweaponplus/event/LivingEntityEvents.java",
+      "src/main/java/com/f2d/dotaweaponplus/DotaweaponplusModClient.java",
+      "src/main/resources/META-INF/dotaweaponplus.classtweaker",
+      "src/main/java/com/f2d/dotaweaponplus/mixin/CommandsMixin.java",
+      "src/main/java/com/f2d/dotaweaponplus/init/DotaweaponplusModTabs.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "dotaweaponplus",
+    "modName": "DotaWeapon+",
+    "version": "1.1.1",
+    "author": "f2d",
+    "websiteURL": "https://github.com/fly2die/dotaweaponplus",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-26.3",
+    "modElementsPackage": "com.f2d.dotaweaponplus"
+  },
+  "mcreatorVersion": 202600341718
+}

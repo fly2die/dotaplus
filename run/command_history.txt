@@ -14,3 +14,10 @@
 /scoreboard objectives setdisplay sidebar damageDealt
 /spawnpoint
 /kill
+/experience set @a 10000
+/experience set @a 10
+/experience set @a 500
+/experience set @a 100
+/experience add @a 100
+/experience add @a 1000-
+/experience add @a 1000

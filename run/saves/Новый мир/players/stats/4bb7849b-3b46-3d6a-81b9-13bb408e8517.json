@@ -1,0 +1,18 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:zombie_spawn_egg": 1,
+      "dota:echo_sabre": 2
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 111,
+      "minecraft:walk_one_cm": 846,
+      "minecraft:total_world_time": 130,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 111,
+      "minecraft:damage_dealt": 53,
+      "minecraft:time_since_death": 111
+    }
+  },
+  "DataVersion": 5023
+}

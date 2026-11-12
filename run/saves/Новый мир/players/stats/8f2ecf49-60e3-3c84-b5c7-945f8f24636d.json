@@ -1,0 +1,33 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "dota:satanic": 1
+    },
+    "minecraft:used": {
+      "dota:satanic": 6
+    },
+    "minecraft:killed": {
+      "minecraft:bat": 1
+    },
+    "minecraft:killed_by": {
+      "minecraft:creeper": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 111,
+      "minecraft:walk_one_cm": 1532,
+      "minecraft:leave_game": 1,
+      "minecraft:mob_kills": 1,
+      "minecraft:damage_taken": 27,
+      "minecraft:play_time": 549,
+      "minecraft:damage_dealt": 105,
+      "minecraft:jump": 21,
+      "minecraft:time_since_death": 89,
+      "minecraft:sprint_one_cm": 3270,
+      "minecraft:fall_one_cm": 675,
+      "minecraft:total_world_time": 557,
+      "minecraft:fly_one_cm": 3105,
+      "minecraft:deaths": 1
+    }
+  },
+  "DataVersion": 5023
+}

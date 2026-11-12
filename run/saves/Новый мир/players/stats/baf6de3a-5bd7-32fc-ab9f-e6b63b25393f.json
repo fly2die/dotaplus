@@ -1,0 +1,25 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "dota:falcone_blade": 11
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 269,
+      "minecraft:time_since_rest": 445,
+      "minecraft:walk_one_cm": 226,
+      "minecraft:total_world_time": 452,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 221,
+      "minecraft:mob_kills": 2,
+      "minecraft:play_time": 445,
+      "minecraft:damage_dealt": 312,
+      "minecraft:jump": 1,
+      "minecraft:enchant_item": 2,
+      "minecraft:time_since_death": 445
+    },
+    "minecraft:killed": {
+      "minecraft:zombie": 2
+    }
+  },
+  "DataVersion": 5023
+}

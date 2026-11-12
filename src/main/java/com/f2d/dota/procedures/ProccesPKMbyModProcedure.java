@@ -59,9 +59,9 @@ public class ProccesPKMbyModProcedure {
 				if (entity instanceof Mob _entity)
 					_entity.getNavigation().stop();
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-					_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 60, 5, true, true));
+					_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 60, 5));
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-					_entity.addEffect(new MobEffectInstance(MobEffects.SLOWNESS, 60, 5, true, true));
+					_entity.addEffect(new MobEffectInstance(MobEffects.SLOWNESS, 60, 5));
 			}
 		}
 		if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == DotaModItems.DIFFUSAL_BLADE) {
@@ -78,11 +78,26 @@ public class ProccesPKMbyModProcedure {
 					_level.sendParticles(ParticleTypes.CLOUD, x, (y + 1), z, 8, 0.5, 1, 0.5, 0.1);
 				if (sourceentity instanceof Player _player)
 					_player.getCooldowns().addCooldown(new ItemStack(DotaModItems.DIFFUSAL_BLADE), 200);
-				entity.makeStuckInBlock(Blocks.AIR.defaultBlockState(), new Vec3(0.25, 0.05, 0.25));
-				if (entity instanceof Mob _entity)
-					_entity.getNavigation().stop();
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-					_entity.addEffect(new MobEffectInstance(MobEffects.SLOWNESS, 100, 1, true, true));
+					_entity.addEffect(new MobEffectInstance(MobEffects.SLOWNESS, 100, 1));
+			}
+		}
+		if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == DotaModItems.HEAVENS_HALBERD) {
+			if (!(sourceentity instanceof Player _plrCldCheck21 && _plrCldCheck21.getCooldowns().isOnCooldown(new ItemStack(DotaModItems.HEAVENS_HALBERD)))) {
+				if (world instanceof Level _level) {
+					if (!_level.isClientSide()) {
+						_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("dota:item.heaven_halberd")), SoundSource.PLAYERS, (float) 0.8,
+								(float) Mth.nextDouble(RandomSource.create(), 0.8, 1.2));
+					} else {
+						_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("dota:item.heaven_halberd")), SoundSource.PLAYERS, (float) 0.8, (float) Mth.nextDouble(RandomSource.create(), 0.8, 1.2), false);
+					}
+				}
+				if (world instanceof ServerLevel _level)
+					_level.sendParticles(ParticleTypes.INFESTED, x, (y + 1), z, 8, 0.5, 1, 0.5, 0.1);
+				if (sourceentity instanceof Player _player)
+					_player.getCooldowns().addCooldown(new ItemStack(DotaModItems.HEAVENS_HALBERD), 200);
+				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 120, 2));
 			}
 		}
 	}

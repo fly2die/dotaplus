@@ -511,9 +511,278 @@
       "locked_code": false,
       "registry_name": "echo_sabre_pr",
       "metadata": {
-        "dependencies": [],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
         "files": [
           "src/main/java/com/f2d/dota/procedures/EchoSabrePrProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "FalconeBladePr",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "falcone_blade_pr",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/com/f2d/dota/procedures/FalconeBladePrProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "MonkeyKingBarPr",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monkey_king_bar_pr",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/f2d/dota/procedures/MonkeyKingBarPrProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ParasmaPr",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parasma_pr",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/com/f2d/dota/procedures/ParasmaPrProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "SatanicPr",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "satanic_pr",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/f2d/dota/procedures/SatanicPrProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "WitchBladePr",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "witch_blade_pr",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/com/f2d/dota/procedures/WitchBladePrProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ShadowBladePr",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_blade_pr",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/f2d/dota/procedures/ShadowBladePrProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "SilverEdgePr",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_edge_pr",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/f2d/dota/procedures/SilverEdgePrProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "SilverEdgePrCrit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_edge_pr_crit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/f2d/dota/procedures/SilverEdgePrCritProcedure.java"
         ]
       }
     }
@@ -567,28 +836,60 @@
       ],
       "category": "player",
       "subtitle": ""
+    },
+    {
+      "name": "item.heaven_halberd",
+      "files": [
+        "item.heaven_halberd"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "item.mkb",
+      "files": [
+        "item.mkb"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "item.shadow_blade",
+      "files": [
+        "item.shadow_blade"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "item.silver_edge",
+      "files": [
+        "item.silver_edge"
+      ],
+      "category": "player",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
     "ITEMS:minecraft:swords": [
+      "~Satanic@CUSTOM:Satanic",
+      "~SilverEdge@CUSTOM:SilverEdge",
+      "~ShadowBlade@CUSTOM:ShadowBlade",
+      "~WitchBlade@CUSTOM:WitchBlade",
+      "~MonkeyKingBar@CUSTOM:MonkeyKingBar",
+      "~FalconeBlade@CUSTOM:FalconeBlade",
       "~EchoSabre@CUSTOM:EchoSabre",
       "~DivineRapier@CUSTOM:DivineRapier",
       "~Desolator@CUSTOM:Desolator",
       "~Crystalys@CUSTOM:Crystalys",
       "~Butterfly@CUSTOM:Butterfly",
       "~AbyssalBlade@CUSTOM:AbyssalBlade",
-      "~WitchBlade@CUSTOM:WitchBlade",
-      "~SilverEdge@CUSTOM:SilverEdge",
-      "~ShadowBlade@CUSTOM:ShadowBlade",
-      "~Satanic@CUSTOM:Satanic",
-      "~MonkeyKingBar@CUSTOM:MonkeyKingBar",
       "~HeavensHalberd@CUSTOM:HeavensHalberd",
-      "~FalconeBlade@CUSTOM:FalconeBlade",
       "~DiffusalBlade@CUSTOM:DiffusalBlade"
     ],
     "ITEMS:minecraft:axes": [
-      "~BattleFury@CUSTOM:BattleFury",
-      "~Parasma@CUSTOM:Parasma"
+      "~Parasma@CUSTOM:Parasma",
+      "~BattleFury@CUSTOM:BattleFury"
     ]
   },
   "tab_element_order": {
@@ -636,7 +937,11 @@
       "subtitles.item.battle_fury": "",
       "subtitles.item.butterfly": "",
       "subtitles.item.desolator": "",
-      "subtitles.item.diffusal_blade": ""
+      "subtitles.item.diffusal_blade": "",
+      "subtitles.item.heaven_halberd": "",
+      "subtitles.item.mkb": "",
+      "subtitles.item.shadow_blade": "",
+      "subtitles.item.silver_edge": ""
     }
   },
   "metadata": {
@@ -675,7 +980,7 @@
   "workspaceSettings": {
     "modid": "dota",
     "modName": "Dota+",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "author": "f2d",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",

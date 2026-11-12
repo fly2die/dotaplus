@@ -1,0 +1,27 @@
+{
+  "stats": {
+    "minecraft:killed": {
+      "minecraft:zombie": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 2761,
+      "minecraft:time_since_rest": 788,
+      "minecraft:fall_one_cm": 550,
+      "minecraft:walk_one_cm": 2005,
+      "minecraft:total_world_time": 801,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 3453,
+      "minecraft:mob_kills": 1,
+      "minecraft:play_time": 788,
+      "minecraft:damage_dealt": 233,
+      "minecraft:jump": 24,
+      "minecraft:time_since_death": 788
+    },
+    "minecraft:used": {
+      "dota:silver_edge": 2,
+      "dota:shadow_blade": 1,
+      "dota:satanic": 2
+    }
+  },
+  "DataVersion": 5023
+}

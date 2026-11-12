@@ -46,5 +46,37 @@
         "stream": false
       }
     ]
+  },
+  "item.heaven_halberd": {
+    "sounds": [
+      {
+        "name": "dota:item.heaven_halberd",
+        "stream": false
+      }
+    ]
+  },
+  "item.mkb": {
+    "sounds": [
+      {
+        "name": "dota:item.mkb",
+        "stream": false
+      }
+    ]
+  },
+  "item.shadow_blade": {
+    "sounds": [
+      {
+        "name": "dota:item.shadow_blade",
+        "stream": false
+      }
+    ]
+  },
+  "item.silver_edge": {
+    "sounds": [
+      {
+        "name": "dota:item.silver_edge",
+        "stream": false
+      }
+    ]
   }
 }
