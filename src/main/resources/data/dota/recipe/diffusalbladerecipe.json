@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "dota:crystal_agility",
+    "b": "minecraft:iron_sword"
+  },
+  "result": {
+    "id": "dota:diffusal_blade",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "dota:blocks/deepslate_crystal_almighty",
+  "pools": [
+    {
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:survives_explosion"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dota:crystal_almighty"
+        }
+      ]
+    }
+  ]
+}

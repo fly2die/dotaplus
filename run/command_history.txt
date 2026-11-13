@@ -21,3 +21,5 @@
 /experience add @a 100
 /experience add @a 1000-
 /experience add @a 1000
+/locate structure #minecraft:mineshaft
+/tp @s 416 ~ 176

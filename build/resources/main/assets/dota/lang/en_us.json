@@ -25,5 +25,15 @@
   "subtitles.item.heaven_halberd": "",
   "subtitles.item.mkb": "",
   "subtitles.item.shadow_blade": "",
-  "subtitles.item.silver_edge": ""
+  "subtitles.item.silver_edge": "",
+  "item.dota.crystal_agility": "Crystal Agility",
+  "item.dota.crystal_almighty": "Crystal Almighty",
+  "item.dota.crystal_glory": "Crystal Glory",
+  "item.dota.crystal_intelligence": "Crystal Intelligence",
+  "item.dota.crystal_power": "Crystal Power",
+  "item.dota.deepslate_crystal_agilitya": "Deepslate Crystal Agilitya",
+  "item.dota.deepslate_crystal_almighty": "Deepslate Crystal Almighty",
+  "item.dota.deepslate_crystal_glory": "Deepslate Crystal Glory",
+  "item.dota.deepslate_crystal_intelligence": "Deepslate Crystal Intelligence",
+  "item.dota.deepslate_crystal_power": "Deepslate Crystal Power"
 }

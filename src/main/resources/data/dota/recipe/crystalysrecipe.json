@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a ",
+    "ba"
+  ],
+  "key": {
+    "a": "dota:crystal_power",
+    "b": "minecraft:iron_sword"
+  },
+  "result": {
+    "id": "dota:crystalys",
+    "count": 1
+  }
+}

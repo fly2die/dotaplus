@@ -25,10 +25,7 @@ import java.lang.invoke.MethodHandle;
 import it.unimi.dsi.fastutil.ints.IntObjectPair;
 import it.unimi.dsi.fastutil.ints.IntObjectImmutablePair;
 
-import com.f2d.dota.init.DotaModTabs;
-import com.f2d.dota.init.DotaModSounds;
-import com.f2d.dota.init.DotaModProcedures;
-import com.f2d.dota.init.DotaModItems;
+import com.f2d.dota.init.*;
 
 public class DotaMod implements ModInitializer {
 	public static final Logger LOGGER = LogManager.getLogger(DotaMod.class);
@@ -41,6 +38,8 @@ public class DotaMod implements ModInitializer {
 		LOGGER.info("Initializing DotaMod");
 		DotaModSounds.load();
 		DotaModTabs.load();
+		DotaModFeatures.load();
+		DotaModBlocks.load();
 		DotaModItems.load();
 		DotaModProcedures.load();
 		tick();

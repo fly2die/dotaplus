@@ -36,6 +36,16 @@ public class DotaModTabs {
 					tabData.accept(DotaModItems.SHADOW_BLADE);
 					tabData.accept(DotaModItems.SILVER_EDGE);
 					tabData.accept(DotaModItems.WITCH_BLADE);
+					tabData.accept(DotaModItems.CRYSTAL_AGILITY);
+					tabData.accept(DotaModItems.CRYSTAL_ALMIGHTY);
+					tabData.accept(DotaModItems.CRYSTAL_GLORY);
+					tabData.accept(DotaModItems.CRYSTAL_INTELLIGENCE);
+					tabData.accept(DotaModItems.CRYSTAL_POWER);
+					tabData.accept(DotaModBlocks.DEEPSLATE_CRYSTAL_AGILITYA.asItem());
+					tabData.accept(DotaModBlocks.DEEPSLATE_CRYSTAL_ALMIGHTY.asItem());
+					tabData.accept(DotaModBlocks.DEEPSLATE_CRYSTAL_GLORY.asItem());
+					tabData.accept(DotaModBlocks.DEEPSLATE_CRYSTAL_INTELLIGENCE.asItem());
+					tabData.accept(DotaModBlocks.DEEPSLATE_CRYSTAL_POWER.asItem());
 				}).build());
 	}
 }

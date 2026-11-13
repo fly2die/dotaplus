@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:ore",
+  "size": 16,
+  "discard_chance_on_air_exposure": 0,
+  "targets": [
+    {
+      "target": {
+        "predicate_type": "blockstate_match",
+        "block_state": "minecraft:deepslate"
+      },
+      "state": "dota:deepslate_crystal_power"
+    }
+  ]
+}

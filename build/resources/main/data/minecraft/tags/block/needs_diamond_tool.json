@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "dota:deepslate_crystal_agilitya",
+    "dota:deepslate_crystal_glory",
+    "dota:deepslate_crystal_intelligence",
+    "dota:deepslate_crystal_power",
+    "dota:deepslate_crystal_almighty"
+  ]
+}

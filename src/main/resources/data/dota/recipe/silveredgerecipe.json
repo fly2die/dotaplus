@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "cd"
+  ],
+  "key": {
+    "a": "minecraft:diamond_sword",
+    "b": "dota:crystal_intelligence",
+    "c": "dota:shadow_blade",
+    "d": "dota:crystal_power"
+  },
+  "result": {
+    "id": "dota:silver_edge",
+    "count": 1
+  }
+}

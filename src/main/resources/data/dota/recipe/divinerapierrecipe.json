@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "cd"
+  ],
+  "key": {
+    "a": "dota:crystal_almighty",
+    "b": "dota:crystal_power",
+    "c": "dota:falcone_blade",
+    "d": "dota:crystal_glory"
+  },
+  "result": {
+    "id": "dota:divine_rapier",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dota:block/deepslate_crystal_glory",
+    "particle": "dota:block/deepslate_crystal_glory"
+  }
+}

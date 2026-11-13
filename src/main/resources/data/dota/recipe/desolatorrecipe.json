@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "ba"
+  ],
+  "key": {
+    "a": "dota:crystal_power",
+    "b": "dota:crystalys"
+  },
+  "result": {
+    "id": "dota:desolator",
+    "count": 1
+  }
+}

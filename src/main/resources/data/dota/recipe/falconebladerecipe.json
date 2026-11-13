@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "ca"
+  ],
+  "key": {
+    "a": "minecraft:gold_ingot",
+    "b": "dota:crystal_intelligence",
+    "c": "minecraft:iron_sword"
+  },
+  "result": {
+    "id": "dota:falcone_blade",
+    "count": 1
+  }
+}

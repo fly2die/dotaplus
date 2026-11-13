@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a ",
+    "bc"
+  ],
+  "key": {
+    "a": "dota:crystal_power",
+    "b": "minecraft:iron_sword",
+    "c": "dota:crystal_intelligence"
+  },
+  "result": {
+    "id": "dota:shadow_blade",
+    "count": 1
+  }
+}
