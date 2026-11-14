@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a ",
+    "ba"
+  ],
+  "key": {
+    "a": "dota:crystal_agility",
+    "b": "dota:diffusal_blade"
+  },
+  "result": {
+    "id": "dota:heavens_halberd",
+    "count": 1
+  }
+}

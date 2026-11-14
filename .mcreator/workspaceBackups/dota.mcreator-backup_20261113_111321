@@ -855,6 +855,293 @@
           "src/main/java/com/f2d/dota/item/CrystalPowerItem.java"
         ]
       }
+    },
+    {
+      "name": "DeepslateCrystalAgilitya",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_crystal_agilitya",
+      "metadata": {
+        "files": [
+          "src/main/java/com/f2d/dota/block/DeepslateCrystalAgilityaBlock.java",
+          "src/main/resources/assets/dota/models/item/deepslate_crystal_agilitya.json",
+          "src/main/resources/assets/dota/items/deepslate_crystal_agilitya.json",
+          "src/main/resources/data/dota/worldgen/feature/deepslate_crystal_agilitya.json",
+          "src/main/resources/data/dota/loot_table/blocks/deepslate_crystal_agilitya.json",
+          "src/main/resources/assets/dota/models/block/deepslate_crystal_agilitya.json",
+          "src/main/resources/data/dota/worldgen/placed_feature/deepslate_crystal_agilitya.json",
+          "src/main/resources/assets/dota/blockstates/deepslate_crystal_agilitya.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateCrystalAlmighty",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_crystal_almighty",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/worldgen/feature/deepslate_crystal_almighty.json",
+          "src/main/resources/data/dota/worldgen/placed_feature/deepslate_crystal_almighty.json",
+          "src/main/resources/assets/dota/items/deepslate_crystal_almighty.json",
+          "src/main/resources/assets/dota/models/block/deepslate_crystal_almighty.json",
+          "src/main/resources/assets/dota/blockstates/deepslate_crystal_almighty.json",
+          "src/main/java/com/f2d/dota/block/DeepslateCrystalAlmightyBlock.java",
+          "src/main/resources/data/dota/loot_table/blocks/deepslate_crystal_almighty.json",
+          "src/main/resources/assets/dota/models/item/deepslate_crystal_almighty.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateCrystalGlory",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_crystal_glory",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/items/deepslate_crystal_glory.json",
+          "src/main/resources/data/dota/worldgen/placed_feature/deepslate_crystal_glory.json",
+          "src/main/java/com/f2d/dota/block/DeepslateCrystalGloryBlock.java",
+          "src/main/resources/assets/dota/blockstates/deepslate_crystal_glory.json",
+          "src/main/resources/data/dota/worldgen/feature/deepslate_crystal_glory.json",
+          "src/main/resources/data/dota/loot_table/blocks/deepslate_crystal_glory.json",
+          "src/main/resources/assets/dota/models/block/deepslate_crystal_glory.json",
+          "src/main/resources/assets/dota/models/item/deepslate_crystal_glory.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateCrystalIntelligence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_crystal_intelligence",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/loot_table/blocks/deepslate_crystal_intelligence.json",
+          "src/main/resources/assets/dota/models/block/deepslate_crystal_intelligence.json",
+          "src/main/resources/data/dota/worldgen/feature/deepslate_crystal_intelligence.json",
+          "src/main/java/com/f2d/dota/block/DeepslateCrystalIntelligenceBlock.java",
+          "src/main/resources/assets/dota/blockstates/deepslate_crystal_intelligence.json",
+          "src/main/resources/data/dota/worldgen/placed_feature/deepslate_crystal_intelligence.json",
+          "src/main/resources/assets/dota/models/item/deepslate_crystal_intelligence.json",
+          "src/main/resources/assets/dota/items/deepslate_crystal_intelligence.json"
+        ]
+      }
+    },
+    {
+      "name": "DeepslateCrystalPower",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_crystal_power",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/items/deepslate_crystal_power.json",
+          "src/main/resources/data/dota/worldgen/placed_feature/deepslate_crystal_power.json",
+          "src/main/resources/assets/dota/models/item/deepslate_crystal_power.json",
+          "src/main/resources/assets/dota/blockstates/deepslate_crystal_power.json",
+          "src/main/resources/data/dota/loot_table/blocks/deepslate_crystal_power.json",
+          "src/main/java/com/f2d/dota/block/DeepslateCrystalPowerBlock.java",
+          "src/main/resources/data/dota/worldgen/feature/deepslate_crystal_power.json",
+          "src/main/resources/assets/dota/models/block/deepslate_crystal_power.json"
+        ]
+      }
+    },
+    {
+      "name": "Abyssalbladerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyssalbladerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/abyssalbladerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Battlefuryrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battlefuryrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/battlefuryrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Butterflyrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butterflyrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/butterflyrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Crystalysrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystalysrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/crystalysrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Desolatorrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desolatorrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/desolatorrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Diffusalbladerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diffusalbladerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/diffusalbladerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Divinerapierrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "divinerapierrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/divinerapierrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Echosabrerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "echosabrerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/echosabrerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Falconebladerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "falconebladerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/falconebladerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Heavenshalberdrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenshalberdrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/heavenshalberdrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Monkeykingbarrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monkeykingbarrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/monkeykingbarrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Parasmarecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parasmarecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/parasmarecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Satanicrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "satanicrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/satanicrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Shadowbladerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadowbladerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/shadowbladerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Silveredgerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silveredgerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/silveredgerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Witchbladerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "witchbladerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/witchbladerecipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -960,6 +1247,20 @@
     "ITEMS:minecraft:axes": [
       "~Parasma@CUSTOM:Parasma",
       "~BattleFury@CUSTOM:BattleFury"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~DeepslateCrystalPower@CUSTOM:DeepslateCrystalPower",
+      "~DeepslateCrystalIntelligence@CUSTOM:DeepslateCrystalIntelligence",
+      "~DeepslateCrystalGlory@CUSTOM:DeepslateCrystalGlory",
+      "~DeepslateCrystalAlmighty@CUSTOM:DeepslateCrystalAlmighty",
+      "~DeepslateCrystalAgilitya@CUSTOM:DeepslateCrystalAgilitya"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~DeepslateCrystalPower@CUSTOM:DeepslateCrystalPower",
+      "~DeepslateCrystalIntelligence@CUSTOM:DeepslateCrystalIntelligence",
+      "~DeepslateCrystalGlory@CUSTOM:DeepslateCrystalGlory",
+      "~DeepslateCrystalAlmighty@CUSTOM:DeepslateCrystalAlmighty",
+      "~DeepslateCrystalAgilitya@CUSTOM:DeepslateCrystalAgilitya"
     ]
   },
   "tab_element_order": {
@@ -985,7 +1286,12 @@
       "CrystalAlmighty",
       "CrystalGlory",
       "CrystalIntelligence",
-      "CrystalPower"
+      "CrystalPower",
+      "DeepslateCrystalAgilitya",
+      "DeepslateCrystalAlmighty",
+      "DeepslateCrystalGlory",
+      "DeepslateCrystalIntelligence",
+      "DeepslateCrystalPower"
     ]
   },
   "language_map": {
@@ -1021,7 +1327,12 @@
       "item.dota.crystal_almighty": "Crystal Almighty",
       "item.dota.crystal_glory": "Crystal Glory",
       "item.dota.crystal_intelligence": "Crystal Intelligence",
-      "item.dota.crystal_power": "Crystal Power"
+      "item.dota.crystal_power": "Crystal Power",
+      "item.dota.deepslate_crystal_agilitya": "Deepslate Crystal Agilitya",
+      "item.dota.deepslate_crystal_almighty": "Deepslate Crystal Almighty",
+      "item.dota.deepslate_crystal_glory": "Deepslate Crystal Glory",
+      "item.dota.deepslate_crystal_intelligence": "Deepslate Crystal Intelligence",
+      "item.dota.deepslate_crystal_power": "Deepslate Crystal Power"
     }
   },
   "metadata": {
@@ -1030,6 +1341,8 @@
       "src/main/java/com/f2d/dota/mixin/RepairItemRecipeMixin.java",
       "src/main/java/com/f2d/dota/mixin/ServerPlayerMixin.java",
       "src/main/java/com/f2d/dota/init/DotaModItems.java",
+      "src/main/java/com/f2d/dota/init/DotaModBlocks.java",
+      "src/main/java/com/f2d/dota/init/DotaModFeatures.java",
       "src/main/java/com/f2d/dota/event/ItemEvents.java",
       "src/main/resources/dota.mixins.json",
       "src/main/java/com/f2d/dota/mixin/BoneMealItemMixin.java",
@@ -1060,17 +1373,20 @@
   "workspaceSettings": {
     "modid": "dota",
     "modName": "Dota+",
-    "version": "1.2.0",
+    "version": "1.2.3",
+    "description": "This mod adds new items, ores, and weapons inspired by a popular MOBA game.",
     "author": "f2d",
-    "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
+    "websiteURL": "https://github.com/fly2die/dotaplus",
+    "license": "All Rights Reserved",
     "serverSideOnly": false,
+    "modPicture": "icon-11",
+    "modIcon": "icon-11",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "fabric-26.3",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "https://github.com/fly2die/dotaplus",
     "modElementsPackage": "com.f2d.dota"
   },
   "mcreatorVersion": 202600341718

@@ -17,8 +17,9 @@
     "dockSizes": {}
   },
   "bottomDockState": {
+    "expandedDock": "console",
     "dockSizes": {
-      "console": 103,
+      "console": 27,
       "code_viewer": 721,
       "debugger": 300
     }

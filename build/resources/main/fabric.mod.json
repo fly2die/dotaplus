@@ -1,16 +1,18 @@
 {
   "schemaVersion": 1,
   "id": "dota",
-  "version": "1.2.0",
+  "version": "1.2.3",
   "name": "Dota+",
+  "description": "This mod adds new items, ores, and weapons inspired by a popular MOBA game.",
   "authors": [
     "f2d"
   ],
   "contact": {
-    "homepage": "https://mcreator.net",
+    "homepage": "https://github.com/fly2die/dotaplus",
     "sources": ""
   },
-  "license": "Not specified",
+  "license": "All Rights Reserved",
+  "icon": "logo.png",
   "environment": "*",
   "entrypoints": {
     "main": [

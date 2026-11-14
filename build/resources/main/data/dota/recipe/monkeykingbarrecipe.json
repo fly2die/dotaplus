@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "ba"
+  ],
+  "key": {
+    "a": "dota:crystal_glory",
+    "b": "dota:crystalys"
+  },
+  "result": {
+    "id": "dota:monkey_king_bar",
+    "count": 1
+  }
+}

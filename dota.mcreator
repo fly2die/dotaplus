@@ -1373,16 +1373,20 @@
   "workspaceSettings": {
     "modid": "dota",
     "modName": "Dota+",
-    "version": "1.2.2",
+    "version": "1.2.3",
+    "description": "This mod adds new items, ores, and weapons inspired by a popular MOBA game.",
     "author": "f2d",
     "websiteURL": "https://github.com/fly2die/dotaplus",
     "license": "All Rights Reserved",
     "serverSideOnly": false,
+    "modPicture": "icon-11",
+    "modIcon": "icon-11",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "fabric-26.3",
+    "credits": "https://github.com/fly2die/dotaplus",
     "modElementsPackage": "com.f2d.dota"
   },
   "mcreatorVersion": 202600341718

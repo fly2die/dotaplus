@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "ca"
+  ],
+  "key": {
+    "a": "dota:crystal_glory",
+    "b": "dota:crystal_power",
+    "c": "minecraft:diamond_axe"
+  },
+  "result": {
+    "id": "dota:battle_fury",
+    "count": 1
+  }
+}

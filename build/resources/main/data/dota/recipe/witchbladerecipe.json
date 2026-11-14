@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a ",
+    "bc"
+  ],
+  "key": {
+    "a": "dota:crystal_agility",
+    "b": "minecraft:iron_sword",
+    "c": "dota:crystal_power"
+  },
+  "result": {
+    "id": "dota:witch_blade",
+    "count": 1
+  }
+}
