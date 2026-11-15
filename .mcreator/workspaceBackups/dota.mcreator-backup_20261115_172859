@@ -950,6 +950,198 @@
           "src/main/resources/assets/dota/models/block/deepslate_crystal_power.json"
         ]
       }
+    },
+    {
+      "name": "Abyssalbladerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyssalbladerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/abyssalbladerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Battlefuryrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battlefuryrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/battlefuryrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Butterflyrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butterflyrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/butterflyrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Crystalysrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystalysrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/crystalysrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Desolatorrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desolatorrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/desolatorrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Diffusalbladerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diffusalbladerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/diffusalbladerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Divinerapierrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "divinerapierrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/divinerapierrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Echosabrerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "echosabrerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/echosabrerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Falconebladerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "falconebladerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/falconebladerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Heavenshalberdrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavenshalberdrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/heavenshalberdrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Monkeykingbarrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monkeykingbarrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/monkeykingbarrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Parasmarecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parasmarecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/parasmarecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Satanicrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "satanicrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/satanicrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Shadowbladerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadowbladerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/shadowbladerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Silveredgerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silveredgerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/silveredgerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Witchbladerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "witchbladerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/witchbladerecipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1181,17 +1373,20 @@
   "workspaceSettings": {
     "modid": "dota",
     "modName": "Dota+",
-    "version": "1.2.0",
+    "version": "1.2.3",
+    "description": "This mod adds new items, ores, and weapons inspired by a popular MOBA game.",
     "author": "f2d",
-    "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
+    "websiteURL": "https://github.com/fly2die/dotaplus",
+    "license": "All Rights Reserved",
     "serverSideOnly": false,
+    "modPicture": "icon-11",
+    "modIcon": "icon-11",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "fabric-26.3",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "https://github.com/fly2die/dotaplus",
     "modElementsPackage": "com.f2d.dota"
   },
   "mcreatorVersion": 202600341718
