@@ -1367,11 +1367,11 @@
       "item.dota.crystal_glory": "Кристалл Славы",
       "item.dota.crystal_intelligence": "Кристалл Интеллекта",
       "item.dota.crystal_power": "Кристалл Силы",
-      "item.dota.deepslate_crystal_agilitya": "Глубинносланцеваый кристалл Ловкости",
-      "item.dota.deepslate_crystal_almighty": "Глубинносланцеваый кристалл Всемогущества",
-      "item.dota.deepslate_crystal_glory": "Глубинносланцеваый кристалл Славы",
-      "item.dota.deepslate_crystal_intelligence": "Глубинносланцеваый кристалл Интеллекта",
-      "item.dota.deepslate_crystal_power": "Глубинносланцеваый кристалл Силы"
+      "item.dota.deepslate_crystal_agilitya": "Глубинносланцевый кристалл Ловкости",
+      "item.dota.deepslate_crystal_almighty": "Глубинносланцевый кристалл Всемогущества",
+      "item.dota.deepslate_crystal_glory": "Глубинносланцевый кристалл Славы",
+      "item.dota.deepslate_crystal_intelligence": "Глубинносланцевый кристалл Интеллекта",
+      "item.dota.deepslate_crystal_power": "Глубинносланцевый кристалл Силы"
     }
   },
   "metadata": {
@@ -1412,7 +1412,7 @@
   "workspaceSettings": {
     "modid": "dota",
     "modName": "Dota+",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "description": "This mod adds new items, ores, and weapons inspired by a popular MOBA game.",
     "author": "f2d",
     "websiteURL": "https://github.com/fly2die/dotaplus",
