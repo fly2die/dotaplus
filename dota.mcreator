@@ -1249,18 +1249,18 @@
       "~BattleFury@CUSTOM:BattleFury"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~DeepslateCrystalPower@CUSTOM:DeepslateCrystalPower",
-      "~DeepslateCrystalIntelligence@CUSTOM:DeepslateCrystalIntelligence",
-      "~DeepslateCrystalGlory@CUSTOM:DeepslateCrystalGlory",
+      "~DeepslateCrystalAgilitya@CUSTOM:DeepslateCrystalAgilitya",
       "~DeepslateCrystalAlmighty@CUSTOM:DeepslateCrystalAlmighty",
-      "~DeepslateCrystalAgilitya@CUSTOM:DeepslateCrystalAgilitya"
+      "~DeepslateCrystalGlory@CUSTOM:DeepslateCrystalGlory",
+      "~DeepslateCrystalPower@CUSTOM:DeepslateCrystalPower",
+      "~DeepslateCrystalIntelligence@CUSTOM:DeepslateCrystalIntelligence"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
-      "~DeepslateCrystalPower@CUSTOM:DeepslateCrystalPower",
-      "~DeepslateCrystalIntelligence@CUSTOM:DeepslateCrystalIntelligence",
-      "~DeepslateCrystalGlory@CUSTOM:DeepslateCrystalGlory",
+      "~DeepslateCrystalAgilitya@CUSTOM:DeepslateCrystalAgilitya",
       "~DeepslateCrystalAlmighty@CUSTOM:DeepslateCrystalAlmighty",
-      "~DeepslateCrystalAgilitya@CUSTOM:DeepslateCrystalAgilitya"
+      "~DeepslateCrystalGlory@CUSTOM:DeepslateCrystalGlory",
+      "~DeepslateCrystalPower@CUSTOM:DeepslateCrystalPower",
+      "~DeepslateCrystalIntelligence@CUSTOM:DeepslateCrystalIntelligence"
     ]
   },
   "tab_element_order": {

@@ -1249,15 +1249,15 @@
       "~BattleFury@CUSTOM:BattleFury"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~DeepslateCrystalPower@CUSTOM:DeepslateCrystalPower",
       "~DeepslateCrystalIntelligence@CUSTOM:DeepslateCrystalIntelligence",
+      "~DeepslateCrystalPower@CUSTOM:DeepslateCrystalPower",
       "~DeepslateCrystalGlory@CUSTOM:DeepslateCrystalGlory",
       "~DeepslateCrystalAlmighty@CUSTOM:DeepslateCrystalAlmighty",
       "~DeepslateCrystalAgilitya@CUSTOM:DeepslateCrystalAgilitya"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
-      "~DeepslateCrystalPower@CUSTOM:DeepslateCrystalPower",
       "~DeepslateCrystalIntelligence@CUSTOM:DeepslateCrystalIntelligence",
+      "~DeepslateCrystalPower@CUSTOM:DeepslateCrystalPower",
       "~DeepslateCrystalGlory@CUSTOM:DeepslateCrystalGlory",
       "~DeepslateCrystalAlmighty@CUSTOM:DeepslateCrystalAlmighty",
       "~DeepslateCrystalAgilitya@CUSTOM:DeepslateCrystalAgilitya"
@@ -1335,7 +1335,7 @@
       "item.dota.deepslate_crystal_power": "Deepslate Crystal Power"
     },
     "ru_ru": {
-      "item.dota.battle_fury": "Battle Fury",
+      "item.dota.battle_fury": "Battle Fur",
       "item.dota.butterfly": "Butterfly",
       "item.dota.desolator": "Desolator",
       "item.dota.divine_rapier": "Divine Rapier",
@@ -1362,16 +1362,16 @@
       "subtitles.item.mkb": "",
       "subtitles.item.shadow_blade": "",
       "subtitles.item.silver_edge": "",
-      "item.dota.crystal_agility": "Crystal Agility",
-      "item.dota.crystal_almighty": "Crystal Almighty",
-      "item.dota.crystal_glory": "Crystal Glory",
-      "item.dota.crystal_intelligence": "Crystal Intelligence",
-      "item.dota.crystal_power": "Crystal Power",
-      "item.dota.deepslate_crystal_agilitya": "Deepslate Crystal Agilitya",
-      "item.dota.deepslate_crystal_almighty": "Deepslate Crystal Almighty",
-      "item.dota.deepslate_crystal_glory": "Deepslate Crystal Glory",
-      "item.dota.deepslate_crystal_intelligence": "Deepslate Crystal Intelligence",
-      "item.dota.deepslate_crystal_power": "Deepslate Crystal Power"
+      "item.dota.crystal_agility": "Кристалл Ловкости",
+      "item.dota.crystal_almighty": "Кристалл Всемогущества",
+      "item.dota.crystal_glory": "Кристалл Славы",
+      "item.dota.crystal_intelligence": "Кристалл Интеллекта",
+      "item.dota.crystal_power": "Кристалл Силы",
+      "item.dota.deepslate_crystal_agilitya": "Глубинносланцевый кристалл Ловкости",
+      "item.dota.deepslate_crystal_almighty": "Глубинносланцевый кристалл Всемогущества",
+      "item.dota.deepslate_crystal_glory": "Глубинносланцевый кристалл Славы",
+      "item.dota.deepslate_crystal_intelligence": "Глубинносланцевый кристалл Интеллекта",
+      "item.dota.deepslate_crystal_power": "Глубинносланцевый кристалл Силы"
     }
   },
   "metadata": {
@@ -1412,7 +1412,7 @@
   "workspaceSettings": {
     "modid": "dota",
     "modName": "Dota+",
-    "version": "1.2.3",
+    "version": "1.2.5",
     "description": "This mod adds new items, ores, and weapons inspired by a popular MOBA game.",
     "author": "f2d",
     "websiteURL": "https://github.com/fly2die/dotaplus",
