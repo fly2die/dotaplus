@@ -1,21 +1,29 @@
-| Оружие          | Зачар | Прочность | Тип   | Урон | Скорость |     |
-| --------------- | ----- | --------- | ----- | ---- | -------- | --- |
-| Abyssal Blade   | 10    | 1100      | sword | 6    | 1,6      |     |
-| Battle Fury     | 10    | 1200      | axe   | 7    | 1,4      |     |
-| Butterfly       | 10    | 1200      | sword | 6    | 2,6      |     |
-| Crystalys       | 15    | 1000      | sword | 5    | 1,4      |     |
-| Desolator       | 10    | 1100      | sword | 8    | 1,2      |     |
-| Diffusal Blade  | 15    | 800       | sword | 4    | 1,4      |     |
-| Divine Rapier   | 2     | 0         | sword | 22   | 1,2      |     |
-| Echo Sabre      | 12    | 1100      | sword | 4    | 1,2      |     |
-| Falcone Blade   | 15    | 700       | sword | 5    | 1,2      |     |
-| Heavens Halberd | 12    | 900       | sword | 6    | 1,2      |     |
-| Monkey King Bar | 10    | 1200      | sword | 7    | 2,2      |     |
-| Parasma         | 10    | 1200      | axe   | 6    | 1,4      |     |
-| Satanic         | 14    | 1100      | sword | 4    | 1,6      |     |
-| Shadow Blade    | 12    | 700       | sword | 5    | 1,2      |     |
-| Silver Edge     | 10    | 1100      | sword | 6,5  | 1,8      |     |
-| Witch Blade     | 15    | 900       | sword | 4    | 2,2      |     |
+| Оружие          | Зачар | Прочность | Тип   | Урон | Скорость | Умение | Редкость |
+| --------------- | ----- | --------- | ----- | ---- | -------- | ------ | -------- |
+| Abyssal Blade   | 10    | 1100      | sword | 6    | 1,6      | +      | редкая   |
+| Battle Fury     | 10    | 1200      | axe   | 7    | 1,4      | +      | редкая   |
+| Butterfly       | 10    | 1200      | sword | 6    | 2,6      | +      | редкая   |
+| Crystalys       | 15    | 1000      | sword | 5    | 1,4      | +      | редкая   |
+| Desolator       | 10    | 1100      | sword | 8    | 1,2      | +      | редкая   |
+| Diffusal Blade  | 15    | 800       | sword | 4    | 1,4      | +      | редкая   |
+| Divine Rapier   | 2     | 780       | sword | 22   | 1,2      | +      | эпик     |
+| Echo Sabre      | 12    | 1100      | sword | 4    | 1,2      | +      | редкая   |
+| Falcone Blade   | 15    | 700       | sword | 5    | 1,2      | +      | редкая   |
+| Heavens Halberd | 12    | 900       | sword | 6    | 1,2      | +      | редкая   |
+| Monkey King Bar | 10    | 1200      | sword | 8    | 2,4      | +      | редкая   |
+| Parasma         | 10    | 1200      | axe   | 6    | 1,4      | +      | редкая   |
+| Satanic         | 14    | 1100      | sword | 4    | 1,6      | +      | редкая   |
+| Shadow Blade    | 12    | 700       | sword | 5    | 1,2      | +      | редкая   |
+| Silver Edge     | 10    | 1100      | sword | 6,5  | 1,8      | +      | редкая   |
+| Witch Blade     | 15    | 900       | sword | 4    | 2,2      | +      | редкая   |
+|                 |       |           |       |      |          |        |          |
+| Demon Edge      | 5     | 600       | sword | 6    | 1,2      | -      | нечастая |
+| Javelin         | 5     | 450       | sword | 4    | 2        | -      | нечастая |
+| Broadsword      | 2     | 350       | sword | 4    | 1,2      | -      | нечастая |
+| Claymore        | 5     | 550       | sword | 5    | 1,2      | -      | нечастая |
+| Quelling Axe    | 2     | 100       | axe   | 6    | 0,7      | -      | обычная  |
+| Blades Attack   | 2     | 90        | sword | 3    | 2,2      | -      | обычная  |
+| Sacred Relic    | 5     | 50        | sword | 9    | 1        | -      | редкая   |
 
 
 Мод добавляет новые предметы, руды и оружия, вдохновленные популярной MOBA игры. 
