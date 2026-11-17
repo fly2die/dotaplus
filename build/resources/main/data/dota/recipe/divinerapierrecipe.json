@@ -1,16 +1,10 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "ab",
-    "cd"
+  "ingredients": [
+    "dota:demon_edge",
+    "dota:sacred_relic"
   ],
-  "key": {
-    "a": "dota:crystal_almighty",
-    "b": "dota:crystal_power",
-    "c": "dota:falcone_blade",
-    "d": "dota:crystal_glory"
-  },
   "result": {
     "id": "dota:divine_rapier",
     "count": 1

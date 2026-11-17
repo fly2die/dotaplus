@@ -1,14 +1,11 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "a ",
-    "ba"
+  "ingredients": [
+    "dota:crystal_power",
+    "dota:claymore",
+    "dota:crystal_power"
   ],
-  "key": {
-    "a": "dota:crystal_power",
-    "b": "dota:crystalys"
-  },
   "result": {
     "id": "dota:satanic",
     "count": 1

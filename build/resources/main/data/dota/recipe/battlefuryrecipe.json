@@ -1,15 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "ab",
-    "ca"
+  "ingredients": [
+    "dota:crystal_glory",
+    "dota:broadsword",
+    "dota:claymore",
+    "dota:quelling_axe"
   ],
-  "key": {
-    "a": "dota:crystal_glory",
-    "b": "dota:crystal_power",
-    "c": "minecraft:diamond_axe"
-  },
   "result": {
     "id": "dota:battle_fury",
     "count": 1

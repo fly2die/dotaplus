@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "ac ",
+    " c "
+  ],
+  "key": {
+    "a": "minecraft:iron_ingot",
+    "b": "minecraft:leather",
+    "c": "minecraft:stick"
+  },
+  "result": {
+    "id": "dota:quelling_axe",
+    "count": 1
+  }
+}

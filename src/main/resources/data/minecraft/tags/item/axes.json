@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "dota:quelling_axe",
     "dota:battle_fury",
     "dota:parasma"
   ]

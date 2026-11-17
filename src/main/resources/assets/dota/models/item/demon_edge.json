@@ -1,0 +1,7 @@
+{
+  "parent": "dota:custom/demon_edge",
+  "textures": {
+    "0": "dota:block/demon_edge",
+    "particle": "dota:item/demon_edge"
+  }
+}

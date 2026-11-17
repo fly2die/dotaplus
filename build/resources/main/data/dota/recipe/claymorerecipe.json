@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": "dota:crystal_glory",
+    "b": "minecraft:gold_ingot",
+    "c": "minecraft:stick"
+  },
+  "result": {
+    "id": "dota:claymore",
+    "count": 1
+  }
+}

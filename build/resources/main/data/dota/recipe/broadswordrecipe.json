@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": "minecraft:iron_ingot",
+    "b": "dota:crystal_glory",
+    "c": "minecraft:stick"
+  },
+  "result": {
+    "id": "dota:broadsword",
+    "count": 1
+  }
+}

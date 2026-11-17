@@ -1,16 +1,11 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "ab",
-    "cd"
+  "ingredients": [
+    "dota:demon_edge",
+    "dota:crystal_agility",
+    "dota:shadow_blade"
   ],
-  "key": {
-    "a": "minecraft:diamond_sword",
-    "b": "dota:crystal_intelligence",
-    "c": "dota:shadow_blade",
-    "d": "dota:crystal_power"
-  },
   "result": {
     "id": "dota:silver_edge",
     "count": 1

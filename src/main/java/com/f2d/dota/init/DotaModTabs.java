@@ -22,16 +22,23 @@ public class DotaModTabs {
 				CreativeModeTab.builder(CreativeModeTab.Row.TOP, 0).title(Component.translatable("item_group.dota.creative_tab_dota")).icon(() -> new ItemStack(DotaModItems.DIVINE_RAPIER)).displayItems((parameters, tabData) -> {
 					tabData.accept(DotaModItems.ABYSSAL_BLADE);
 					tabData.accept(DotaModItems.BATTLE_FURY);
+					tabData.accept(DotaModItems.BLADES_ATTACK);
+					tabData.accept(DotaModItems.BROADSWORD);
 					tabData.accept(DotaModItems.BUTTERFLY);
+					tabData.accept(DotaModItems.CLAYMORE);
 					tabData.accept(DotaModItems.CRYSTALYS);
+					tabData.accept(DotaModItems.DEMON_EDGE);
 					tabData.accept(DotaModItems.DESOLATOR);
 					tabData.accept(DotaModItems.DIFFUSAL_BLADE);
 					tabData.accept(DotaModItems.DIVINE_RAPIER);
 					tabData.accept(DotaModItems.ECHO_SABRE);
 					tabData.accept(DotaModItems.FALCONE_BLADE);
 					tabData.accept(DotaModItems.HEAVENS_HALBERD);
+					tabData.accept(DotaModItems.JAVELIN);
 					tabData.accept(DotaModItems.MONKEY_KING_BAR);
 					tabData.accept(DotaModItems.PARASMA);
+					tabData.accept(DotaModItems.QUELLING_AXE);
+					tabData.accept(DotaModItems.SACRED_RELIC);
 					tabData.accept(DotaModItems.SATANIC);
 					tabData.accept(DotaModItems.SHADOW_BLADE);
 					tabData.accept(DotaModItems.SILVER_EDGE);

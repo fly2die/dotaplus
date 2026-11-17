@@ -1,0 +1,7 @@
+{
+  "parent": "dota:custom/sacred_relic",
+  "textures": {
+    "0": "dota:block/sacred_relic",
+    "particle": "dota:item/sacred_relic"
+  }
+}

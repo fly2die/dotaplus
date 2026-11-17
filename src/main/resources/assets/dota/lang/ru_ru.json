@@ -35,5 +35,12 @@
   "item.dota.deepslate_crystal_almighty": "Глубинносланцевый кристалл Всемогущества",
   "item.dota.deepslate_crystal_glory": "Глубинносланцевый кристалл Славы",
   "item.dota.deepslate_crystal_intelligence": "Глубинносланцевый кристалл Интеллекта",
-  "item.dota.deepslate_crystal_power": "Глубинносланцевый кристалл Силы"
+  "item.dota.deepslate_crystal_power": "Глубинносланцевый кристалл Силы",
+  "item.dota.demon_edge": "Demon Edge",
+  "item.dota.javelin": "Javelin",
+  "item.dota.broadsword": "Broadsword",
+  "item.dota.claymore": "Claymore",
+  "item.dota.quelling_axe": "Quelling Axe",
+  "item.dota.blades_attack": "Blades Attack",
+  "item.dota.sacred_relic": "Sacred Relic"
 }

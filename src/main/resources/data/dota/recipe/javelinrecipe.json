@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    " b ",
+    "b  "
+  ],
+  "key": {
+    "a": "dota:crystal_glory",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "dota:javelin",
+    "count": 1
+  }
+}

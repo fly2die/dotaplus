@@ -1,14 +1,11 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "aa",
-    "ba"
+  "ingredients": [
+    "dota:crystal_agility",
+    "dota:claymore",
+    "dota:crystal_agility"
   ],
-  "key": {
-    "a": "dota:crystal_agility",
-    "b": "minecraft:diamond_sword"
-  },
   "result": {
     "id": "dota:butterfly",
     "count": 1

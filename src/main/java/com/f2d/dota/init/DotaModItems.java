@@ -44,6 +44,13 @@ public class DotaModItems {
 	public static Item DEEPSLATE_CRYSTAL_GLORY;
 	public static Item DEEPSLATE_CRYSTAL_INTELLIGENCE;
 	public static Item DEEPSLATE_CRYSTAL_POWER;
+	public static Item DEMON_EDGE;
+	public static Item JAVELIN;
+	public static Item BROADSWORD;
+	public static Item CLAYMORE;
+	public static Item QUELLING_AXE;
+	public static Item BLADES_ATTACK;
+	public static Item SACRED_RELIC;
 
 	public static void load() {
 		BATTLE_FURY = register("battle_fury", BattleFuryItem::new);
@@ -72,6 +79,13 @@ public class DotaModItems {
 		DEEPSLATE_CRYSTAL_GLORY = block(DotaModBlocks.DEEPSLATE_CRYSTAL_GLORY, "deepslate_crystal_glory", new Item.Properties().rarity(Rarity.RARE));
 		DEEPSLATE_CRYSTAL_INTELLIGENCE = block(DotaModBlocks.DEEPSLATE_CRYSTAL_INTELLIGENCE, "deepslate_crystal_intelligence", new Item.Properties().rarity(Rarity.RARE));
 		DEEPSLATE_CRYSTAL_POWER = block(DotaModBlocks.DEEPSLATE_CRYSTAL_POWER, "deepslate_crystal_power", new Item.Properties().rarity(Rarity.RARE));
+		DEMON_EDGE = register("demon_edge", DemonEdgeItem::new);
+		JAVELIN = register("javelin", JavelinItem::new);
+		BROADSWORD = register("broadsword", BroadswordItem::new);
+		CLAYMORE = register("claymore", ClaymoreItem::new);
+		QUELLING_AXE = register("quelling_axe", QuellingAxeItem::new);
+		BLADES_ATTACK = register("blades_attack", BladesAttackItem::new);
+		SACRED_RELIC = register("sacred_relic", SacredRelicItem::new);
 	}
 
 	// Start of user code block custom items

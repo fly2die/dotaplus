@@ -1,0 +1,7 @@
+{
+  "parent": "dota:custom/quelling_axe",
+  "textures": {
+    "0": "dota:block/quelling_axe",
+    "particle": "dota:item/quelling_axe"
+  }
+}

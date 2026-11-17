@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a",
+    "b "
+  ],
+  "key": {
+    "a": "minecraft:iron_ingot",
+    "b": "minecraft:leather"
+  },
+  "result": {
+    "id": "dota:blades_attack",
+    "count": 1
+  }
+}

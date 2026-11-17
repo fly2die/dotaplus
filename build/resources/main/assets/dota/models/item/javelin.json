@@ -1,0 +1,7 @@
+{
+  "parent": "dota:custom/javelin",
+  "textures": {
+    "0": "dota:block/javelin",
+    "particle": "dota:item/javelin"
+  }
+}

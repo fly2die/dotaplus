@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    " ca",
+    "c  "
+  ],
+  "key": {
+    "a": "dota:crystal_glory",
+    "b": "dota:crystal_almighty",
+    "c": "minecraft:gold_ingot"
+  },
+  "result": {
+    "id": "dota:sacred_relic",
+    "count": 1
+  }
+}

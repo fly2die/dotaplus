@@ -1,0 +1,36 @@
+{
+  "_fv": 91,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "javelin",
+    "customModelName": "javelin:default",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "javelin",
+    "name": "Javelin",
+    "rarity": "UNCOMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "CUSTOM:CreativeTabDota"
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
+    "enchantability": 5,
+    "damageVsEntity": 4.0,
+    "usageCount": 450,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

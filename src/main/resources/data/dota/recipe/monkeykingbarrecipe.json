@@ -1,14 +1,11 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "aa",
-    "ba"
+  "ingredients": [
+    "dota:demon_edge",
+    "dota:crystal_agility",
+    "dota:javelin"
   ],
-  "key": {
-    "a": "dota:crystal_glory",
-    "b": "dota:crystalys"
-  },
   "result": {
     "id": "dota:monkey_king_bar",
     "count": 1

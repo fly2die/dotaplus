@@ -1,0 +1,7 @@
+{
+  "parent": "dota:custom/claymore",
+  "textures": {
+    "0": "dota:block/claymore",
+    "particle": "dota:item/claymore"
+  }
+}

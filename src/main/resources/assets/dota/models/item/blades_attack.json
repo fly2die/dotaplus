@@ -1,0 +1,7 @@
+{
+  "parent": "dota:custom/blades_attack",
+  "textures": {
+    "0": "dota:block/blades_attack",
+    "particle": "dota:item/blades_attack"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "_fv": 91,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "quelling_axe",
+    "customModelName": "quelling_axe:default",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "quelling_axe",
+    "name": "Quelling Axe",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "CUSTOM:CreativeTabDota"
+    ],
+    "efficiency": 6.0,
+    "attackSpeed": 0.7000000000000001,
+    "enchantability": 2,
+    "damageVsEntity": 6.0,
+    "usageCount": 100,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
