@@ -1,15 +1,11 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "ab",
-    "ac"
+  "ingredients": [
+    "dota:crystal_power",
+    "dota:broadsword",
+    "dota:crystal_intelligence"
   ],
-  "key": {
-    "a": "minecraft:iron_sword",
-    "b": "dota:crystal_intelligence",
-    "c": "minecraft:gold_ingot"
-  },
   "result": {
     "id": "dota:echo_sabre",
     "count": 1

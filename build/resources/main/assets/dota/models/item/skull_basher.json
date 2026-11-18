@@ -1,0 +1,7 @@
+{
+  "parent": "dota:custom/skull_basher",
+  "textures": {
+    "0": "dota:block/skull_basher",
+    "particle": "dota:item/skull_basher"
+  }
+}

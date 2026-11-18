@@ -1,15 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "ab",
-    "ca"
+  "ingredients": [
+    "dota:crystal_almighty",
+    "dota:crystal_power",
+    "dota:crystal_power",
+    "dota:skull_basher"
   ],
-  "key": {
-    "a": "dota:crystal_power",
-    "b": "dota:crystalys",
-    "c": "dota:satanic"
-  },
   "result": {
     "id": "dota:abyssal_blade",
     "count": 1

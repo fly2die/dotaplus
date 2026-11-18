@@ -1,0 +1,7 @@
+{
+  "parent": "dota:custom/mithril_hammer",
+  "textures": {
+    "0": "dota:block/mithril_hammer",
+    "particle": "dota:item/mithril_hammer"
+  }
+}
