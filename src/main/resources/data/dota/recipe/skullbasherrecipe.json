@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "dota:crystal_power",
+    "dota:mithril_hammer",
+    "dota:crystal_power"
+  ],
+  "result": {
+    "id": "dota:skull_basher",
+    "count": 1
+  }
+}

@@ -1202,6 +1202,135 @@
           "src/main/java/com/f2d/dota/item/ClaymoreItem.java"
         ]
       }
+    },
+    {
+      "name": "QuellingAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quelling_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/f2d/dota/item/QuellingAxeItem.java",
+          "src/main/resources/assets/dota/models/item/quelling_axe.json",
+          "src/main/resources/assets/dota/items/quelling_axe.json",
+          "src/main/resources/assets/dota/models/item/quelling_axe_gui.json"
+        ]
+      }
+    },
+    {
+      "name": "BladesAttack",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blades_attack",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/items/blades_attack.json",
+          "src/main/java/com/f2d/dota/item/BladesAttackItem.java",
+          "src/main/resources/assets/dota/models/item/blades_attack_gui.json",
+          "src/main/resources/assets/dota/models/item/blades_attack.json"
+        ]
+      }
+    },
+    {
+      "name": "SacredRelic",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacred_relic",
+      "metadata": {
+        "files": [
+          "src/main/java/com/f2d/dota/item/SacredRelicItem.java",
+          "src/main/resources/assets/dota/items/sacred_relic.json",
+          "src/main/resources/assets/dota/models/item/sacred_relic.json",
+          "src/main/resources/assets/dota/models/item/sacred_relic_gui.json"
+        ]
+      }
+    },
+    {
+      "name": "Bladesattackrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bladesattackrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/bladesattackrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Broadswordrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broadswordrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/broadswordrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Claymorerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "claymorerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/claymorerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Demonedgerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonedgerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/demonedgerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Javelinrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "javelinrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/javelinrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Quellingaxerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quellingaxerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/quellingaxerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Sacredrelicrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacredrelicrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/sacredrelicrecipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1289,18 +1418,20 @@
   ],
   "tag_elements": {
     "ITEMS:minecraft:swords": [
+      "~DivineRapier@CUSTOM:DivineRapier",
+      "~Javelin@CUSTOM:Javelin",
+      "~SacredRelic@CUSTOM:SacredRelic",
+      "~BladesAttack@CUSTOM:BladesAttack",
+      "~MonkeyKingBar@CUSTOM:MonkeyKingBar",
       "~Claymore@CUSTOM:Claymore",
       "~Broadsword@CUSTOM:Broadsword",
-      "~Javelin@CUSTOM:Javelin",
       "~DemonEdge@CUSTOM:DemonEdge",
       "~Satanic@CUSTOM:Satanic",
       "~SilverEdge@CUSTOM:SilverEdge",
       "~ShadowBlade@CUSTOM:ShadowBlade",
       "~WitchBlade@CUSTOM:WitchBlade",
-      "~MonkeyKingBar@CUSTOM:MonkeyKingBar",
       "~FalconeBlade@CUSTOM:FalconeBlade",
       "~EchoSabre@CUSTOM:EchoSabre",
-      "~DivineRapier@CUSTOM:DivineRapier",
       "~Desolator@CUSTOM:Desolator",
       "~Crystalys@CUSTOM:Crystalys",
       "~Butterfly@CUSTOM:Butterfly",
@@ -1309,20 +1440,21 @@
       "~DiffusalBlade@CUSTOM:DiffusalBlade"
     ],
     "ITEMS:minecraft:axes": [
+      "~QuellingAxe@CUSTOM:QuellingAxe",
       "~Parasma@CUSTOM:Parasma",
       "~BattleFury@CUSTOM:BattleFury"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~DeepslateCrystalGlory@CUSTOM:DeepslateCrystalGlory",
       "~DeepslateCrystalAgilitya@CUSTOM:DeepslateCrystalAgilitya",
       "~DeepslateCrystalAlmighty@CUSTOM:DeepslateCrystalAlmighty",
-      "~DeepslateCrystalGlory@CUSTOM:DeepslateCrystalGlory",
       "~DeepslateCrystalPower@CUSTOM:DeepslateCrystalPower",
       "~DeepslateCrystalIntelligence@CUSTOM:DeepslateCrystalIntelligence"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
+      "~DeepslateCrystalGlory@CUSTOM:DeepslateCrystalGlory",
       "~DeepslateCrystalAgilitya@CUSTOM:DeepslateCrystalAgilitya",
       "~DeepslateCrystalAlmighty@CUSTOM:DeepslateCrystalAlmighty",
-      "~DeepslateCrystalGlory@CUSTOM:DeepslateCrystalGlory",
       "~DeepslateCrystalPower@CUSTOM:DeepslateCrystalPower",
       "~DeepslateCrystalIntelligence@CUSTOM:DeepslateCrystalIntelligence"
     ]
@@ -1332,8 +1464,10 @@
     "CUSTOM:CreativeTabDota": [
       "AbyssalBlade",
       "BattleFury",
+      "BladesAttack",
       "Broadsword",
       "Butterfly",
+      "Claymore",
       "Crystalys",
       "DemonEdge",
       "Desolator",
@@ -1345,6 +1479,8 @@
       "Javelin",
       "MonkeyKingBar",
       "Parasma",
+      "QuellingAxe",
+      "SacredRelic",
       "Satanic",
       "ShadowBlade",
       "SilverEdge",
@@ -1358,8 +1494,7 @@
       "DeepslateCrystalAlmighty",
       "DeepslateCrystalGlory",
       "DeepslateCrystalIntelligence",
-      "DeepslateCrystalPower",
-      "Claymore"
+      "DeepslateCrystalPower"
     ]
   },
   "language_map": {
@@ -1404,7 +1539,10 @@
       "item.dota.demon_edge": "Demon Edge",
       "item.dota.javelin": "Javelin",
       "item.dota.broadsword": "Broadsword",
-      "item.dota.claymore": "Claymore"
+      "item.dota.claymore": "Claymore",
+      "item.dota.quelling_axe": "Quelling Axe",
+      "item.dota.blades_attack": "Blades Attack",
+      "item.dota.sacred_relic": "Sacred Relic"
     },
     "ru_ru": {
       "item.dota.battle_fury": "Battle Fur",
@@ -1447,7 +1585,10 @@
       "item.dota.demon_edge": "Demon Edge",
       "item.dota.javelin": "Javelin",
       "item.dota.broadsword": "Broadsword",
-      "item.dota.claymore": "Claymore"
+      "item.dota.claymore": "Claymore",
+      "item.dota.quelling_axe": "Quelling Axe",
+      "item.dota.blades_attack": "Blades Attack",
+      "item.dota.sacred_relic": "Sacred Relic"
     }
   },
   "metadata": {

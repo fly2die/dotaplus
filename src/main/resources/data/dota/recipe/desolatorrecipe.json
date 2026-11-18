@@ -1,14 +1,11 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "aa",
-    "ba"
+  "ingredients": [
+    "dota:mithril_hammer",
+    "dota:crystal_power",
+    "dota:mithril_hammer"
   ],
-  "key": {
-    "a": "dota:crystal_power",
-    "b": "dota:crystalys"
-  },
   "result": {
     "id": "dota:desolator",
     "count": 1

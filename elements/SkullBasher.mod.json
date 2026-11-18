@@ -1,0 +1,37 @@
+{
+  "_fv": 91,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "skull_basher",
+    "customModelName": "skull_basher:default",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "skull_basher",
+    "name": "Skull Basher",
+    "rarity": "RARE",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "CUSTOM:CreativeTabDota"
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 0.5,
+    "enchantability": 5,
+    "damageVsEntity": 7.0,
+    "usageCount": 680,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": "SkullBasherPr"
+  }
+}
