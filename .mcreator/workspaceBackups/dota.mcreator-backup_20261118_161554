@@ -1232,6 +1232,201 @@
           "src/main/resources/assets/dota/models/item/blades_attack.json"
         ]
       }
+    },
+    {
+      "name": "SacredRelic",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacred_relic",
+      "metadata": {
+        "files": [
+          "src/main/java/com/f2d/dota/item/SacredRelicItem.java",
+          "src/main/resources/assets/dota/items/sacred_relic.json",
+          "src/main/resources/assets/dota/models/item/sacred_relic.json",
+          "src/main/resources/assets/dota/models/item/sacred_relic_gui.json"
+        ]
+      }
+    },
+    {
+      "name": "Bladesattackrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bladesattackrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/bladesattackrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Broadswordrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broadswordrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/broadswordrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Claymorerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "claymorerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/claymorerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Demonedgerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonedgerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/demonedgerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Javelinrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "javelinrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/javelinrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Quellingaxerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quellingaxerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/quellingaxerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Sacredrelicrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacredrelicrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/sacredrelicrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MithrilHammer",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mithril_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/com/f2d/dota/item/MithrilHammerItem.java",
+          "src/main/resources/assets/dota/models/item/mithril_hammer.json",
+          "src/main/resources/assets/dota/models/item/mithril_hammer_gui.json",
+          "src/main/resources/assets/dota/items/mithril_hammer.json"
+        ]
+      }
+    },
+    {
+      "name": "SkullBasherPr",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skull_basher_pr",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/f2d/dota/procedures/SkullBasherPrProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "SkullBasher",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skull_basher",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/items/skull_basher.json",
+          "src/main/java/com/f2d/dota/item/SkullBasherItem.java",
+          "src/main/resources/assets/dota/models/item/skull_basher.json",
+          "src/main/resources/assets/dota/models/item/skull_basher_gui.json"
+        ]
+      }
+    },
+    {
+      "name": "Mithrilhammerrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mithrilhammerrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/mithrilhammerrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Skullbasherrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skullbasherrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/skullbasherrecipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1319,11 +1514,16 @@
   ],
   "tag_elements": {
     "ITEMS:minecraft:swords": [
+      "~AbyssalBlade@CUSTOM:AbyssalBlade",
+      "~SkullBasher@CUSTOM:SkullBasher",
+      "~MithrilHammer@CUSTOM:MithrilHammer",
+      "~DivineRapier@CUSTOM:DivineRapier",
+      "~Javelin@CUSTOM:Javelin",
+      "~SacredRelic@CUSTOM:SacredRelic",
       "~BladesAttack@CUSTOM:BladesAttack",
       "~MonkeyKingBar@CUSTOM:MonkeyKingBar",
       "~Claymore@CUSTOM:Claymore",
       "~Broadsword@CUSTOM:Broadsword",
-      "~Javelin@CUSTOM:Javelin",
       "~DemonEdge@CUSTOM:DemonEdge",
       "~Satanic@CUSTOM:Satanic",
       "~SilverEdge@CUSTOM:SilverEdge",
@@ -1331,11 +1531,9 @@
       "~WitchBlade@CUSTOM:WitchBlade",
       "~FalconeBlade@CUSTOM:FalconeBlade",
       "~EchoSabre@CUSTOM:EchoSabre",
-      "~DivineRapier@CUSTOM:DivineRapier",
       "~Desolator@CUSTOM:Desolator",
       "~Crystalys@CUSTOM:Crystalys",
       "~Butterfly@CUSTOM:Butterfly",
-      "~AbyssalBlade@CUSTOM:AbyssalBlade",
       "~HeavensHalberd@CUSTOM:HeavensHalberd",
       "~DiffusalBlade@CUSTOM:DiffusalBlade"
     ],
@@ -1345,16 +1543,16 @@
       "~BattleFury@CUSTOM:BattleFury"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~DeepslateCrystalGlory@CUSTOM:DeepslateCrystalGlory",
       "~DeepslateCrystalAgilitya@CUSTOM:DeepslateCrystalAgilitya",
       "~DeepslateCrystalAlmighty@CUSTOM:DeepslateCrystalAlmighty",
-      "~DeepslateCrystalGlory@CUSTOM:DeepslateCrystalGlory",
       "~DeepslateCrystalPower@CUSTOM:DeepslateCrystalPower",
       "~DeepslateCrystalIntelligence@CUSTOM:DeepslateCrystalIntelligence"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
+      "~DeepslateCrystalGlory@CUSTOM:DeepslateCrystalGlory",
       "~DeepslateCrystalAgilitya@CUSTOM:DeepslateCrystalAgilitya",
       "~DeepslateCrystalAlmighty@CUSTOM:DeepslateCrystalAlmighty",
-      "~DeepslateCrystalGlory@CUSTOM:DeepslateCrystalGlory",
       "~DeepslateCrystalPower@CUSTOM:DeepslateCrystalPower",
       "~DeepslateCrystalIntelligence@CUSTOM:DeepslateCrystalIntelligence"
     ]
@@ -1364,6 +1562,7 @@
     "CUSTOM:CreativeTabDota": [
       "AbyssalBlade",
       "BattleFury",
+      "BladesAttack",
       "Broadsword",
       "Butterfly",
       "Claymore",
@@ -1376,12 +1575,15 @@
       "FalconeBlade",
       "HeavensHalberd",
       "Javelin",
+      "MithrilHammer",
       "MonkeyKingBar",
       "Parasma",
       "QuellingAxe",
+      "SacredRelic",
       "Satanic",
       "ShadowBlade",
       "SilverEdge",
+      "SkullBasher",
       "WitchBlade",
       "CrystalAgility",
       "CrystalAlmighty",
@@ -1392,8 +1594,7 @@
       "DeepslateCrystalAlmighty",
       "DeepslateCrystalGlory",
       "DeepslateCrystalIntelligence",
-      "DeepslateCrystalPower",
-      "BladesAttack"
+      "DeepslateCrystalPower"
     ]
   },
   "language_map": {
@@ -1440,7 +1641,10 @@
       "item.dota.broadsword": "Broadsword",
       "item.dota.claymore": "Claymore",
       "item.dota.quelling_axe": "Quelling Axe",
-      "item.dota.blades_attack": "Blades Attack"
+      "item.dota.blades_attack": "Blades Attack",
+      "item.dota.sacred_relic": "Sacred Relic",
+      "item.dota.mithril_hammer": "Mithril Hammer",
+      "item.dota.skull_basher": "Skull Basher"
     },
     "ru_ru": {
       "item.dota.battle_fury": "Battle Fur",
@@ -1485,7 +1689,10 @@
       "item.dota.broadsword": "Broadsword",
       "item.dota.claymore": "Claymore",
       "item.dota.quelling_axe": "Quelling Axe",
-      "item.dota.blades_attack": "Blades Attack"
+      "item.dota.blades_attack": "Blades Attack",
+      "item.dota.sacred_relic": "Sacred Relic",
+      "item.dota.mithril_hammer": "Mithril Hammer",
+      "item.dota.skull_basher": "Skull Basher"
     }
   },
   "metadata": {
@@ -1526,7 +1733,7 @@
   "workspaceSettings": {
     "modid": "dota",
     "modName": "Dota+",
-    "version": "1.3.0",
+    "version": "1.3.6",
     "description": "This mod adds new items, ores, and weapons inspired by a popular MOBA game.",
     "author": "f2d",
     "websiteURL": "https://github.com/fly2die/dotaplus",
