@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c "
+  ],
+  "key": {
+    "a": "minecraft:iron_ingot",
+    "b": "dota:crystal_agility",
+    "c": "minecraft:stick"
+  },
+  "result": {
+    "id": "dota:blitz_knuckles",
+    "count": 1
+  }
+}

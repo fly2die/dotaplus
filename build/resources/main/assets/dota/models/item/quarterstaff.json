@@ -1,0 +1,7 @@
+{
+  "parent": "dota:custom/quarterstaff",
+  "textures": {
+    "0": "dota:block/quarterstaff",
+    "particle": "dota:item/quarterstaff"
+  }
+}

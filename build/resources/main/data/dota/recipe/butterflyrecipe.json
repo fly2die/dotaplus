@@ -3,8 +3,9 @@
   "category": "misc",
   "ingredients": [
     "dota:crystal_agility",
-    "dota:claymore",
-    "dota:crystal_agility"
+    "dota:crystal_agility",
+    "dota:crystal_agility",
+    "dota:quarterstaff"
   ],
   "result": {
     "id": "dota:butterfly",

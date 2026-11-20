@@ -1,14 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "aa",
-    "ba"
+  "ingredients": [
+    "dota:crystal_intelligence",
+    "dota:crystal_intelligence",
+    "dota:crystal_intelligence",
+    "dota:witch_blade"
   ],
-  "key": {
-    "a": "dota:crystal_agility",
-    "b": "dota:witch_blade"
-  },
   "result": {
     "id": "dota:parasma",
     "count": 1

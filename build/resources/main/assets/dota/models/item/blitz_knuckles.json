@@ -1,0 +1,7 @@
+{
+  "parent": "dota:custom/blitz_knuckles",
+  "textures": {
+    "0": "dota:block/blitz_knuckles",
+    "particle": "dota:item/blitz_knuckles"
+  }
+}

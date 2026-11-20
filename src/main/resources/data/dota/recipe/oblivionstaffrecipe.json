@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a",
+    "b "
+  ],
+  "key": {
+    "a": "minecraft:bone",
+    "b": "dota:blitz_knuckles"
+  },
+  "result": {
+    "id": "dota:oblivion_staff",
+    "count": 1
+  }
+}

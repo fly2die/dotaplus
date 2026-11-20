@@ -3,8 +3,8 @@
   "category": "misc",
   "ingredients": [
     "dota:demon_edge",
-    "dota:crystal_agility",
-    "dota:javelin"
+    "dota:blitz_knuckles",
+    "dota:quarterstaff"
   ],
   "result": {
     "id": "dota:monkey_king_bar",

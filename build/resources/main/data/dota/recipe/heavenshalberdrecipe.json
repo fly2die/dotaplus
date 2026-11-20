@@ -2,12 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "a ",
-    "ba"
+    "  a",
+    " b ",
+    "c  "
   ],
   "key": {
-    "a": "dota:crystal_agility",
-    "b": "dota:diffusal_blade"
+    "a": "dota:crystal_glory",
+    "b": "dota:crystal_power",
+    "c": "minecraft:stick"
   },
   "result": {
     "id": "dota:heavens_halberd",

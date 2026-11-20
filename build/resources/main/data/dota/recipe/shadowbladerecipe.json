@@ -2,9 +2,9 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "dota:crystal_agility",
-    "dota:broadsword",
-    "dota:crystal_intelligence"
+    "dota:blitz_knuckles",
+    "dota:crystal_intelligence",
+    "dota:claymore"
   ],
   "result": {
     "id": "dota:shadow_blade",

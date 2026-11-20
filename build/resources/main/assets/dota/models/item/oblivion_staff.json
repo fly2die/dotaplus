@@ -1,0 +1,7 @@
+{
+  "parent": "dota:custom/oblivion_staff",
+  "textures": {
+    "0": "dota:block/oblivion_staff",
+    "particle": "dota:item/oblivion_staff"
+  }
+}

@@ -18,7 +18,7 @@ public class ButterflyItem extends Item {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 1200, 4f, 0, 10, TagKey.create(Registries.ITEM, Identifier.parse("dota:butterfly_repair_items")));
 
 	public ButterflyItem(Item.Properties properties) {
-		super(properties.sword(TOOL_MATERIAL, 5f, -1.6f).rarity(Rarity.RARE));
+		super(properties.sword(TOOL_MATERIAL, 5f, -0.2f).rarity(Rarity.RARE));
 	}
 
 	@Override

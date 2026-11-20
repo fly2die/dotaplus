@@ -23,6 +23,7 @@ public class DotaModTabs {
 					tabData.accept(DotaModItems.ABYSSAL_BLADE);
 					tabData.accept(DotaModItems.BATTLE_FURY);
 					tabData.accept(DotaModItems.BLADES_ATTACK);
+					tabData.accept(DotaModItems.BLITZ_KNUCKLES);
 					tabData.accept(DotaModItems.BROADSWORD);
 					tabData.accept(DotaModItems.BUTTERFLY);
 					tabData.accept(DotaModItems.CLAYMORE);
@@ -37,13 +38,16 @@ public class DotaModTabs {
 					tabData.accept(DotaModItems.JAVELIN);
 					tabData.accept(DotaModItems.MITHRIL_HAMMER);
 					tabData.accept(DotaModItems.MONKEY_KING_BAR);
+					tabData.accept(DotaModItems.OBLIVION_STAFF);
 					tabData.accept(DotaModItems.PARASMA);
+					tabData.accept(DotaModItems.QUARTERSTAFF);
 					tabData.accept(DotaModItems.QUELLING_AXE);
 					tabData.accept(DotaModItems.SACRED_RELIC);
 					tabData.accept(DotaModItems.SATANIC);
 					tabData.accept(DotaModItems.SHADOW_BLADE);
 					tabData.accept(DotaModItems.SILVER_EDGE);
 					tabData.accept(DotaModItems.SKULL_BASHER);
+					tabData.accept(DotaModItems.SKYPIERCER);
 					tabData.accept(DotaModItems.WITCH_BLADE);
 					tabData.accept(DotaModItems.CRYSTAL_AGILITY);
 					tabData.accept(DotaModItems.CRYSTAL_ALMIGHTY);
@@ -55,8 +59,6 @@ public class DotaModTabs {
 					tabData.accept(DotaModBlocks.DEEPSLATE_CRYSTAL_GLORY.asItem());
 					tabData.accept(DotaModBlocks.DEEPSLATE_CRYSTAL_INTELLIGENCE.asItem());
 					tabData.accept(DotaModBlocks.DEEPSLATE_CRYSTAL_POWER.asItem());
-					tabData.accept(DotaModItems.QUARTERSTAFF);
-					tabData.accept(DotaModItems.SKYPIERCER);
 				}).build());
 	}
 }

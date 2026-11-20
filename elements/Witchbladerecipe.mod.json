@@ -10,14 +10,14 @@
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
-      "CUSTOM:CrystalAgility",
       "",
       "",
-      "Items.IRON_SWORD",
-      "CUSTOM:CrystalPower",
       "",
+      "CUSTOM:CrystalIntelligence",
+      "",
+      "CUSTOM:OblivionStaff",
       "",
       "",
       ""
