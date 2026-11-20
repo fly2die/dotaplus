@@ -8,7 +8,6 @@
     ]
   },
   "leftDockState": {
-    "expandedDock": "project_browser",
     "dockSizes": {
       "project_browser": 170,
       "local_history": 407
@@ -18,6 +17,7 @@
     "dockSizes": {}
   },
   "bottomDockState": {
+    "expandedDock": "console",
     "dockSizes": {
       "console": 220,
       "code_viewer": 721,

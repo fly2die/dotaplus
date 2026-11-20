@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc"
+  ],
+  "key": {
+    "a": "dota:crystal_power",
+    "b": "dota:heavens_halberd",
+    "c": "dota:crystal_agility"
+  },
+  "result": {
+    "id": "dota:skypiercer",
+    "count": 1
+  }
+}

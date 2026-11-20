@@ -13,13 +13,13 @@
     "recipeShapeless": true,
     "recipeSlots": [
       "",
-      "",
-      "",
-      "CUSTOM:CrystalAgility",
-      "CUSTOM:Claymore",
       "CUSTOM:CrystalAgility",
       "",
+      "CUSTOM:CrystalAgility",
       "",
+      "CUSTOM:CrystalAgility",
+      "",
+      "CUSTOM:Quarterstaff",
       ""
     ],
     "recipeReturnStack": "CUSTOM:Butterfly",

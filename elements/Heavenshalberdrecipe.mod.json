@@ -12,13 +12,13 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      "CUSTOM:CrystalAgility",
       "",
       "",
-      "CUSTOM:DiffusalBlade",
-      "CUSTOM:CrystalAgility",
+      "CUSTOM:CrystalGlory",
       "",
+      "CUSTOM:CrystalPower",
       "",
+      "Items.STICK",
       "",
       ""
     ],

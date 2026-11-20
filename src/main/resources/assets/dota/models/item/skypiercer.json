@@ -1,0 +1,7 @@
+{
+  "parent": "dota:custom/skypiercer",
+  "textures": {
+    "0": "dota:block/skypiercer",
+    "particle": "dota:item/skypiercer"
+  }
+}

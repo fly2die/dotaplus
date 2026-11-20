@@ -100,5 +100,23 @@ public class ProccesPKMbyModProcedure {
 					_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 120, 2));
 			}
 		}
+		if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == DotaModItems.HEAVENS_HALBERD) {
+			if (!(sourceentity instanceof Player _plrCldCheck29 && _plrCldCheck29.getCooldowns().isOnCooldown(new ItemStack(DotaModItems.SKYPIERCER)))) {
+				if (world instanceof Level _level) {
+					if (!_level.isClientSide()) {
+						_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("dota:item.heaven_halberd")), SoundSource.PLAYERS, (float) 0.8,
+								(float) Mth.nextDouble(RandomSource.create(), 0.8, 1.2));
+					} else {
+						_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("dota:item.heaven_halberd")), SoundSource.PLAYERS, (float) 0.8, (float) Mth.nextDouble(RandomSource.create(), 0.8, 1.2), false);
+					}
+				}
+				if (world instanceof ServerLevel _level)
+					_level.sendParticles(ParticleTypes.INFESTED, x, (y + 1), z, 8, 0.5, 1, 0.5, 0.1);
+				if (sourceentity instanceof Player _player)
+					_player.getCooldowns().addCooldown(new ItemStack(DotaModItems.SKYPIERCER), 200);
+				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+					_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 120, 2));
+			}
+		}
 	}
 }

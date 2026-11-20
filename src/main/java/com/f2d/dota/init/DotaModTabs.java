@@ -55,6 +55,8 @@ public class DotaModTabs {
 					tabData.accept(DotaModBlocks.DEEPSLATE_CRYSTAL_GLORY.asItem());
 					tabData.accept(DotaModBlocks.DEEPSLATE_CRYSTAL_INTELLIGENCE.asItem());
 					tabData.accept(DotaModBlocks.DEEPSLATE_CRYSTAL_POWER.asItem());
+					tabData.accept(DotaModItems.QUARTERSTAFF);
+					tabData.accept(DotaModItems.SKYPIERCER);
 				}).build());
 	}
 }

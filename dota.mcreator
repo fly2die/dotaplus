@@ -1427,6 +1427,60 @@
           "src/main/resources/data/dota/recipe/skullbasherrecipe.json"
         ]
       }
+    },
+    {
+      "name": "Quarterstaff",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quarterstaff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/items/quarterstaff.json",
+          "src/main/java/com/f2d/dota/item/QuarterstaffItem.java",
+          "src/main/resources/assets/dota/models/item/quarterstaff.json",
+          "src/main/resources/assets/dota/models/item/quarterstaff_gui.json"
+        ]
+      }
+    },
+    {
+      "name": "Skypiercer",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skypiercer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/items/skypiercer.json",
+          "src/main/java/com/f2d/dota/item/SkypiercerItem.java",
+          "src/main/resources/assets/dota/models/item/skypiercer_gui.json",
+          "src/main/resources/assets/dota/models/item/skypiercer.json"
+        ]
+      }
+    },
+    {
+      "name": "Quarterstaffrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quarterstaffrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/quarterstaffrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Skypiercerrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skypiercerrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/skypiercerrecipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1514,6 +1568,8 @@
   ],
   "tag_elements": {
     "ITEMS:minecraft:swords": [
+      "~Skypiercer@CUSTOM:Skypiercer",
+      "~Quarterstaff@CUSTOM:Quarterstaff",
       "~AbyssalBlade@CUSTOM:AbyssalBlade",
       "~SkullBasher@CUSTOM:SkullBasher",
       "~MithrilHammer@CUSTOM:MithrilHammer",
@@ -1594,7 +1650,9 @@
       "DeepslateCrystalAlmighty",
       "DeepslateCrystalGlory",
       "DeepslateCrystalIntelligence",
-      "DeepslateCrystalPower"
+      "DeepslateCrystalPower",
+      "Quarterstaff",
+      "Skypiercer"
     ]
   },
   "language_map": {
@@ -1644,7 +1702,9 @@
       "item.dota.blades_attack": "Blades Attack",
       "item.dota.sacred_relic": "Sacred Relic",
       "item.dota.mithril_hammer": "Mithril Hammer",
-      "item.dota.skull_basher": "Skull Basher"
+      "item.dota.skull_basher": "Skull Basher",
+      "item.dota.quarterstaff": "Quarterstaff",
+      "item.dota.skypiercer": "Skypiercer"
     },
     "ru_ru": {
       "item.dota.battle_fury": "Battle Fur",
@@ -1692,7 +1752,9 @@
       "item.dota.blades_attack": "Blades Attack",
       "item.dota.sacred_relic": "Sacred Relic",
       "item.dota.mithril_hammer": "Mithril Hammer",
-      "item.dota.skull_basher": "Skull Basher"
+      "item.dota.skull_basher": "Skull Basher",
+      "item.dota.quarterstaff": "Quarterstaff",
+      "item.dota.skypiercer": "Skypiercer"
     }
   },
   "metadata": {
@@ -1733,7 +1795,7 @@
   "workspaceSettings": {
     "modid": "dota",
     "modName": "Dota+",
-    "version": "1.3.6",
+    "version": "1.4.2",
     "description": "This mod adds new items, ores, and weapons inspired by a popular MOBA game.",
     "author": "f2d",
     "websiteURL": "https://github.com/fly2die/dotaplus",
