@@ -2,7 +2,7 @@
 | --------------- | ----- | --------- | ----- | ---- | -------- | ------ | -------- |
 | Abyssal Blade   | 10    | 1100      | sword | 7    | 1,6      | +      | редкая   |
 | Battle Fury     | 10    | 1200      | axe   | 7    | 1,4      | +      | редкая   |
-| Butterfly       | 10    | 1200      | sword | 6    | 2,6      | +      | редкая   |
+| Butterfly       | 10    | 1200      | sword | 6    | 3,8      | +      | редкая   |
 | Crystalys       | 15    | 1000      | sword | 5    | 1,4      | +      | редкая   |
 | Desolator       | 10    | 1100      | sword | 8    | 1,2      | +      | редкая   |
 | Diffusal Blade  | 15    | 800       | sword | 4    | 1,4      | +      | редкая   |
@@ -10,11 +10,11 @@
 | Echo Sabre      | 12    | 1100      | sword | 4    | 1,2      | +      | редкая   |
 | Falcone Blade   | 15    | 700       | sword | 5    | 1,2      | +      | редкая   |
 | Heavens Halberd | 12    | 900       | sword | 6    | 1,2      | +      | редкая   |
-| Monkey King Bar | 10    | 1200      | sword | 8    | 2,4      | +      | редкая   |
+| Monkey King Bar | 10    | 1200      | sword | 8    | 3,4      | +      | редкая   |
 | Parasma         | 10    | 1200      | axe   | 6    | 1,4      | +      | редкая   |
 | Satanic         | 14    | 1100      | sword | 4    | 1,6      | +      | редкая   |
-| Shadow Blade    | 12    | 700       | sword | 5    | 1,2      | +      | редкая   |
-| Silver Edge     | 10    | 1100      | sword | 6,5  | 1,8      | +      | редкая   |
+| Shadow Blade    | 12    | 700       | sword | 5    | 2        | +      | редкая   |
+| Silver Edge     | 10    | 1100      | sword | 6,5  | 2        | +      | редкая   |
 | Witch Blade     | 15    | 900       | sword | 4    | 2,2      | +      | редкая   |
 |                 |       |           |       |      |          |        |          |
 | Demon Edge      | 5     | 600       | sword | 6    | 1,2      | -      | нечастая |
@@ -27,7 +27,11 @@
 |                 |       |           |       |      |          |        |          |
 | Skull Basher    | 5     | 680       | sword | 7    | 0,5      | +      | редкая   |
 | Mithril Hammer  | 2     | 320       | sword | 8    | 0,5      | -      | обычная  |
-
+|                 |       |           |       |      |          |        |          |
+| Quarterstaff    | 2     | 220       | sword | 4    | 1,4      | -      | обычная  |
+| Skypiercer      | 14    | 1230      | sword | 8    | 1,6      | +      | редкая   |
+| Oblivion Staff  | 2     | 180       | sword | 4    | 2        | -      | обычная  |
+| Blitz Knuckles  | 2     | 320       | sword | 2    | 2        | -      | обычная  |
 
 Мод добавляет новые предметы, руды и оружия, вдохновленные популярной MOBA игры. 
 ---
