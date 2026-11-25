@@ -16,7 +16,7 @@ public class DivineRapierItem extends Item {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 780, 4f, 0, 2, TagKey.create(Registries.ITEM, Identifier.parse("dota:divine_rapier_repair_items")));
 
 	public DivineRapierItem(Item.Properties properties) {
-		super(properties.sword(TOOL_MATERIAL, 21f, -2.8f).rarity(Rarity.EPIC));
+		super(properties.sword(TOOL_MATERIAL, 25f, -2.8f).rarity(Rarity.EPIC));
 	}
 
 	@Override

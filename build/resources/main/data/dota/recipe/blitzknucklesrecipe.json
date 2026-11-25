@@ -2,12 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "aba",
+    " a ",
+    "b b",
     " c "
   ],
   "key": {
-    "a": "minecraft:iron_ingot",
-    "b": "dota:crystal_agility",
+    "a": "minecraft:emerald",
+    "b": "minecraft:iron_ingot",
     "c": "minecraft:stick"
   },
   "result": {

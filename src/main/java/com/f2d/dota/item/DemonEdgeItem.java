@@ -12,6 +12,6 @@ public class DemonEdgeItem extends Item {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 600, 4f, 0, 5, TagKey.create(Registries.ITEM, Identifier.parse("dota:demon_edge_repair_items")));
 
 	public DemonEdgeItem(Item.Properties properties) {
-		super(properties.sword(TOOL_MATERIAL, 5f, -2.8f).rarity(Rarity.UNCOMMON));
+		super(properties.sword(TOOL_MATERIAL, 8.8f, -2.8f).rarity(Rarity.UNCOMMON));
 	}
 }

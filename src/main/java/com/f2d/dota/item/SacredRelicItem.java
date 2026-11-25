@@ -12,6 +12,6 @@ public class SacredRelicItem extends Item {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 50, 4f, 0, 5, TagKey.create(Registries.ITEM, Identifier.parse("dota:sacred_relic_repair_items")));
 
 	public SacredRelicItem(Item.Properties properties) {
-		super(properties.sword(TOOL_MATERIAL, 8f, -3f).rarity(Rarity.RARE));
+		super(properties.sword(TOOL_MATERIAL, 11f, -3f).rarity(Rarity.RARE));
 	}
 }

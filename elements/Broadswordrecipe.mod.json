@@ -16,10 +16,10 @@
       "Items.IRON_INGOT",
       "",
       "",
-      "CUSTOM:CrystalGlory",
+      "Items.STONE_SWORD",
       "",
       "",
-      "Items.STICK",
+      "Items.LEATHER",
       ""
     ],
     "recipeReturnStack": "CUSTOM:Broadsword",

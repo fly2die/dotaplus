@@ -16,7 +16,7 @@ public class EchoSabreItem extends Item {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 1100, 4f, 0, 12, TagKey.create(Registries.ITEM, Identifier.parse("dota:echo_sabre_repair_items")));
 
 	public EchoSabreItem(Item.Properties properties) {
-		super(properties.sword(TOOL_MATERIAL, 3f, -2.8f).rarity(Rarity.RARE));
+		super(properties.sword(TOOL_MATERIAL, 5.9f, -2.8f).rarity(Rarity.RARE));
 	}
 
 	@Override

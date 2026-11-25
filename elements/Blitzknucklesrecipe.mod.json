@@ -13,10 +13,10 @@
     "recipeShapeless": false,
     "recipeSlots": [
       "",
-      "",
+      "Items.EMERALD",
       "",
       "Items.IRON_INGOT",
-      "CUSTOM:CrystalAgility",
+      "",
       "Items.IRON_INGOT",
       "",
       "Items.STICK",

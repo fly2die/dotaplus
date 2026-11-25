@@ -12,6 +12,6 @@ public class DiffusalBladeItem extends Item {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 800, 4f, 0, 15, TagKey.create(Registries.ITEM, Identifier.parse("dota:diffusal_blade_repair_items")));
 
 	public DiffusalBladeItem(Item.Properties properties) {
-		super(properties.sword(TOOL_MATERIAL, 3f, -2.6f).rarity(Rarity.RARE));
+		super(properties.sword(TOOL_MATERIAL, 5.6f, -2.6f).rarity(Rarity.RARE));
 	}
 }

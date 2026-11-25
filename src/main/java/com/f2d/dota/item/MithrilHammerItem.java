@@ -11,6 +11,6 @@ public class MithrilHammerItem extends Item {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 320, 4f, 0, 2, TagKey.create(Registries.ITEM, Identifier.parse("dota:mithril_hammer_repair_items")));
 
 	public MithrilHammerItem(Item.Properties properties) {
-		super(properties.sword(TOOL_MATERIAL, 7f, -3.5f));
+		super(properties.sword(TOOL_MATERIAL, 9f, -3.5f));
 	}
 }

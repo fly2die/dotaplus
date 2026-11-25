@@ -11,6 +11,6 @@ public class OblivionStaffItem extends Item {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 180, 4f, 0, 2, TagKey.create(Registries.ITEM, Identifier.parse("dota:oblivion_staff_repair_items")));
 
 	public OblivionStaffItem(Item.Properties properties) {
-		super(properties.sword(TOOL_MATERIAL, 3f, -2f));
+		super(properties.sword(TOOL_MATERIAL, 6f, -2f));
 	}
 }

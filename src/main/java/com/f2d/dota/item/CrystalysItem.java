@@ -16,7 +16,7 @@ public class CrystalysItem extends Item {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 1000, 4f, 0, 15, TagKey.create(Registries.ITEM, Identifier.parse("dota:crystalys_repair_items")));
 
 	public CrystalysItem(Item.Properties properties) {
-		super(properties.sword(TOOL_MATERIAL, 4f, -2.6f).rarity(Rarity.RARE));
+		super(properties.sword(TOOL_MATERIAL, 8f, -2.6f).rarity(Rarity.RARE));
 	}
 
 	@Override

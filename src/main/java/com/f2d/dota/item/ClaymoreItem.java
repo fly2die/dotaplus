@@ -12,6 +12,6 @@ public class ClaymoreItem extends Item {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 550, 4f, 0, 2, TagKey.create(Registries.ITEM, Identifier.parse("dota:claymore_repair_items")));
 
 	public ClaymoreItem(Item.Properties properties) {
-		super(properties.sword(TOOL_MATERIAL, 4f, -2.8f).rarity(Rarity.UNCOMMON));
+		super(properties.sword(TOOL_MATERIAL, 7.5f, -2.8f).rarity(Rarity.UNCOMMON));
 	}
 }

@@ -1469,6 +1469,72 @@
           "src/main/resources/data/dota/recipe/quarterstaffrecipe.json"
         ]
       }
+    },
+    {
+      "name": "Skypiercerrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skypiercerrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/skypiercerrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OblivionStaff",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oblivion_staff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/items/oblivion_staff.json",
+          "src/main/resources/assets/dota/models/item/oblivion_staff.json",
+          "src/main/resources/assets/dota/models/item/oblivion_staff_gui.json",
+          "src/main/java/com/f2d/dota/item/OblivionStaffItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OblivionStaffrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oblivion_staffrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/oblivionstaffrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlitzKnuckles",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blitz_knuckles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/items/blitz_knuckles.json",
+          "src/main/resources/assets/dota/models/item/blitz_knuckles_gui.json",
+          "src/main/java/com/f2d/dota/item/BlitzKnucklesItem.java",
+          "src/main/resources/assets/dota/models/item/blitz_knuckles.json"
+        ]
+      }
+    },
+    {
+      "name": "Blitzknucklesrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blitzknucklesrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/blitzknucklesrecipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1556,30 +1622,32 @@
   ],
   "tag_elements": {
     "ITEMS:minecraft:swords": [
+      "~WitchBlade@CUSTOM:WitchBlade",
       "~Skypiercer@CUSTOM:Skypiercer",
-      "~Quarterstaff@CUSTOM:Quarterstaff",
-      "~AbyssalBlade@CUSTOM:AbyssalBlade",
       "~SkullBasher@CUSTOM:SkullBasher",
-      "~MithrilHammer@CUSTOM:MithrilHammer",
-      "~DivineRapier@CUSTOM:DivineRapier",
-      "~Javelin@CUSTOM:Javelin",
-      "~SacredRelic@CUSTOM:SacredRelic",
-      "~BladesAttack@CUSTOM:BladesAttack",
-      "~MonkeyKingBar@CUSTOM:MonkeyKingBar",
-      "~Claymore@CUSTOM:Claymore",
-      "~Broadsword@CUSTOM:Broadsword",
-      "~DemonEdge@CUSTOM:DemonEdge",
-      "~Satanic@CUSTOM:Satanic",
       "~SilverEdge@CUSTOM:SilverEdge",
       "~ShadowBlade@CUSTOM:ShadowBlade",
-      "~WitchBlade@CUSTOM:WitchBlade",
+      "~Satanic@CUSTOM:Satanic",
+      "~SacredRelic@CUSTOM:SacredRelic",
+      "~Quarterstaff@CUSTOM:Quarterstaff",
+      "~OblivionStaff@CUSTOM:OblivionStaff",
+      "~MonkeyKingBar@CUSTOM:MonkeyKingBar",
+      "~MithrilHammer@CUSTOM:MithrilHammer",
+      "~HeavensHalberd@CUSTOM:HeavensHalberd",
       "~FalconeBlade@CUSTOM:FalconeBlade",
       "~EchoSabre@CUSTOM:EchoSabre",
+      "~DivineRapier@CUSTOM:DivineRapier",
+      "~DiffusalBlade@CUSTOM:DiffusalBlade",
       "~Desolator@CUSTOM:Desolator",
-      "~Crystalys@CUSTOM:Crystalys",
+      "~DemonEdge@CUSTOM:DemonEdge",
       "~Butterfly@CUSTOM:Butterfly",
-      "~HeavensHalberd@CUSTOM:HeavensHalberd",
-      "~DiffusalBlade@CUSTOM:DiffusalBlade"
+      "~AbyssalBlade@CUSTOM:AbyssalBlade",
+      "~Crystalys@CUSTOM:Crystalys",
+      "~Claymore@CUSTOM:Claymore",
+      "~Broadsword@CUSTOM:Broadsword",
+      "~BlitzKnuckles@CUSTOM:BlitzKnuckles",
+      "~BladesAttack@CUSTOM:BladesAttack",
+      "~Javelin@CUSTOM:Javelin"
     ],
     "ITEMS:minecraft:axes": [
       "~QuellingAxe@CUSTOM:QuellingAxe",
@@ -1607,6 +1675,7 @@
       "AbyssalBlade",
       "BattleFury",
       "BladesAttack",
+      "BlitzKnuckles",
       "Broadsword",
       "Butterfly",
       "Claymore",
@@ -1621,13 +1690,16 @@
       "Javelin",
       "MithrilHammer",
       "MonkeyKingBar",
+      "OblivionStaff",
       "Parasma",
+      "Quarterstaff",
       "QuellingAxe",
       "SacredRelic",
       "Satanic",
       "ShadowBlade",
       "SilverEdge",
       "SkullBasher",
+      "Skypiercer",
       "WitchBlade",
       "CrystalAgility",
       "CrystalAlmighty",
@@ -1638,9 +1710,7 @@
       "DeepslateCrystalAlmighty",
       "DeepslateCrystalGlory",
       "DeepslateCrystalIntelligence",
-      "DeepslateCrystalPower",
-      "Quarterstaff",
-      "Skypiercer"
+      "DeepslateCrystalPower"
     ]
   },
   "language_map": {
@@ -1692,7 +1762,9 @@
       "item.dota.mithril_hammer": "Mithril Hammer",
       "item.dota.skull_basher": "Skull Basher",
       "item.dota.quarterstaff": "Quarterstaff",
-      "item.dota.skypiercer": "Skypiercer"
+      "item.dota.skypiercer": "Skypiercer",
+      "item.dota.oblivion_staff": "Oblivion Staff",
+      "item.dota.blitz_knuckles": "Blitz Knuckles"
     },
     "ru_ru": {
       "item.dota.battle_fury": "Battle Fur",
@@ -1742,7 +1814,9 @@
       "item.dota.mithril_hammer": "Mithril Hammer",
       "item.dota.skull_basher": "Skull Basher",
       "item.dota.quarterstaff": "Quarterstaff",
-      "item.dota.skypiercer": "Skypiercer"
+      "item.dota.skypiercer": "Skypiercer",
+      "item.dota.oblivion_staff": "Oblivion Staff",
+      "item.dota.blitz_knuckles": "Blitz Knuckles"
     }
   },
   "metadata": {
@@ -1783,7 +1857,7 @@
   "workspaceSettings": {
     "modid": "dota",
     "modName": "Dota+",
-    "version": "1.4.2",
+    "version": "1.5.0",
     "description": "This mod adds new items, ores, and weapons inspired by a popular MOBA game.",
     "author": "f2d",
     "websiteURL": "https://github.com/fly2die/dotaplus",

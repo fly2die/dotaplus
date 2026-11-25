@@ -12,6 +12,6 @@ public class SkypiercerItem extends Item {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 1230, 4f, 0, 14, TagKey.create(Registries.ITEM, Identifier.parse("dota:skypiercer_repair_items")));
 
 	public SkypiercerItem(Item.Properties properties) {
-		super(properties.sword(TOOL_MATERIAL, 7f, -2.4f).rarity(Rarity.RARE));
+		super(properties.sword(TOOL_MATERIAL, 9f, -2.4f).rarity(Rarity.RARE));
 	}
 }

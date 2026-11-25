@@ -12,6 +12,6 @@ public class BroadswordItem extends Item {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 350, 4f, 0, 2, TagKey.create(Registries.ITEM, Identifier.parse("dota:broadsword_repair_items")));
 
 	public BroadswordItem(Item.Properties properties) {
-		super(properties.sword(TOOL_MATERIAL, 3f, -2.8f).rarity(Rarity.UNCOMMON));
+		super(properties.sword(TOOL_MATERIAL, 6f, -2.6f).rarity(Rarity.UNCOMMON));
 	}
 }

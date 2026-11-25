@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    " a",
-    "b "
+    "aaa",
+    " b "
   ],
   "key": {
-    "a": "minecraft:iron_ingot",
+    "a": "minecraft:iron_nugget",
     "b": "minecraft:leather"
   },
   "result": {

@@ -16,7 +16,7 @@ public class ParasmaItem extends Item {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 1200, 4f, 0, 10, TagKey.create(Registries.ITEM, Identifier.parse("dota:parasma_repair_items")));
 
 	public ParasmaItem(Item.Properties properties) {
-		super(properties.axe(TOOL_MATERIAL, 5f, -2.6f).rarity(Rarity.RARE));
+		super(properties.axe(TOOL_MATERIAL, 8.6f, -2.6f).rarity(Rarity.RARE));
 	}
 
 	@Override

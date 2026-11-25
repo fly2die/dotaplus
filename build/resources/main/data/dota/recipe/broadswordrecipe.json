@@ -8,8 +8,8 @@
   ],
   "key": {
     "a": "minecraft:iron_ingot",
-    "b": "dota:crystal_glory",
-    "c": "minecraft:stick"
+    "b": "minecraft:stone_sword",
+    "c": "minecraft:leather"
   },
   "result": {
     "id": "dota:broadsword",
