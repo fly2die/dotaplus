@@ -1,37 +1,34 @@
 | Оружие          | Зачар | Прочность | Тип   | Урон | Скорость | Умение | Редкость |
 | --------------- | ----- | --------- | ----- | ---- | -------- | ------ | -------- |
-| Abyssal Blade   | 10    | 1100      | sword | 7    | 1,6      | +      | редкая   |
-| Battle Fury     | 10    | 1200      | axe   | 7    | 1,4      | +      | редкая   |
-| Butterfly       | 10    | 1200      | sword | 6    | 3,8      | +      | редкая   |
-| Crystalys       | 15    | 1000      | sword | 5    | 1,4      | +      | редкая   |
-| Desolator       | 10    | 1100      | sword | 8    | 1,2      | +      | редкая   |
-| Diffusal Blade  | 15    | 800       | sword | 4    | 1,4      | +      | редкая   |
-| Divine Rapier   | 2     | 780       | sword | 22   | 1,2      | +      | эпик     |
-| Echo Sabre      | 12    | 1100      | sword | 4    | 1,2      | +      | редкая   |
-| Falcone Blade   | 15    | 700       | sword | 5    | 1,2      | +      | редкая   |
-| Heavens Halberd | 12    | 900       | sword | 6    | 1,2      | +      | редкая   |
-| Monkey King Bar | 10    | 1200      | sword | 8    | 3,4      | +      | редкая   |
-| Parasma         | 10    | 1200      | axe   | 6    | 1,4      | +      | редкая   |
-| Satanic         | 14    | 1100      | sword | 4    | 1,6      | +      | редкая   |
-| Shadow Blade    | 12    | 700       | sword | 5    | 2        | +      | редкая   |
-| Silver Edge     | 10    | 1100      | sword | 6,5  | 2        | +      | редкая   |
-| Witch Blade     | 15    | 900       | sword | 4    | 2,2      | +      | редкая   |
-|                 |       |           |       |      |          |        |          |
-| Demon Edge      | 5     | 600       | sword | 6    | 1,2      | -      | нечастая |
+| Abyssal Blade   | 10    | 1100      | sword | 9,8  | 1,6      | +      | редкая   |
+| Battle Fury     | 10    | 1200      | axe   | 12   | 1,4      | +      | редкая   |
+| Blades Attack   | 2     | 90        | sword | 4    | 2,2      | -      | обычная  |
+| Blitz Knuckles  | 2     | 320       | sword | 4    | 2        | -      | обычная  |
+| Broadsword      | 2     | 350       | sword | 7    | 1,4      | -      | нечастая |
+| Butterfly       | 10    | 1200      | sword | 12,2 | 3,8      | +      | редкая   |
+| Claymore        | 5     | 550       | sword | 8,5  | 1,2      | -      | нечастая |
+| Crystalys       | 15    | 1000      | sword | 9    | 1,4      | +      | редкая   |
+| Demon Edge      | 5     | 600       | sword | 9,8  | 1,2      | -      | нечастая |
+| Desolator       | 10    | 1100      | sword | 13,3 | 1,2      | +      | редкая   |
+| Diffusal Blade  | 15    | 800       | sword | 6,6  | 1,4      | +      | редкая   |
+| Divine Rapier   | 2     | 780       | sword | 26   | 1,2      | +      | эпик     |
+| Echo Sabre      | 12    | 1100      | sword | 6,9  | 1,2      | +      | редкая   |
+| Falcone Blade   | 15    | 700       | sword | 7    | 1,2      | +      | редкая   |
+| Heavens Halberd | 12    | 900       | sword | 7    | 1,2      | +      | редкая   |
 | Javelin         | 5     | 450       | sword | 4    | 2        | -      | нечастая |
-| Broadsword      | 2     | 350       | sword | 4    | 1,2      | -      | нечастая |
-| Claymore        | 5     | 550       | sword | 5    | 1,2      | -      | нечастая |
-| Quelling Axe    | 2     | 100       | axe   | 6    | 0,7      | -      | обычная  |
-| Blades Attack   | 2     | 90        | sword | 3    | 2,2      | -      | обычная  |
-| Sacred Relic    | 5     | 50        | sword | 9    | 1        | -      | редкая   |
-|                 |       |           |       |      |          |        |          |
+| Mithril Hammer  | 2     | 320       | sword | 10   | 0,5      | -      | обычная  |
+| Oblivion Staff  | 2     | 180       | sword | 7    | 7        | -      | обычная  |
+| Monkey King Bar | 10    | 1200      | sword | 12   | 3,4      | +      | редкая   |
+| Parasma         | 10    | 1200      | axe   | 9,6  | 1,4      | +      | редкая   |
+| Quarterstaff    | 2     | 220       | sword | 7,1  | 1,4      | -      | обычная  |
+| Quelling Axe    | 2     | 100       | axe   | 9    | 0,7      | -      | обычная  |
+| Sacred Relic    | 5     | 50        | sword | 12   | 1        | -      | редкая   |
+| Satanic         | 14    | 1100      | sword | 7    | 1,6      | +      | редкая   |
+| Shadow Blade    | 12    | 700       | sword | 8    | 2        | +      | редкая   |
+| Silver Edge     | 10    | 1100      | sword | 12   | 2        | +      | редкая   |
 | Skull Basher    | 5     | 680       | sword | 7    | 0,5      | +      | редкая   |
-| Mithril Hammer  | 2     | 320       | sword | 8    | 0,5      | -      | обычная  |
-|                 |       |           |       |      |          |        |          |
-| Quarterstaff    | 2     | 220       | sword | 4    | 1,4      | -      | обычная  |
-| Skypiercer      | 14    | 1230      | sword | 8    | 1,6      | +      | редкая   |
-| Oblivion Staff  | 2     | 180       | sword | 4    | 2        | -      | обычная  |
-| Blitz Knuckles  | 2     | 320       | sword | 2    | 2        | -      | обычная  |
+| Skypiercer      | 14    | 1230      | sword | 10   | 1,6      | +      | редкая   |
+| Witch Blade     | 15    | 900       | sword | 7    | 2,2      | +      | редкая   |
 
 ---
 
