@@ -1,0 +1,32 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:flower_forest": "2026-11-25 23:27:06 +0300",
+      "minecraft:old_growth_birch_forest": "2026-11-25 23:26:12 +0300",
+      "minecraft:beach": "2026-11-25 23:26:38 +0300",
+      "minecraft:forest": "2026-11-25 23:25:55 +0300",
+      "minecraft:deep_dark": "2026-11-25 23:25:36 +0300",
+      "minecraft:ocean": "2026-11-25 23:26:41 +0300",
+      "minecraft:sunflower_plains": "2026-11-25 23:27:13 +0300",
+      "minecraft:river": "2026-11-25 23:25:56 +0300",
+      "minecraft:meadow": "2026-11-25 23:25:35 +0300",
+      "minecraft:birch_forest": "2026-11-25 23:24:58 +0300",
+      "minecraft:stony_shore": "2026-11-25 23:26:37 +0300",
+      "minecraft:dripstone_caves": "2026-11-25 23:25:18 +0300"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2026-11-25 23:25:13 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-11-25 23:24:58 +0300"
+    },
+    "done": true
+  },
+  "DataVersion": 5023
+}

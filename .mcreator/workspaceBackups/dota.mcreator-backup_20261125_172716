@@ -1523,6 +1523,18 @@
           "src/main/resources/assets/dota/models/item/blitz_knuckles.json"
         ]
       }
+    },
+    {
+      "name": "Blitzknucklesrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blitzknucklesrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/blitzknucklesrecipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1610,32 +1622,32 @@
   ],
   "tag_elements": {
     "ITEMS:minecraft:swords": [
-      "~BlitzKnuckles@CUSTOM:BlitzKnuckles",
       "~OblivionStaff@CUSTOM:OblivionStaff",
+      "~WitchBlade@CUSTOM:WitchBlade",
       "~Skypiercer@CUSTOM:Skypiercer",
-      "~Quarterstaff@CUSTOM:Quarterstaff",
-      "~AbyssalBlade@CUSTOM:AbyssalBlade",
       "~SkullBasher@CUSTOM:SkullBasher",
-      "~MithrilHammer@CUSTOM:MithrilHammer",
-      "~DivineRapier@CUSTOM:DivineRapier",
-      "~Javelin@CUSTOM:Javelin",
-      "~SacredRelic@CUSTOM:SacredRelic",
-      "~BladesAttack@CUSTOM:BladesAttack",
-      "~MonkeyKingBar@CUSTOM:MonkeyKingBar",
-      "~Claymore@CUSTOM:Claymore",
-      "~Broadsword@CUSTOM:Broadsword",
-      "~DemonEdge@CUSTOM:DemonEdge",
-      "~Satanic@CUSTOM:Satanic",
       "~SilverEdge@CUSTOM:SilverEdge",
       "~ShadowBlade@CUSTOM:ShadowBlade",
-      "~WitchBlade@CUSTOM:WitchBlade",
+      "~Satanic@CUSTOM:Satanic",
+      "~SacredRelic@CUSTOM:SacredRelic",
+      "~Quarterstaff@CUSTOM:Quarterstaff",
+      "~MonkeyKingBar@CUSTOM:MonkeyKingBar",
+      "~MithrilHammer@CUSTOM:MithrilHammer",
+      "~HeavensHalberd@CUSTOM:HeavensHalberd",
       "~FalconeBlade@CUSTOM:FalconeBlade",
       "~EchoSabre@CUSTOM:EchoSabre",
+      "~DivineRapier@CUSTOM:DivineRapier",
+      "~DiffusalBlade@CUSTOM:DiffusalBlade",
       "~Desolator@CUSTOM:Desolator",
-      "~Crystalys@CUSTOM:Crystalys",
+      "~DemonEdge@CUSTOM:DemonEdge",
       "~Butterfly@CUSTOM:Butterfly",
-      "~HeavensHalberd@CUSTOM:HeavensHalberd",
-      "~DiffusalBlade@CUSTOM:DiffusalBlade"
+      "~AbyssalBlade@CUSTOM:AbyssalBlade",
+      "~Crystalys@CUSTOM:Crystalys",
+      "~Claymore@CUSTOM:Claymore",
+      "~Broadsword@CUSTOM:Broadsword",
+      "~BlitzKnuckles@CUSTOM:BlitzKnuckles",
+      "~BladesAttack@CUSTOM:BladesAttack",
+      "~Javelin@CUSTOM:Javelin"
     ],
     "ITEMS:minecraft:axes": [
       "~QuellingAxe@CUSTOM:QuellingAxe",
@@ -1663,6 +1675,7 @@
       "AbyssalBlade",
       "BattleFury",
       "BladesAttack",
+      "BlitzKnuckles",
       "Broadsword",
       "Butterfly",
       "Claymore",
@@ -1697,8 +1710,7 @@
       "DeepslateCrystalAlmighty",
       "DeepslateCrystalGlory",
       "DeepslateCrystalIntelligence",
-      "DeepslateCrystalPower",
-      "BlitzKnuckles"
+      "DeepslateCrystalPower"
     ]
   },
   "language_map": {
@@ -1845,7 +1857,7 @@
   "workspaceSettings": {
     "modid": "dota",
     "modName": "Dota+",
-    "version": "1.4.2",
+    "version": "1.5.4",
     "description": "This mod adds new items, ores, and weapons inspired by a popular MOBA game.",
     "author": "f2d",
     "websiteURL": "https://github.com/fly2die/dotaplus",

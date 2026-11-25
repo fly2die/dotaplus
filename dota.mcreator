@@ -1622,6 +1622,8 @@
   ],
   "tag_elements": {
     "ITEMS:minecraft:swords": [
+      "~Quarterstaff@CUSTOM:Quarterstaff",
+      "~OblivionStaff@CUSTOM:OblivionStaff",
       "~WitchBlade@CUSTOM:WitchBlade",
       "~Skypiercer@CUSTOM:Skypiercer",
       "~SkullBasher@CUSTOM:SkullBasher",
@@ -1629,8 +1631,6 @@
       "~ShadowBlade@CUSTOM:ShadowBlade",
       "~Satanic@CUSTOM:Satanic",
       "~SacredRelic@CUSTOM:SacredRelic",
-      "~Quarterstaff@CUSTOM:Quarterstaff",
-      "~OblivionStaff@CUSTOM:OblivionStaff",
       "~MonkeyKingBar@CUSTOM:MonkeyKingBar",
       "~MithrilHammer@CUSTOM:MithrilHammer",
       "~HeavensHalberd@CUSTOM:HeavensHalberd",
