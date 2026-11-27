@@ -2,7 +2,6 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "dota:blitz_knuckles",
     "dota:crystal_intelligence",
     "dota:claymore"
   ],

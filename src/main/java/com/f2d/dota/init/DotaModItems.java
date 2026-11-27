@@ -57,6 +57,7 @@ public class DotaModItems {
 	public static Item SKYPIERCER;
 	public static Item OBLIVION_STAFF;
 	public static Item BLITZ_KNUCKLES;
+	public static Item TALISMAN_OF_EVASION;
 
 	public static void load() {
 		BATTLE_FURY = register("battle_fury", BattleFuryItem::new);
@@ -98,6 +99,7 @@ public class DotaModItems {
 		SKYPIERCER = register("skypiercer", SkypiercerItem::new);
 		OBLIVION_STAFF = register("oblivion_staff", OblivionStaffItem::new);
 		BLITZ_KNUCKLES = register("blitz_knuckles", BlitzKnucklesItem::new);
+		TALISMAN_OF_EVASION = register("talisman_of_evasion", TalismanOfEvasionItem::new);
 	}
 
 	// Start of user code block custom items

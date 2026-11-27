@@ -48,7 +48,6 @@
   "item.dota.quarterstaff": "Quarterstaff",
   "item.dota.skypiercer": "Skypiercer",
   "item.dota.oblivion_staff": "Oblivion Staff",
-  "item.dota.blitz_knuckles": "Blitz Knuckles",
   "item.dota.abyssal_blade.description_0": "§2 20% chance to root the target for 1s",
   "item.dota.abyssal_blade.description_1": "§9 RMB on target: immobilize and disarm for 3s",
   "item.dota.skull_basher.description_0": "§2 20% chance to root the target for 1s",
@@ -68,5 +67,8 @@
   "item.dota.shadow_blade.description_0": "§9 RMB with item in hand: Invisibility for 9s",
   "item.dota.silver_edge.description_0": "§9 RMB with item in hand: Invisibility for 9s",
   "item.dota.silver_edge.description_1": "§2 Hit from invisibility: 8 magic damage",
-  "item.dota.witch_blade.description_0": "§2 On hit: Poison I for 3s"
+  "item.dota.witch_blade.description_0": "§2 On hit: Poison I for 3s",
+  "item.dota.blitz_knuckles": "Blitz Knuckles",
+  "item.dota.talisman_of_evasion": "Talisman of Evasion",
+  "item.dota.talisman_of_evasion.description_0": "§9 RMB with item in hand: Speed I for 8s"
 }

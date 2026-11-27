@@ -2,8 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    " a",
-    "b "
+    "aba"
   ],
   "key": {
     "a": "minecraft:bone",

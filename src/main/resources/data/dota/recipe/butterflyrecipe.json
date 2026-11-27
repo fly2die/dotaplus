@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "dota:crystal_agility",
+    "dota:talisman_of_evasion",
     "dota:crystal_agility",
     "dota:crystal_agility",
     "dota:quarterstaff"

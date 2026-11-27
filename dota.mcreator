@@ -1511,14 +1511,13 @@
     },
     {
       "name": "BlitzKnuckles",
-      "type": "tool",
+      "type": "item",
       "compiles": true,
       "locked_code": false,
       "registry_name": "blitz_knuckles",
       "metadata": {
         "files": [
           "src/main/resources/assets/dota/items/blitz_knuckles.json",
-          "src/main/resources/assets/dota/models/item/blitz_knuckles_gui.json",
           "src/main/java/com/f2d/dota/item/BlitzKnucklesItem.java",
           "src/main/resources/assets/dota/models/item/blitz_knuckles.json"
         ]
@@ -1533,6 +1532,70 @@
       "metadata": {
         "files": [
           "src/main/resources/data/dota/recipe/blitzknucklesrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TalismanOfEvasion",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "talisman_of_evasion",
+      "metadata": {
+        "files": [
+          "src/main/java/com/f2d/dota/item/TalismanOfEvasionItem.java",
+          "src/main/resources/assets/dota/models/item/talisman_of_evasion.json",
+          "src/main/resources/assets/dota/items/talisman_of_evasion.json"
+        ]
+      }
+    },
+    {
+      "name": "Talismanofevasionrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "talismanofevasionrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/talismanofevasionrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TalismanOfEvasionPr",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "talisman_of_evasion_pr",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/f2d/dota/procedures/TalismanOfEvasionPrProcedure.java"
         ]
       }
     }
@@ -1645,7 +1708,6 @@
       "~DemonEdge@CUSTOM:DemonEdge",
       "~Claymore@CUSTOM:Claymore",
       "~Broadsword@CUSTOM:Broadsword",
-      "~BlitzKnuckles@CUSTOM:BlitzKnuckles",
       "~BladesAttack@CUSTOM:BladesAttack",
       "~Javelin@CUSTOM:Javelin"
     ],
@@ -1675,7 +1737,6 @@
       "AbyssalBlade",
       "BattleFury",
       "BladesAttack",
-      "BlitzKnuckles",
       "Broadsword",
       "Butterfly",
       "Claymore",
@@ -1710,7 +1771,9 @@
       "DeepslateCrystalAlmighty",
       "DeepslateCrystalGlory",
       "DeepslateCrystalIntelligence",
-      "DeepslateCrystalPower"
+      "DeepslateCrystalPower",
+      "BlitzKnuckles",
+      "TalismanOfEvasion"
     ]
   },
   "language_map": {
@@ -1764,7 +1827,6 @@
       "item.dota.quarterstaff": "Quarterstaff",
       "item.dota.skypiercer": "Skypiercer",
       "item.dota.oblivion_staff": "Oblivion Staff",
-      "item.dota.blitz_knuckles": "Blitz Knuckles",
       "item.dota.abyssal_blade.description_0": "§2 20% chance to root the target for 1s",
       "item.dota.abyssal_blade.description_1": "§9 RMB on target: immobilize and disarm for 3s",
       "item.dota.skull_basher.description_0": "§2 20% chance to root the target for 1s",
@@ -1784,7 +1846,10 @@
       "item.dota.shadow_blade.description_0": "§9 RMB with item in hand: Invisibility for 9s",
       "item.dota.silver_edge.description_0": "§9 RMB with item in hand: Invisibility for 9s",
       "item.dota.silver_edge.description_1": "§2 Hit from invisibility: 8 magic damage",
-      "item.dota.witch_blade.description_0": "§2 On hit: Poison I for 3s"
+      "item.dota.witch_blade.description_0": "§2 On hit: Poison I for 3s",
+      "item.dota.blitz_knuckles": "Blitz Knuckles",
+      "item.dota.talisman_of_evasion": "Talisman of Evasion",
+      "item.dota.talisman_of_evasion.description_0": "§9 RMB with item in hand: Speed I for 8s"
     },
     "ru_ru": {
       "item.dota.battle_fury": "Battle Fur",
@@ -1836,7 +1901,6 @@
       "item.dota.quarterstaff": "Quarterstaff",
       "item.dota.skypiercer": "Skypiercer",
       "item.dota.oblivion_staff": "Oblivion Staff",
-      "item.dota.blitz_knuckles": "Blitz Knuckles",
       "item.dota.abyssal_blade.description_0": "§2 20% шанс обездвижить цель на 1 сек",
       "item.dota.abyssal_blade.description_1": "§9 ПКМ по цели: обездвиживание и обезоруживание на 3 сек",
       "item.dota.skull_basher.description_0": "§2 20% шанс обездвижить цель на 1 сек",
@@ -1856,7 +1920,10 @@
       "item.dota.shadow_blade.description_0": "§9 ПКМ с предметом в руке: невидимость на 9 сек",
       "item.dota.silver_edge.description_0": "§9 ПКМ с предметом в руке: невидимость на 9 сек",
       "item.dota.silver_edge.description_1": "§2 Удар из невидимости: 8 магического урона",
-      "item.dota.witch_blade.description_0": "§2 При атаке: отравление I на 3 сек"
+      "item.dota.witch_blade.description_0": "§2 При атаке: отравление I на 3 сек",
+      "item.dota.blitz_knuckles": "Blitz Knuckles",
+      "item.dota.talisman_of_evasion": "Talisman of Evasion",
+      "item.dota.talisman_of_evasion.description_0": "§9 ПКМ с предметом в руке: скорость I на 8 сек"
     }
   },
   "metadata": {
