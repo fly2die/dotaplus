@@ -12,7 +12,9 @@
     "name": "Skypiercer",
     "rarity": "RARE",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§9 RMB on target: Weakness IV for 8s"
+      ]
     },
     "creativeTabs": [
       "CUSTOM:CreativeTabDota"

@@ -12,7 +12,9 @@
     "name": "Battle Fury",
     "rarity": "RARE",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§2 Passively deals area damage"
+      ]
     },
     "creativeTabs": [
       "CUSTOM:CreativeTabDota"

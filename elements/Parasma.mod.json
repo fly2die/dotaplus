@@ -12,7 +12,9 @@
     "name": "Parasma",
     "rarity": "RARE",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§2 On hit: Poison III for 4s"
+      ]
     },
     "creativeTabs": [
       "CUSTOM:CreativeTabDota"

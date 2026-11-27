@@ -12,7 +12,9 @@
     "name": "Divine Rapier",
     "rarity": "EPIC",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§2 On first hit: Curse of Vanishing"
+      ]
     },
     "creativeTabs": [
       "CUSTOM:CreativeTabDota"

@@ -12,7 +12,9 @@
     "name": "Falcone Blade",
     "rarity": "RARE",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§2 On hit: Resistance II for 3s (if not already active)"
+      ]
     },
     "creativeTabs": [
       "CUSTOM:CreativeTabDota"

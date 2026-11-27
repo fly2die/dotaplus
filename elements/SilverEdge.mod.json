@@ -12,7 +12,10 @@
     "name": "Silver Edge",
     "rarity": "RARE",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§9 RMB with item in hand: Invisibility for 9s",
+        "§2 Hit from invisibility: 8 magic damage"
+      ]
     },
     "creativeTabs": [
       "CUSTOM:CreativeTabDota"

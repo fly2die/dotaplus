@@ -12,7 +12,9 @@
     "name": "Skull Basher",
     "rarity": "RARE",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§2 20% chance to root the target for 1s"
+      ]
     },
     "creativeTabs": [
       "CUSTOM:CreativeTabDota"

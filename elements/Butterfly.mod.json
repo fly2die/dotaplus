@@ -12,7 +12,9 @@
     "name": "Butterfly",
     "rarity": "RARE",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§9 RMB with item in hand: Speed I for 8s"
+      ]
     },
     "creativeTabs": [
       "CUSTOM:CreativeTabDota"

@@ -1,0 +1,27 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "dota:abyssal_blade": 2
+    },
+    "minecraft:killed": {
+      "minecraft:cow": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:beef": 3
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 2042,
+      "minecraft:time_since_rest": 1873,
+      "minecraft:walk_one_cm": 1469,
+      "minecraft:total_world_time": 1888,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 5161,
+      "minecraft:mob_kills": 1,
+      "minecraft:play_time": 1873,
+      "minecraft:damage_dealt": 100,
+      "minecraft:jump": 13,
+      "minecraft:time_since_death": 1873
+    }
+  },
+  "DataVersion": 5023
+}

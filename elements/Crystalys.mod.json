@@ -12,7 +12,9 @@
     "name": "Crystalys",
     "rarity": "RARE",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§2 25% chance to deal 5 bonus damage"
+      ]
     },
     "creativeTabs": [
       "CUSTOM:CreativeTabDota"

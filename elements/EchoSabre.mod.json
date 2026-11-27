@@ -12,7 +12,9 @@
     "name": "Echo Sabre",
     "rarity": "RARE",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§2 On hit: strikes the target a second time"
+      ]
     },
     "creativeTabs": [
       "CUSTOM:CreativeTabDota"

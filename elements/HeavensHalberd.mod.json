@@ -12,7 +12,9 @@
     "name": "Heavens Halberd",
     "rarity": "RARE",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§9 RMB on target: Weakness III for 6s"
+      ]
     },
     "creativeTabs": [
       "CUSTOM:CreativeTabDota"

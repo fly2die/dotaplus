@@ -12,7 +12,9 @@
     "name": "Desolator",
     "rarity": "RARE",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§2 +4 magic damage"
+      ]
     },
     "creativeTabs": [
       "CUSTOM:CreativeTabDota"

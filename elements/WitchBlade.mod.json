@@ -12,7 +12,9 @@
     "name": "Witch Blade",
     "rarity": "RARE",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§2 On hit: Poison I for 3s"
+      ]
     },
     "creativeTabs": [
       "CUSTOM:CreativeTabDota"

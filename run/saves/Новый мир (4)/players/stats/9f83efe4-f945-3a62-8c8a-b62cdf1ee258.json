@@ -1,0 +1,27 @@
+{
+  "stats": {
+    "minecraft:killed": {
+      "minecraft:iron_golem": 1
+    },
+    "minecraft:used": {
+      "dota:desolator": 2,
+      "dota:crystalys": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:poppy": 1,
+      "minecraft:iron_ingot": 5
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 758,
+      "minecraft:time_since_rest": 479,
+      "minecraft:walk_one_cm": 1391,
+      "minecraft:total_world_time": 487,
+      "minecraft:leave_game": 1,
+      "minecraft:mob_kills": 1,
+      "minecraft:play_time": 479,
+      "minecraft:damage_dealt": 217,
+      "minecraft:time_since_death": 479
+    }
+  },
+  "DataVersion": 5023
+}

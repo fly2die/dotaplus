@@ -12,7 +12,9 @@
     "name": "Monkey King Bar",
     "rarity": "RARE",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§2 33% chance to deal 4 bonus magic damage"
+      ]
     },
     "creativeTabs": [
       "CUSTOM:CreativeTabDota"

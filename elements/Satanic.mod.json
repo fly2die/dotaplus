@@ -12,7 +12,9 @@
     "name": "Satanic",
     "rarity": "RARE",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§2 On hit: restores 1 health"
+      ]
     },
     "creativeTabs": [
       "CUSTOM:CreativeTabDota"

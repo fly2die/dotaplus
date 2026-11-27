@@ -100,7 +100,7 @@ public class ProccesPKMbyModProcedure {
 					_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 120, 2));
 			}
 		}
-		if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == DotaModItems.HEAVENS_HALBERD) {
+		if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == DotaModItems.SKYPIERCER) {
 			if (!(sourceentity instanceof Player _plrCldCheck29 && _plrCldCheck29.getCooldowns().isOnCooldown(new ItemStack(DotaModItems.SKYPIERCER)))) {
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {
@@ -115,7 +115,7 @@ public class ProccesPKMbyModProcedure {
 				if (sourceentity instanceof Player _player)
 					_player.getCooldowns().addCooldown(new ItemStack(DotaModItems.SKYPIERCER), 200);
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-					_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 120, 2));
+					_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 160, 3));
 			}
 		}
 	}

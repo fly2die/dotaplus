@@ -1,0 +1,31 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 697,
+      "minecraft:time_since_rest": 936,
+      "minecraft:walk_one_cm": 1925,
+      "minecraft:total_world_time": 943,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 1500,
+      "minecraft:mob_kills": 3,
+      "minecraft:play_time": 936,
+      "minecraft:damage_dealt": 272,
+      "minecraft:jump": 3,
+      "minecraft:time_since_death": 936
+    },
+    "minecraft:used": {
+      "dota:skypiercer": 1,
+      "dota:diffusal_blade": 2,
+      "dota:falcone_blade": 2
+    },
+    "minecraft:picked_up": {
+      "minecraft:leather": 3,
+      "minecraft:beef": 2
+    },
+    "minecraft:killed": {
+      "minecraft:creeper": 1,
+      "minecraft:cow": 2
+    }
+  },
+  "DataVersion": 5023
+}

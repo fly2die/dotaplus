@@ -14,6 +14,8 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
+import com.f2d.dota.DotaMod;
+
 public class DesolatorPrProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, Entity sourceentity) {
 		if (entity == null || sourceentity == null)
@@ -25,11 +27,13 @@ public class DesolatorPrProcedure {
 				_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("dota:item.desolator")), SoundSource.PLAYERS, (float) 0.8, (float) Mth.nextDouble(RandomSource.create(), 0.8, 1.2), false);
 			}
 		}
-		{
-			Entity _ent = entity;
-			if (_ent.level() instanceof ServerLevel _serverLevel) {
-				_ent.hurtServer(_serverLevel, new DamageSource(world.registryAccess().lookupOrThrow(Registries.DAMAGE_TYPE).getOrThrow(DamageTypes.MAGIC), sourceentity), 4);
+		DotaMod.queueServerWork(10, () -> {
+			{
+				Entity _ent = entity;
+				if (_ent.level() instanceof ServerLevel _serverLevel) {
+					_ent.hurtServer(_serverLevel, new DamageSource(world.registryAccess().lookupOrThrow(Registries.DAMAGE_TYPE).getOrThrow(DamageTypes.MAGIC), sourceentity), 4);
+				}
 			}
-		}
+		});
 	}
 }

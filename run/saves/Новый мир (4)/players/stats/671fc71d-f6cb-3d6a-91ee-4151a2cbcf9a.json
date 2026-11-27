@@ -1,0 +1,29 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:gunpowder": 4
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 1325,
+      "minecraft:time_since_rest": 1395,
+      "minecraft:walk_one_cm": 5633,
+      "minecraft:total_world_time": 1404,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 535,
+      "minecraft:mob_kills": 5,
+      "minecraft:play_time": 1395,
+      "minecraft:damage_dealt": 1521,
+      "minecraft:jump": 3,
+      "minecraft:time_since_death": 1395
+    },
+    "minecraft:killed": {
+      "minecraft:creeper": 5
+    },
+    "minecraft:used": {
+      "minecraft:iron_golem_spawn_egg": 1,
+      "dota:crystalys": 29,
+      "minecraft:creeper_spawn_egg": 6
+    }
+  },
+  "DataVersion": 5023
+}

@@ -12,7 +12,9 @@
     "name": "Diffusal Blade",
     "rarity": "RARE",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§9 RMB on target: Slowness II for 5s"
+      ]
     },
     "creativeTabs": [
       "CUSTOM:CreativeTabDota"
