@@ -37,7 +37,6 @@ public class DotaModTabs {
 					tabData.accept(DotaModItems.JAVELIN);
 					tabData.accept(DotaModItems.MITHRIL_HAMMER);
 					tabData.accept(DotaModItems.MONKEY_KING_BAR);
-					tabData.accept(DotaModItems.OBLIVION_STAFF);
 					tabData.accept(DotaModItems.PARASMA);
 					tabData.accept(DotaModItems.QUARTERSTAFF);
 					tabData.accept(DotaModItems.QUELLING_AXE);
@@ -60,6 +59,8 @@ public class DotaModTabs {
 					tabData.accept(DotaModBlocks.DEEPSLATE_CRYSTAL_POWER.asItem());
 					tabData.accept(DotaModItems.BLITZ_KNUCKLES);
 					tabData.accept(DotaModItems.TALISMAN_OF_EVASION);
+					tabData.accept(DotaModItems.OBLIVION_STAFF);
+					tabData.accept(DotaModItems.ORCHID_MALEVOLENCE);
 				}).build());
 	}
 }

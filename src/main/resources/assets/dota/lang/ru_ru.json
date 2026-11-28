@@ -47,7 +47,6 @@
   "item.dota.skull_basher": "Skull Basher",
   "item.dota.quarterstaff": "Quarterstaff",
   "item.dota.skypiercer": "Skypiercer",
-  "item.dota.oblivion_staff": "Oblivion Staff",
   "item.dota.abyssal_blade.description_0": "§2 20% шанс обездвижить цель на 1 сек",
   "item.dota.abyssal_blade.description_1": "§9 ПКМ по цели: обездвиживание и обезоруживание на 3 сек",
   "item.dota.skull_basher.description_0": "§2 20% шанс обездвижить цель на 1 сек",
@@ -70,5 +69,10 @@
   "item.dota.witch_blade.description_0": "§2 При атаке: отравление I на 3 сек",
   "item.dota.blitz_knuckles": "Blitz Knuckles",
   "item.dota.talisman_of_evasion": "Talisman of Evasion",
-  "item.dota.talisman_of_evasion.description_0": "§9 ПКМ с предметом в руке: скорость I на 8 сек"
+  "item.dota.talisman_of_evasion.description_0": "§9 ПКМ с предметом в руке: скорость I на 8 сек",
+  "item.dota.oblivion_staff": "Oblivion Staff",
+  "item.dota.orchid_malevolence": "Orchid Malevolence",
+  "subtitles.item.bloodthorn": "",
+  "subtitles.item.orchid": "",
+  "item.dota.orchid_malevolence.description_0": "§9 ПКМ по цели: сбрасывает поиск пути"
 }

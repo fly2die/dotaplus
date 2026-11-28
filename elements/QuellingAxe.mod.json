@@ -18,10 +18,10 @@
       "CUSTOM:CreativeTabDota"
     ],
     "efficiency": 6.0,
-    "attackSpeed": 0.7000000000000001,
+    "attackSpeed": 0.9,
     "enchantability": 2,
     "damageVsEntity": 9.0,
-    "usageCount": 100,
+    "usageCount": 280,
     "glowCondition": {
       "fixedValue": false
     },

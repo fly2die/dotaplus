@@ -1483,33 +1483,6 @@
       }
     },
     {
-      "name": "OblivionStaff",
-      "type": "tool",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "oblivion_staff",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/dota/items/oblivion_staff.json",
-          "src/main/resources/assets/dota/models/item/oblivion_staff.json",
-          "src/main/resources/assets/dota/models/item/oblivion_staff_gui.json",
-          "src/main/java/com/f2d/dota/item/OblivionStaffItem.java"
-        ]
-      }
-    },
-    {
-      "name": "OblivionStaffrecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "oblivion_staffrecipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/dota/recipe/oblivionstaffrecipe.json"
-        ]
-      }
-    },
-    {
       "name": "BlitzKnuckles",
       "type": "item",
       "compiles": true,
@@ -1598,6 +1571,46 @@
           "src/main/java/com/f2d/dota/procedures/TalismanOfEvasionPrProcedure.java"
         ]
       }
+    },
+    {
+      "name": "OblivionStaff",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oblivion_staff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/items/oblivion_staff.json",
+          "src/main/resources/assets/dota/models/item/oblivion_staff.json",
+          "src/main/java/com/f2d/dota/item/OblivionStaffItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Oblivionstaffrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oblivionstaffrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dota/recipe/oblivionstaffrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OrchidMalevolence",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orchid_malevolence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dota/items/orchid_malevolence.json",
+          "src/main/java/com/f2d/dota/item/OrchidMalevolenceItem.java",
+          "src/main/resources/assets/dota/models/item/orchid_malevolence.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1681,6 +1694,22 @@
       ],
       "category": "player",
       "subtitle": ""
+    },
+    {
+      "name": "item.bloodthorn",
+      "files": [
+        "item.bloodthorn"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "item.orchid",
+      "files": [
+        "item.orchid"
+      ],
+      "category": "player",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
@@ -1702,7 +1731,6 @@
       "~SkullBasher@CUSTOM:SkullBasher",
       "~AbyssalBlade@CUSTOM:AbyssalBlade",
       "~Quarterstaff@CUSTOM:Quarterstaff",
-      "~OblivionStaff@CUSTOM:OblivionStaff",
       "~SacredRelic@CUSTOM:SacredRelic",
       "~MithrilHammer@CUSTOM:MithrilHammer",
       "~DemonEdge@CUSTOM:DemonEdge",
@@ -1712,9 +1740,9 @@
       "~Javelin@CUSTOM:Javelin"
     ],
     "ITEMS:minecraft:axes": [
+      "~QuellingAxe@CUSTOM:QuellingAxe",
       "~Parasma@CUSTOM:Parasma",
-      "~BattleFury@CUSTOM:BattleFury",
-      "~QuellingAxe@CUSTOM:QuellingAxe"
+      "~BattleFury@CUSTOM:BattleFury"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~DeepslateCrystalGlory@CUSTOM:DeepslateCrystalGlory",
@@ -1729,6 +1757,9 @@
       "~DeepslateCrystalAlmighty@CUSTOM:DeepslateCrystalAlmighty",
       "~DeepslateCrystalPower@CUSTOM:DeepslateCrystalPower",
       "~DeepslateCrystalIntelligence@CUSTOM:DeepslateCrystalIntelligence"
+    ],
+    "ITEMS:minecraft:enchantable/durability": [
+      "~OrchidMalevolence@CUSTOM:OrchidMalevolence"
     ]
   },
   "tab_element_order": {
@@ -1751,7 +1782,6 @@
       "Javelin",
       "MithrilHammer",
       "MonkeyKingBar",
-      "OblivionStaff",
       "Parasma",
       "Quarterstaff",
       "QuellingAxe",
@@ -1773,7 +1803,9 @@
       "DeepslateCrystalIntelligence",
       "DeepslateCrystalPower",
       "BlitzKnuckles",
-      "TalismanOfEvasion"
+      "TalismanOfEvasion",
+      "OblivionStaff",
+      "OrchidMalevolence"
     ]
   },
   "language_map": {
@@ -1826,7 +1858,6 @@
       "item.dota.skull_basher": "Skull Basher",
       "item.dota.quarterstaff": "Quarterstaff",
       "item.dota.skypiercer": "Skypiercer",
-      "item.dota.oblivion_staff": "Oblivion Staff",
       "item.dota.abyssal_blade.description_0": "§2 20% chance to root the target for 1s",
       "item.dota.abyssal_blade.description_1": "§9 RMB on target: immobilize and disarm for 3s",
       "item.dota.skull_basher.description_0": "§2 20% chance to root the target for 1s",
@@ -1849,7 +1880,12 @@
       "item.dota.witch_blade.description_0": "§2 On hit: Poison I for 3s",
       "item.dota.blitz_knuckles": "Blitz Knuckles",
       "item.dota.talisman_of_evasion": "Talisman of Evasion",
-      "item.dota.talisman_of_evasion.description_0": "§9 RMB with item in hand: Speed I for 8s"
+      "item.dota.talisman_of_evasion.description_0": "§9 RMB with item in hand: Speed I for 8s",
+      "item.dota.oblivion_staff": "Oblivion Staff",
+      "item.dota.orchid_malevolence": "Orchid Malevolence",
+      "subtitles.item.bloodthorn": "",
+      "subtitles.item.orchid": "",
+      "item.dota.orchid_malevolence.description_0": "§9 RMB on target: resets pathfinding"
     },
     "ru_ru": {
       "item.dota.battle_fury": "Battle Fur",
@@ -1900,7 +1936,6 @@
       "item.dota.skull_basher": "Skull Basher",
       "item.dota.quarterstaff": "Quarterstaff",
       "item.dota.skypiercer": "Skypiercer",
-      "item.dota.oblivion_staff": "Oblivion Staff",
       "item.dota.abyssal_blade.description_0": "§2 20% шанс обездвижить цель на 1 сек",
       "item.dota.abyssal_blade.description_1": "§9 ПКМ по цели: обездвиживание и обезоруживание на 3 сек",
       "item.dota.skull_basher.description_0": "§2 20% шанс обездвижить цель на 1 сек",
@@ -1923,7 +1958,12 @@
       "item.dota.witch_blade.description_0": "§2 При атаке: отравление I на 3 сек",
       "item.dota.blitz_knuckles": "Blitz Knuckles",
       "item.dota.talisman_of_evasion": "Talisman of Evasion",
-      "item.dota.talisman_of_evasion.description_0": "§9 ПКМ с предметом в руке: скорость I на 8 сек"
+      "item.dota.talisman_of_evasion.description_0": "§9 ПКМ с предметом в руке: скорость I на 8 сек",
+      "item.dota.oblivion_staff": "Oblivion Staff",
+      "item.dota.orchid_malevolence": "Orchid Malevolence",
+      "subtitles.item.bloodthorn": "",
+      "subtitles.item.orchid": "",
+      "item.dota.orchid_malevolence.description_0": "§9 ПКМ по цели: сбрасывает поиск пути"
     }
   },
   "metadata": {
@@ -1964,7 +2004,7 @@
   "workspaceSettings": {
     "modid": "dota",
     "modName": "Dota+",
-    "version": "1.6.0",
+    "version": "1.7.1",
     "description": "This mod adds new items, ores, and weapons inspired by a popular MOBA game.",
     "author": "f2d",
     "websiteURL": "https://github.com/fly2die/dotaplus",

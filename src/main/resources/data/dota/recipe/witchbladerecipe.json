@@ -3,7 +3,8 @@
   "category": "misc",
   "ingredients": [
     "dota:crystal_intelligence",
-    "dota:oblivion_staff"
+    "dota:oblivion_staff",
+    "dota:crystal_intelligence"
   ],
   "result": {
     "id": "dota:witch_blade",

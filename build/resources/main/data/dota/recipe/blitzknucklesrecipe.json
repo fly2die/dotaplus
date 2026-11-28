@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "b b",
+    " c "
+  ],
+  "key": {
+    "a": "minecraft:emerald",
+    "b": "minecraft:iron_ingot",
+    "c": "minecraft:stick"
+  },
+  "result": {
+    "id": "dota:blitz_knuckles",
+    "count": 1
+  }
+}

@@ -78,5 +78,21 @@
         "stream": false
       }
     ]
+  },
+  "item.bloodthorn": {
+    "sounds": [
+      {
+        "name": "dota:item.bloodthorn",
+        "stream": false
+      }
+    ]
+  },
+  "item.orchid": {
+    "sounds": [
+      {
+        "name": "dota:item.orchid",
+        "stream": false
+      }
+    ]
   }
 }

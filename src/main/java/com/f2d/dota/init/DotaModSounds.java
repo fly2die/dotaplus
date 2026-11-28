@@ -21,6 +21,8 @@ public class DotaModSounds {
 	public static SoundEvent ITEM_MKB;
 	public static SoundEvent ITEM_SHADOW_BLADE;
 	public static SoundEvent ITEM_SILVER_EDGE;
+	public static SoundEvent ITEM_BLOODTHORN;
+	public static SoundEvent ITEM_ORCHID;
 
 	public static void load() {
 		ITEM_ABYSSAL_BLADE = register("item.abyssal_blade", SoundEvent.createVariableRangeEvent(Identifier.fromNamespaceAndPath("dota", "item.abyssal_blade")));
@@ -33,6 +35,8 @@ public class DotaModSounds {
 		ITEM_MKB = register("item.mkb", SoundEvent.createVariableRangeEvent(Identifier.fromNamespaceAndPath("dota", "item.mkb")));
 		ITEM_SHADOW_BLADE = register("item.shadow_blade", SoundEvent.createVariableRangeEvent(Identifier.fromNamespaceAndPath("dota", "item.shadow_blade")));
 		ITEM_SILVER_EDGE = register("item.silver_edge", SoundEvent.createVariableRangeEvent(Identifier.fromNamespaceAndPath("dota", "item.silver_edge")));
+		ITEM_BLOODTHORN = register("item.bloodthorn", SoundEvent.createVariableRangeEvent(Identifier.fromNamespaceAndPath("dota", "item.bloodthorn")));
+		ITEM_ORCHID = register("item.orchid", SoundEvent.createVariableRangeEvent(Identifier.fromNamespaceAndPath("dota", "item.orchid")));
 	}
 
 	private static SoundEvent register(String registryname, SoundEvent element) {

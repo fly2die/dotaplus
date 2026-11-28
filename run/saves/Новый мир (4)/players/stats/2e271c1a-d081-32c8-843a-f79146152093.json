@@ -1,0 +1,27 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 505,
+      "minecraft:walk_one_cm": 2681,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 260,
+      "minecraft:play_time": 1680,
+      "minecraft:damage_dealt": 20,
+      "minecraft:jump": 22,
+      "minecraft:time_since_death": 402,
+      "minecraft:sprint_one_cm": 3931,
+      "minecraft:fall_one_cm": 225,
+      "minecraft:total_world_time": 1687,
+      "minecraft:fly_one_cm": 19488,
+      "minecraft:deaths": 1
+    },
+    "minecraft:killed_by": {
+      "minecraft:vindicator": 1
+    },
+    "minecraft:used": {
+      "minecraft:vindicator_spawn_egg": 1,
+      "minecraft:creeper_spawn_egg": 1
+    }
+  },
+  "DataVersion": 5023
+}

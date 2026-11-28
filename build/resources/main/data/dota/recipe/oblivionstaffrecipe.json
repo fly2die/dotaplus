@@ -2,10 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "a"
+    "aba"
   ],
   "key": {
-    "a": "minecraft:bone"
+    "a": "dota:crystal_intelligence",
+    "b": "dota:blitz_knuckles"
   },
   "result": {
     "id": "dota:oblivion_staff",
